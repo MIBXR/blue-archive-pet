@@ -1,0 +1,886 @@
+{
+  "main_visual": {
+    "method": "spatial-chroma-alpha-with-edge-unmix",
+    "background_rgb": [
+      3.0,
+      249.0,
+      26.0
+    ],
+    "background_strength": 223.0,
+    "foreground_bbox": [
+      170,
+      54,
+      941,
+      1332
+    ],
+    "partial_pixels": 7437,
+    "source_sha256": "72cfdacbc11b7d17ec1adb4ac2e17553b4b4e9b1c620b54bf6c0af4bd509e4d8",
+    "output_sha256": "004ef7016073ccc38c008bfabb460e4df1cb49c84f42669d18bec12ea8960d89"
+  },
+  "actions": [
+    {
+      "pet": "hibiki",
+      "state": "idle",
+      "matting": {
+        "method": "spatial-chroma-alpha-with-edge-unmix",
+        "background_rgb": [
+          243.0,
+          5.0,
+          241.0
+        ],
+        "background_strength": 236.0,
+        "partial_pixels": 15887
+      },
+      "lost_pixels": 0,
+      "alpha_sum_preserved": true,
+      "common_source_ground": 633,
+      "reference_height": 523.0,
+      "scale": 0.6500956022944551,
+      "draw_y": 48.48948374760994,
+      "feet_bottoms": [
+        632,
+        633,
+        632,
+        632,
+        633,
+        632
+      ],
+      "registration": {
+        "mode": "one-scale-and-one-y-offset-per-action",
+        "source_ground_y": 633,
+        "reference_body_height": 523.0,
+        "source_grid_step": 362.0,
+        "component_assignment": "body and props connected components; edges follow adjacent component",
+        "original_source": "pets/hibiki-cheerleader-fullbody-handdrawn/materials/idle.png",
+        "original_source_sha256": "a390575e35da88d3d0927e9ddee58b35f4c379f1d578e1cb81337c2de34ea70e",
+        "transparent_source_file": "hibiki-idle.png",
+        "transparent_source_sha256": "055d127046af966b871816581f30d76688f46a2821e7e7f7542a14e024ed39cd",
+        "transparent_source_dimensions": [
+          2172,
+          724
+        ]
+      }
+    },
+    {
+      "pet": "hibiki",
+      "state": "running-right",
+      "matting": {
+        "method": "spatial-chroma-alpha-with-edge-unmix",
+        "background_rgb": [
+          250.0,
+          5.0,
+          249.0
+        ],
+        "background_strength": 244.0,
+        "partial_pixels": 18003
+      },
+      "lost_pixels": 0,
+      "alpha_sum_preserved": true,
+      "common_source_ground": 584,
+      "reference_height": 388.0,
+      "scale": 0.8762886597938144,
+      "draw_y": -51.7525773195876,
+      "feet_bottoms": [
+        584,
+        584,
+        584,
+        584,
+        584,
+        584,
+        584,
+        583
+      ],
+      "registration": {
+        "mode": "one-scale-and-one-y-offset-per-action",
+        "source_ground_y": 584,
+        "reference_body_height": 388.0,
+        "source_grid_step": 271.5,
+        "component_assignment": "body and props connected components; edges follow adjacent component",
+        "original_source": "pets/hibiki-cheerleader-fullbody-handdrawn/materials/running-right.png",
+        "original_source_sha256": "30e82fc143236e3e71059d41dc792c4f3dfabd0a9b15b293e770af57a98dd857",
+        "transparent_source_file": "hibiki-running-right.png",
+        "transparent_source_sha256": "ff6b0832ba88b24ad86c25711cd4a05ef82c78d5d0c01b2e32f5d8f1003d0f66",
+        "transparent_source_dimensions": [
+          2172,
+          724
+        ]
+      }
+    },
+    {
+      "pet": "hibiki",
+      "state": "running-left",
+      "matting": {
+        "method": "spatial-chroma-alpha-with-edge-unmix",
+        "background_rgb": [
+          245.0,
+          5.0,
+          242.0
+        ],
+        "background_strength": 237.0,
+        "partial_pixels": 18571
+      },
+      "lost_pixels": 0,
+      "alpha_sum_preserved": true,
+      "common_source_ground": 580,
+      "reference_height": 381.0,
+      "scale": 0.8923884514435696,
+      "draw_y": -57.58530183727032,
+      "feet_bottoms": [
+        580,
+        579,
+        577,
+        580,
+        580,
+        578,
+        578,
+        579
+      ],
+      "registration": {
+        "mode": "one-scale-and-one-y-offset-per-action",
+        "source_ground_y": 580,
+        "reference_body_height": 381.0,
+        "source_grid_step": 271.5,
+        "component_assignment": "body and props connected components; edges follow adjacent component",
+        "original_source": "pets/hibiki-cheerleader-fullbody-handdrawn/materials/running-left.png",
+        "original_source_sha256": "cc9f87522fe81ee089035c86cfd5f4f3c60682cef7ef017bfc932606cb19670b",
+        "transparent_source_file": "hibiki-running-left.png",
+        "transparent_source_sha256": "cd3d5fb2b2b680aed5cbe94d7bf634018100bbe02de20e72799f50454b79b029",
+        "transparent_source_dimensions": [
+          2172,
+          724
+        ]
+      }
+    },
+    {
+      "pet": "hibiki",
+      "state": "waving",
+      "matting": {
+        "method": "spatial-chroma-alpha-with-edge-unmix",
+        "background_rgb": [
+          244.0,
+          6.0,
+          243.0
+        ],
+        "background_strength": 237.0,
+        "partial_pixels": 13542
+      },
+      "lost_pixels": 0,
+      "alpha_sum_preserved": true,
+      "common_source_ground": 699,
+      "reference_height": 666.0,
+      "scale": 0.5105105105105106,
+      "draw_y": 103.15315315315314,
+      "feet_bottoms": [
+        699,
+        699,
+        699,
+        699
+      ],
+      "registration": {
+        "mode": "one-scale-and-one-y-offset-per-action",
+        "source_ground_y": 699,
+        "reference_body_height": 666.0,
+        "source_grid_step": 543.0,
+        "component_assignment": "body and props connected components; edges follow adjacent component",
+        "original_source": "pets/hibiki-cheerleader-fullbody-handdrawn/materials/waving.png",
+        "original_source_sha256": "383dfc779b8a2105e863883dc3466981b1e1ca1a47807463358ff1138896eb21",
+        "transparent_source_file": "hibiki-waving.png",
+        "transparent_source_sha256": "67e055e0d4199ad1f76fba6015a48488a6d90359756534b960997bdbf5ba6edc",
+        "transparent_source_dimensions": [
+          2172,
+          724
+        ]
+      }
+    },
+    {
+      "pet": "hibiki",
+      "state": "jumping",
+      "matting": {
+        "method": "spatial-chroma-alpha-with-edge-unmix",
+        "background_rgb": [
+          249.0,
+          3.0,
+          245.0
+        ],
+        "background_strength": 242.0,
+        "partial_pixels": 13679
+      },
+      "lost_pixels": 0,
+      "alpha_sum_preserved": true,
+      "common_source_ground": 698,
+      "reference_height": 554.0,
+      "scale": 0.6137184115523465,
+      "draw_y": 31.624548736462145,
+      "feet_bottoms": [
+        698,
+        648,
+        616,
+        661,
+        695
+      ],
+      "registration": {
+        "mode": "one-scale-and-one-y-offset-per-action",
+        "source_ground_y": 698,
+        "reference_body_height": 554.0,
+        "source_grid_step": 434.0,
+        "component_assignment": "body and props connected components; edges follow adjacent component",
+        "original_source": "pets/hibiki-cheerleader-fullbody-handdrawn/materials/jumping.png",
+        "original_source_sha256": "207bb8df24b7dac76b41c51607f6ab866179c692b6ce29b44f65f20383c5b7a8",
+        "transparent_source_file": "hibiki-jumping.png",
+        "transparent_source_sha256": "ea737b661f91ce2b8f43a78d6d861b7acd6fc1b50622563ef8b1c39932264fe7",
+        "transparent_source_dimensions": [
+          2170,
+          725
+        ]
+      }
+    },
+    {
+      "pet": "hibiki",
+      "state": "failed",
+      "matting": {
+        "method": "spatial-chroma-alpha-with-edge-unmix",
+        "background_rgb": [
+          245.0,
+          6.0,
+          245.0
+        ],
+        "background_strength": 239.0,
+        "partial_pixels": 12597
+      },
+      "lost_pixels": 0,
+      "alpha_sum_preserved": true,
+      "common_source_ground": 554,
+      "reference_height": 349.0,
+      "scale": 0.9742120343839542,
+      "draw_y": -79.71346704871064,
+      "feet_bottoms": [
+        553,
+        553,
+        552,
+        553,
+        553,
+        554,
+        553,
+        553
+      ],
+      "registration": {
+        "mode": "one-scale-and-one-y-offset-per-action",
+        "source_ground_y": 554,
+        "reference_body_height": 349.0,
+        "source_grid_step": 271.5,
+        "component_assignment": "body and props connected components; edges follow adjacent component",
+        "original_source": "pets/hibiki-cheerleader-fullbody-handdrawn/materials/failed.png",
+        "original_source_sha256": "24aaf0304e9eb5603c5493da2d260ba77a8db171d9c44ed0abc53785767a4c20",
+        "transparent_source_file": "hibiki-failed.png",
+        "transparent_source_sha256": "65ee57288a304573aca062e712db8656fc88da22b4e8df2bc43a18165f5f6766",
+        "transparent_source_dimensions": [
+          2172,
+          724
+        ]
+      }
+    },
+    {
+      "pet": "hibiki",
+      "state": "waiting",
+      "matting": {
+        "method": "spatial-chroma-alpha-with-edge-unmix",
+        "background_rgb": [
+          246.0,
+          3.0,
+          249.0
+        ],
+        "background_strength": 243.0,
+        "partial_pixels": 15220
+      },
+      "lost_pixels": 0,
+      "alpha_sum_preserved": true,
+      "common_source_ground": 650,
+      "reference_height": 536.5,
+      "scale": 0.6337371854613234,
+      "draw_y": 48.0708294501398,
+      "feet_bottoms": [
+        650,
+        650,
+        650,
+        650,
+        650,
+        650
+      ],
+      "registration": {
+        "mode": "one-scale-and-one-y-offset-per-action",
+        "source_ground_y": 650,
+        "reference_body_height": 536.5,
+        "source_grid_step": 362.0,
+        "component_assignment": "body and props connected components; edges follow adjacent component",
+        "original_source": "pets/hibiki-cheerleader-fullbody-handdrawn/materials/waiting.png",
+        "original_source_sha256": "a3555e8906a0954fc3d51250d5ed0e243a5fe13de758bc976f045f254ebd9c7c",
+        "transparent_source_file": "hibiki-waiting.png",
+        "transparent_source_sha256": "1ae906462f7a8cb4c33cae946379ab99bed9171956172710332643e4a3b24918",
+        "transparent_source_dimensions": [
+          2172,
+          724
+        ]
+      }
+    },
+    {
+      "pet": "hibiki",
+      "state": "running",
+      "matting": {
+        "method": "spatial-chroma-alpha-with-edge-unmix",
+        "background_rgb": [
+          250.0,
+          3.0,
+          250.0
+        ],
+        "background_strength": 247.0,
+        "partial_pixels": 14290
+      },
+      "lost_pixels": 0,
+      "alpha_sum_preserved": true,
+      "common_source_ground": 593,
+      "reference_height": 406.5,
+      "scale": 0.8364083640836408,
+      "draw_y": -35.990159901598986,
+      "feet_bottoms": [
+        592,
+        593,
+        592,
+        593,
+        535,
+        593
+      ],
+      "registration": {
+        "mode": "one-scale-and-one-y-offset-per-action",
+        "source_ground_y": 593,
+        "reference_body_height": 406.5,
+        "source_grid_step": 362.0,
+        "component_assignment": "body and props connected components; edges follow adjacent component",
+        "original_source": "pets/hibiki-cheerleader-fullbody-handdrawn/materials/running.png",
+        "original_source_sha256": "d6885b0250c0036843318f629460318bc2eb4440ee7c25ba613552b295206432",
+        "transparent_source_file": "hibiki-running.png",
+        "transparent_source_sha256": "95b28db717bcc7a33dd5353806090e203945b15d9c0764f2656f19c7293cd919",
+        "transparent_source_dimensions": [
+          2172,
+          724
+        ]
+      }
+    },
+    {
+      "pet": "hibiki",
+      "state": "review",
+      "matting": {
+        "method": "spatial-chroma-alpha-with-edge-unmix",
+        "background_rgb": [
+          248.0,
+          4.0,
+          247.0
+        ],
+        "background_strength": 243.0,
+        "partial_pixels": 10964
+      },
+      "lost_pixels": 0,
+      "alpha_sum_preserved": true,
+      "common_source_ground": 570,
+      "reference_height": 373.0,
+      "scale": 0.9115281501340483,
+      "draw_y": -59.57104557640753,
+      "feet_bottoms": [
+        570,
+        570,
+        570,
+        570,
+        570,
+        570
+      ],
+      "registration": {
+        "mode": "one-scale-and-one-y-offset-per-action",
+        "source_ground_y": 570,
+        "reference_body_height": 373.0,
+        "source_grid_step": 362.0,
+        "component_assignment": "body and props connected components; edges follow adjacent component",
+        "original_source": "pets/hibiki-cheerleader-fullbody-handdrawn/materials/review.png",
+        "original_source_sha256": "bb24089546fd235ec66f6ffe9fed76610213e62114b9fd1be9bee5fa0144cca7",
+        "transparent_source_file": "hibiki-review.png",
+        "transparent_source_sha256": "125cbf7e86383983389185da994cd3aa141cea700c76dca3ac34b00df1f054be",
+        "transparent_source_dimensions": [
+          2172,
+          724
+        ]
+      }
+    },
+    {
+      "pet": "hibiki",
+      "state": "look-row-9",
+      "matting": {
+        "method": "spatial-chroma-alpha-with-edge-unmix",
+        "background_rgb": [
+          249.0,
+          3.0,
+          249.0
+        ],
+        "background_strength": 246.0,
+        "partial_pixels": 14404
+      },
+      "lost_pixels": 0,
+      "alpha_sum_preserved": true,
+      "common_source_ground": 605,
+      "reference_height": 430.5,
+      "scale": 0.7897793263646922,
+      "draw_y": -17.816492450638748,
+      "feet_bottoms": [
+        605,
+        605,
+        605,
+        605,
+        605,
+        605,
+        605,
+        605
+      ],
+      "registration": {
+        "mode": "one-scale-and-one-y-offset-per-action",
+        "source_ground_y": 605,
+        "reference_body_height": 430.5,
+        "source_grid_step": 271.5,
+        "component_assignment": "body and props connected components; edges follow adjacent component",
+        "original_source": "pets/hibiki-cheerleader-fullbody-handdrawn/materials/look-row-9.png",
+        "original_source_sha256": "846f407613028efdf4a85a869d9bf3891b531acf6dc69a1b2a104898ee0f1710",
+        "transparent_source_file": "hibiki-look-row-9.png",
+        "transparent_source_sha256": "291c0b008a210eb997d1c558a5d5b08db44eee268ff5be23e1b507e3b82f6538",
+        "transparent_source_dimensions": [
+          2172,
+          724
+        ]
+      }
+    },
+    {
+      "pet": "hibiki",
+      "state": "look-row-10",
+      "matting": {
+        "method": "spatial-chroma-alpha-with-edge-unmix",
+        "background_rgb": [
+          248.0,
+          4.0,
+          248.0
+        ],
+        "background_strength": 244.0,
+        "partial_pixels": 14046
+      },
+      "lost_pixels": 0,
+      "alpha_sum_preserved": true,
+      "common_source_ground": 606,
+      "reference_height": 433.0,
+      "scale": 0.7852193995381063,
+      "draw_y": -15.842956120092424,
+      "feet_bottoms": [
+        606,
+        606,
+        606,
+        606,
+        606,
+        606,
+        606,
+        606
+      ],
+      "registration": {
+        "mode": "one-scale-and-one-y-offset-per-action",
+        "source_ground_y": 606,
+        "reference_body_height": 433.0,
+        "source_grid_step": 271.5,
+        "component_assignment": "body and props connected components; edges follow adjacent component",
+        "original_source": "pets/hibiki-cheerleader-fullbody-handdrawn/materials/look-row-10.png",
+        "original_source_sha256": "9354dd67e53942eea7360e3a83f603316de97d7106720e977d90b6bd3827568b",
+        "transparent_source_file": "hibiki-look-row-10.png",
+        "transparent_source_sha256": "a9c770155857c07d0f9320bcd7c4266bcd371460e057254bc50dafbdd656bb12",
+        "transparent_source_dimensions": [
+          2172,
+          724
+        ]
+      }
+    },
+    {
+      "pet": "toki",
+      "state": "idle",
+      "matting": {
+        "method": "spatial-chroma-alpha-with-edge-unmix",
+        "background_rgb": [
+          0.0,
+          255.0,
+          0.0
+        ],
+        "background_strength": 255.0,
+        "partial_pixels": 13439
+      },
+      "lost_pixels": 0,
+      "alpha_sum_preserved": true,
+      "common_source_ground": 565,
+      "reference_height": 520.0,
+      "scale": 0.6538461538461539,
+      "draw_y": 90.5769230769231,
+      "feet_bottoms": [
+        565,
+        565,
+        565,
+        565,
+        565,
+        565
+      ],
+      "registration": {
+        "mode": "one-scale-and-one-y-offset-per-action",
+        "source_ground_y": 565,
+        "reference_body_height": 520.0,
+        "source_grid_step": 362.0,
+        "component_assignment": "body and props connected components; edges follow adjacent component",
+        "original_source": "pets/toki-bunny-fullbody-handdrawn/materials/selected-sources/idle.png",
+        "original_source_sha256": "99d48f998de20be3b67e06880b5b96267902a4e7ca0f626e365136d9637dcc9d",
+        "transparent_source_file": "toki-idle.png",
+        "transparent_source_sha256": "3a24c747207c250ed7f203bba1aa8c5496cafd58621d80fcff54e6d068cf6a3a",
+        "transparent_source_dimensions": [
+          2172,
+          724
+        ]
+      }
+    },
+    {
+      "pet": "toki",
+      "state": "running-right",
+      "matting": {
+        "method": "spatial-chroma-alpha-with-edge-unmix",
+        "background_rgb": [
+          1.0,
+          249.0,
+          4.0
+        ],
+        "background_strength": 245.0,
+        "partial_pixels": 24512
+      },
+      "lost_pixels": 0,
+      "alpha_sum_preserved": true,
+      "common_source_ground": 562,
+      "reference_height": 387.5,
+      "scale": 0.8774193548387097,
+      "draw_y": -33.10967741935485,
+      "feet_bottoms": [
+        560,
+        562,
+        561,
+        562,
+        560,
+        562,
+        561,
+        562
+      ],
+      "registration": {
+        "mode": "one-scale-and-one-y-offset-per-action",
+        "source_ground_y": 562,
+        "reference_body_height": 387.5,
+        "source_grid_step": 271.5,
+        "component_assignment": "body and props connected components; edges follow adjacent component",
+        "original_source": "pets/toki-bunny-fullbody-handdrawn/materials/selected-sources/running-right.png",
+        "original_source_sha256": "acc0720a67d153a1da85323ea8e6d855cb060c1906c9a81140bb9e064bf4f5bf",
+        "transparent_source_file": "toki-running-right.png",
+        "transparent_source_sha256": "18041b7ea8ac10ab20f99ba4906f1c55d05b78c883adea8f71aefc72e26cec3c",
+        "transparent_source_dimensions": [
+          2172,
+          724
+        ]
+      }
+    },
+    {
+      "pet": "toki",
+      "state": "running-left",
+      "matting": {
+        "method": "spatial-chroma-alpha-with-edge-unmix",
+        "background_rgb": [
+          2.0,
+          250.0,
+          4.0
+        ],
+        "background_strength": 246.0,
+        "partial_pixels": 25797
+      },
+      "lost_pixels": 0,
+      "alpha_sum_preserved": true,
+      "common_source_ground": 564,
+      "reference_height": 390.0,
+      "scale": 0.8717948717948718,
+      "draw_y": -31.69230769230768,
+      "feet_bottoms": [
+        563,
+        564,
+        563,
+        564,
+        563,
+        564,
+        563,
+        563
+      ],
+      "registration": {
+        "mode": "one-scale-and-one-y-offset-per-action",
+        "source_ground_y": 564,
+        "reference_body_height": 390.0,
+        "source_grid_step": 271.5,
+        "component_assignment": "body and props connected components; edges follow adjacent component",
+        "original_source": "pets/toki-bunny-fullbody-handdrawn/materials/selected-sources/running-left.png",
+        "original_source_sha256": "d796b2d1e985a3296b11c23770ac46412b212838fdeee3e24f75c84cdb1d2c4c",
+        "transparent_source_file": "toki-running-left.png",
+        "transparent_source_sha256": "999168259a7697b16f2ff2fdffae2515ed347ba5d5ddbe7305ca5efeb872b2f1",
+        "transparent_source_dimensions": [
+          2172,
+          724
+        ]
+      }
+    },
+    {
+      "pet": "toki",
+      "state": "waving",
+      "matting": {
+        "method": "spatial-chroma-alpha-with-edge-unmix",
+        "background_rgb": [
+          2.0,
+          250.0,
+          5.0
+        ],
+        "background_strength": 245.0,
+        "partial_pixels": 14413
+      },
+      "lost_pixels": 0,
+      "alpha_sum_preserved": true,
+      "common_source_ground": 566,
+      "reference_height": 521.5,
+      "scale": 0.6519654841802492,
+      "draw_y": 90.98753595397892,
+      "feet_bottoms": [
+        565,
+        566,
+        566,
+        565
+      ],
+      "registration": {
+        "mode": "one-scale-and-one-y-offset-per-action",
+        "source_ground_y": 566,
+        "reference_body_height": 521.5,
+        "source_grid_step": 543.0,
+        "component_assignment": "body and props connected components; edges follow adjacent component",
+        "original_source": "pets/toki-bunny-fullbody-handdrawn/materials/selected-sources/waving.png",
+        "original_source_sha256": "e99490f5cac3522e29f67b93ed3439e68e83771d611bb18c075d4d397761e84e",
+        "transparent_source_file": "toki-waving.png",
+        "transparent_source_sha256": "01a3776a075c6392a8b5ce605bc5376912c067f0228dc720e19180db9a416892",
+        "transparent_source_dimensions": [
+          2172,
+          724
+        ]
+      }
+    },
+    {
+      "pet": "toki",
+      "state": "jumping",
+      "matting": {
+        "method": "spatial-chroma-alpha-with-edge-unmix",
+        "background_rgb": [
+          0.0,
+          255.0,
+          0.0
+        ],
+        "background_strength": 255.0,
+        "partial_pixels": 18814
+      },
+      "lost_pixels": 0,
+      "alpha_sum_preserved": true,
+      "common_source_ground": 565,
+      "reference_height": 507.0,
+      "scale": 0.6706114398422091,
+      "draw_y": 81.10453648915188,
+      "feet_bottoms": [
+        565,
+        565,
+        565,
+        565,
+        565
+      ],
+      "registration": {
+        "mode": "one-scale-and-one-y-offset-per-action",
+        "source_ground_y": 565,
+        "reference_body_height": 507.0,
+        "source_grid_step": 434.4,
+        "component_assignment": "body and props connected components; edges follow adjacent component",
+        "original_source": "pets/toki-bunny-fullbody-handdrawn/materials/selected-sources/jumping.png",
+        "original_source_sha256": "e9a7c264f24400e4fb73a3d31b440bb007e3673062a7102d223068a1868006d7",
+        "transparent_source_file": "toki-jumping.png",
+        "transparent_source_sha256": "522dba0de6bcbabef2301e9d12ef9b1a2a42854f545aa10e84a2da94c1773182",
+        "transparent_source_dimensions": [
+          2172,
+          724
+        ]
+      }
+    },
+    {
+      "pet": "toki",
+      "state": "failed",
+      "matting": {
+        "method": "spatial-chroma-alpha-with-edge-unmix",
+        "background_rgb": [
+          2.0,
+          250.0,
+          4.0
+        ],
+        "background_strength": 246.0,
+        "partial_pixels": 20694
+      },
+      "lost_pixels": 0,
+      "alpha_sum_preserved": true,
+      "common_source_ground": 564,
+      "reference_height": 389.0,
+      "scale": 0.8740359897172236,
+      "draw_y": -32.95629820051414,
+      "feet_bottoms": [
+        564,
+        564,
+        564,
+        564,
+        564,
+        563,
+        563,
+        564
+      ],
+      "registration": {
+        "mode": "one-scale-and-one-y-offset-per-action",
+        "source_ground_y": 564,
+        "reference_body_height": 389.0,
+        "source_grid_step": 271.5,
+        "component_assignment": "body and props connected components; edges follow adjacent component",
+        "original_source": "pets/toki-bunny-fullbody-handdrawn/materials/selected-sources/failed.png",
+        "original_source_sha256": "7e8245269bbd47a6548438788aa96db4f801e138a1a6c3e51cac569c211f1041",
+        "transparent_source_file": "toki-failed.png",
+        "transparent_source_sha256": "61c5d7a00f0c3c195b1ca0a9f8d63e5cbdba9fc6ddc33b50d98f8dff8dacec43",
+        "transparent_source_dimensions": [
+          2172,
+          724
+        ]
+      }
+    },
+    {
+      "pet": "toki",
+      "state": "waiting",
+      "matting": {
+        "method": "existing-alpha",
+        "background_rgb": null
+      },
+      "lost_pixels": 0,
+      "alpha_sum_preserved": true,
+      "common_source_ground": 565,
+      "reference_height": 519.0,
+      "scale": 0.6551059730250481,
+      "draw_y": 89.86512524084782,
+      "feet_bottoms": [
+        565,
+        565,
+        565,
+        565,
+        565,
+        565
+      ],
+      "registration": {
+        "mode": "one-scale-and-one-y-offset-per-action",
+        "source_ground_y": 565,
+        "reference_body_height": 519.0,
+        "source_grid_step": 362.0,
+        "component_assignment": "body and props connected components; edges follow adjacent component",
+        "original_source": "pets/toki-bunny-fullbody-handdrawn/materials/selected-sources/waiting.png",
+        "original_source_sha256": "ff9bfd0bbbf1a60dcdfdef390820a64eb2564f7bdba35c125da5a13179895aa5",
+        "transparent_source_file": "toki-waiting.png",
+        "transparent_source_sha256": "ff9bfd0bbbf1a60dcdfdef390820a64eb2564f7bdba35c125da5a13179895aa5",
+        "transparent_source_dimensions": [
+          2172,
+          724
+        ]
+      }
+    },
+    {
+      "pet": "toki",
+      "state": "running",
+      "matting": {
+        "method": "spatial-chroma-alpha-with-edge-unmix",
+        "background_rgb": [
+          3.0,
+          248.0,
+          32.0
+        ],
+        "background_strength": 216.0,
+        "partial_pixels": 25564
+      },
+      "lost_pixels": 0,
+      "alpha_sum_preserved": true,
+      "common_source_ground": 620,
+      "reference_height": 521.0,
+      "scale": 0.6525911708253359,
+      "draw_y": 55.393474088291725,
+      "feet_bottoms": [
+        620,
+        620,
+        620,
+        620,
+        620,
+        620
+      ],
+      "registration": {
+        "mode": "one-scale-and-one-y-offset-per-action",
+        "source_ground_y": 620,
+        "reference_body_height": 521.0,
+        "source_grid_step": 362.0,
+        "component_assignment": "body and props connected components; edges follow adjacent component",
+        "original_source": "pets/toki-bunny-fullbody-handdrawn/materials/selected-sources/running.png",
+        "original_source_sha256": "b115b23240fb53698298bbb031431f599a1f5f0f696b7a2c0168c7d0c2d1889b",
+        "transparent_source_file": "toki-running.png",
+        "transparent_source_sha256": "518e1696076804fc3c9d5c1214d68442cac1d1568f5f655e8ec42a0796adbb39",
+        "transparent_source_dimensions": [
+          2172,
+          724
+        ]
+      }
+    },
+    {
+      "pet": "toki",
+      "state": "review",
+      "matting": {
+        "method": "spatial-chroma-alpha-with-edge-unmix",
+        "background_rgb": [
+          2.0,
+          249.0,
+          5.0
+        ],
+        "background_strength": 244.0,
+        "partial_pixels": 15883
+      },
+      "lost_pixels": 0,
+      "alpha_sum_preserved": true,
+      "common_source_ground": 566,
+      "reference_height": 395.0,
+      "scale": 0.8607594936708861,
+      "draw_y": -27.189873417721515,
+      "feet_bottoms": [
+        566,
+        566,
+        566,
+        566,
+        566,
+        566
+      ],
+      "registration": {
+        "mode": "one-scale-and-one-y-offset-per-action",
+        "source_ground_y": 566,
+        "reference_body_height": 395.0,
+        "source_grid_step": 362.0,
+        "component_assignment": "body and props connected components; edges follow adjacent component",
+        "original_source": "pets/toki-bunny-fullbody-handdrawn/materials/selected-sources/review.png",
+        "original_source_sha256": "22d01d268f11922809e9c46a9654f6c0f9668197552d16e910e5894b73632a43",
+        "transparent_source_file": "toki-review.png",
+        "transparent_source_sha256": "4414313280c5e9fd3d3330285376450ff103d0604a7853cebbbedaaddbc06b58",
+        "transparent_source_dimensions": [
+          2172,
+          724
+        ]
+      }
+    }
+  ]
+}

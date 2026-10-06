@@ -1,0 +1,53 @@
+{
+  "schema_version": 1,
+  "sprite_format": "v2",
+  "dimensions": [
+    1536,
+    2288
+  ],
+  "cell_dimensions": [
+    192,
+    208
+  ],
+  "frames_per_row": [
+    6,
+    8,
+    8,
+    4,
+    5,
+    8,
+    6,
+    6,
+    6,
+    8,
+    8
+  ],
+  "pets": {
+    "hibiki": {
+      "slug": "hibiki-cheerleader-fullbody-handdrawn",
+      "name": "猫冢响-拉拉队服全身手绘风格",
+      "version": "v1.1",
+      "package_file": "hibiki-cheerleader-fullbody-handdrawn-portable.zip",
+      "package_sha256": "b8f6cd925120132757ca6616d244bfe1d7de671c160bf5613b9a09cedaa58a79",
+      "release_url": "https://github.com/MIBXR/blue-archive-pet/releases/download/v1.1-hibiki-cheerleader-fullbody-handdrawn/hibiki-cheerleader-fullbody-handdrawn-portable.zip",
+      "config_path": "hibiki-cheerleader-fullbody-handdrawn/pet.json",
+      "readme_path": "hibiki-cheerleader-fullbody-handdrawn/README.md",
+      "spritesheet_path": "hibiki-cheerleader-fullbody-handdrawn/spritesheet.png",
+      "spritesheet_sha256": "c333547448c0460678a970e51abaa566e1cfbd4c81335ff66bc449f39323bfb2",
+      "preserve_current_active_pet": true
+    },
+    "toki": {
+      "slug": "toki-bunny-fullbody-handdrawn",
+      "name": "飞鸟马时-兔女郎全身手绘风格",
+      "version": "1.0",
+      "package_file": "toki-bunny-fullbody-handdrawn-portable.zip",
+      "package_sha256": "ac928b7114612cddac1f2edf388d0b5e775420128f63798eecea0128b3a1b1c4",
+      "release_url": "https://github.com/MIBXR/blue-archive-pet/releases/download/v1.0-toki-bunny-fullbody-handdrawn/toki-bunny-fullbody-handdrawn-portable.zip",
+      "config_path": "toki-bunny-fullbody-handdrawn/pet.json",
+      "readme_path": "toki-bunny-fullbody-handdrawn/README.md",
+      "spritesheet_path": "toki-bunny-fullbody-handdrawn/spritesheet.png",
+      "spritesheet_sha256": "f5017eb5170348875f138c8c111697cda27199cc1e73a295e66e4781730db10f",
+      "preserve_current_active_pet": true
+    }
+  }
+}

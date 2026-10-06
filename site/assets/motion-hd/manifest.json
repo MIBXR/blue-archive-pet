@@ -1,0 +1,4376 @@
+{
+  "schema_version": 1,
+  "source": "approved-high-resolution-originals",
+  "published_atlas_cell": [
+    192,
+    208
+  ],
+  "pets": {
+    "hibiki": {
+      "stage_width": 520,
+      "stage_height": 520,
+      "subject_height": 340,
+      "baseline_y": 460,
+      "rows": [
+        {
+          "row": 0,
+          "state": "idle",
+          "file": "hibiki-idle-registered.png",
+          "source_width": 3600,
+          "source_height": 724,
+          "frame_width": 600,
+          "frame_height": 724,
+          "frame_count": 6,
+          "sha256": "b07c272689b58f217746182ad070edf6dc7307efabca88ffa77cc1c386e8d6ca",
+          "frames": [
+            {
+              "x": 0,
+              "y": 0,
+              "width": 600,
+              "height": 724,
+              "draw_x": 64.971319,
+              "draw_y": 48.489484,
+              "draw_width": 390.057361,
+              "draw_height": 470.669216,
+              "alpha_bbox": [
+                130,
+                111,
+                489,
+                632
+              ],
+              "projected_alpha_bbox": [
+                149.4837,
+                120.6501,
+                382.8681,
+                459.3499
+              ],
+              "original_nominal_origin_x": -119,
+              "original_body_bbox": [
+                11,
+                111,
+                370,
+                632
+              ]
+            },
+            {
+              "x": 600,
+              "y": 0,
+              "width": 600,
+              "height": 724,
+              "draw_x": 64.971319,
+              "draw_y": 48.489484,
+              "draw_width": 390.057361,
+              "draw_height": 470.669216,
+              "alpha_bbox": [
+                128,
+                109,
+                484,
+                633
+              ],
+              "projected_alpha_bbox": [
+                148.1836,
+                119.3499,
+                379.6176,
+                460.0
+              ],
+              "original_nominal_origin_x": 243,
+              "original_body_bbox": [
+                371,
+                109,
+                727,
+                633
+              ]
+            },
+            {
+              "x": 1200,
+              "y": 0,
+              "width": 600,
+              "height": 724,
+              "draw_x": 64.971319,
+              "draw_y": 48.489484,
+              "draw_width": 390.057361,
+              "draw_height": 470.669216,
+              "alpha_bbox": [
+                123,
+                109,
+                478,
+                632
+              ],
+              "projected_alpha_bbox": [
+                144.9331,
+                119.3499,
+                375.717,
+                459.3499
+              ],
+              "original_nominal_origin_x": 605,
+              "original_body_bbox": [
+                728,
+                109,
+                1083,
+                632
+              ]
+            },
+            {
+              "x": 1800,
+              "y": 0,
+              "width": 600,
+              "height": 724,
+              "draw_x": 64.971319,
+              "draw_y": 48.489484,
+              "draw_width": 390.057361,
+              "draw_height": 470.669216,
+              "alpha_bbox": [
+                119,
+                109,
+                474,
+                632
+              ],
+              "projected_alpha_bbox": [
+                142.3327,
+                119.3499,
+                373.1166,
+                459.3499
+              ],
+              "original_nominal_origin_x": 967,
+              "original_body_bbox": [
+                1086,
+                109,
+                1441,
+                632
+              ]
+            },
+            {
+              "x": 2400,
+              "y": 0,
+              "width": 600,
+              "height": 724,
+              "draw_x": 64.971319,
+              "draw_y": 48.489484,
+              "draw_width": 390.057361,
+              "draw_height": 470.669216,
+              "alpha_bbox": [
+                116,
+                110,
+                473,
+                633
+              ],
+              "projected_alpha_bbox": [
+                140.3824,
+                120.0,
+                372.4665,
+                460.0
+              ],
+              "original_nominal_origin_x": 1329,
+              "original_body_bbox": [
+                1445,
+                110,
+                1802,
+                633
+              ]
+            },
+            {
+              "x": 3000,
+              "y": 0,
+              "width": 600,
+              "height": 724,
+              "draw_x": 64.971319,
+              "draw_y": 48.489484,
+              "draw_width": 390.057361,
+              "draw_height": 470.669216,
+              "alpha_bbox": [
+                113,
+                109,
+                470,
+                632
+              ],
+              "projected_alpha_bbox": [
+                138.4321,
+                119.3499,
+                370.5163,
+                459.3499
+              ],
+              "original_nominal_origin_x": 1691,
+              "original_body_bbox": [
+                1804,
+                109,
+                2161,
+                632
+              ]
+            }
+          ],
+          "scale": 0.650096,
+          "registration": {
+            "mode": "one-scale-and-one-y-offset-per-action",
+            "source_ground_y": 633,
+            "reference_body_height": 523.0,
+            "source_grid_step": 362.0,
+            "component_assignment": "body and props connected components; edges follow adjacent component",
+            "original_source": "pets/hibiki-cheerleader-fullbody-handdrawn/materials/idle.png",
+            "original_source_sha256": "a390575e35da88d3d0927e9ddee58b35f4c379f1d578e1cb81337c2de34ea70e",
+            "transparent_source_file": "hibiki-idle.png",
+            "transparent_source_sha256": "055d127046af966b871816581f30d76688f46a2821e7e7f7542a14e024ed39cd",
+            "transparent_source_dimensions": [
+              2172,
+              724
+            ]
+          }
+        },
+        {
+          "row": 1,
+          "state": "running-right",
+          "file": "hibiki-running-right-registered.png",
+          "source_width": 4800,
+          "source_height": 724,
+          "frame_width": 600,
+          "frame_height": 724,
+          "frame_count": 8,
+          "sha256": "b773f97af7c4946c65c4cddb23897e00a4af9c6da4daf7cab29931cda8b6bf3c",
+          "frames": [
+            {
+              "x": 0,
+              "y": 0,
+              "width": 600,
+              "height": 724,
+              "draw_x": -2.886598,
+              "draw_y": -51.752577,
+              "draw_width": 525.773196,
+              "draw_height": 634.43299,
+              "alpha_bbox": [
+                177,
+                196,
+                432,
+                584
+              ],
+              "projected_alpha_bbox": [
+                152.2165,
+                120.0,
+                375.6701,
+                460.0
+              ],
+              "original_nominal_origin_x": -164,
+              "original_body_bbox": [
+                13,
+                196,
+                268,
+                584
+              ]
+            },
+            {
+              "x": 600,
+              "y": 0,
+              "width": 600,
+              "height": 724,
+              "draw_x": -2.886598,
+              "draw_y": -51.752577,
+              "draw_width": 525.773196,
+              "draw_height": 634.43299,
+              "alpha_bbox": [
+                183,
+                196,
+                432,
+                584
+              ],
+              "projected_alpha_bbox": [
+                157.4742,
+                120.0,
+                375.6701,
+                460.0
+              ],
+              "original_nominal_origin_x": 107,
+              "original_body_bbox": [
+                290,
+                196,
+                539,
+                584
+              ]
+            },
+            {
+              "x": 1200,
+              "y": 0,
+              "width": 600,
+              "height": 724,
+              "draw_x": -2.886598,
+              "draw_y": -51.752577,
+              "draw_width": 525.773196,
+              "draw_height": 634.43299,
+              "alpha_bbox": [
+                182,
+                196,
+                431,
+                584
+              ],
+              "projected_alpha_bbox": [
+                156.5979,
+                120.0,
+                374.7938,
+                460.0
+              ],
+              "original_nominal_origin_x": 379,
+              "original_body_bbox": [
+                561,
+                196,
+                810,
+                584
+              ]
+            },
+            {
+              "x": 1800,
+              "y": 0,
+              "width": 600,
+              "height": 724,
+              "draw_x": -2.886598,
+              "draw_y": -51.752577,
+              "draw_width": 525.773196,
+              "draw_height": 634.43299,
+              "alpha_bbox": [
+                181,
+                196,
+                430,
+                584
+              ],
+              "projected_alpha_bbox": [
+                155.7216,
+                120.0,
+                373.9175,
+                460.0
+              ],
+              "original_nominal_origin_x": 650,
+              "original_body_bbox": [
+                831,
+                196,
+                1080,
+                584
+              ]
+            },
+            {
+              "x": 2400,
+              "y": 0,
+              "width": 600,
+              "height": 724,
+              "draw_x": -2.886598,
+              "draw_y": -51.752577,
+              "draw_width": 525.773196,
+              "draw_height": 634.43299,
+              "alpha_bbox": [
+                181,
+                196,
+                430,
+                584
+              ],
+              "projected_alpha_bbox": [
+                155.7216,
+                120.0,
+                373.9175,
+                460.0
+              ],
+              "original_nominal_origin_x": 922,
+              "original_body_bbox": [
+                1103,
+                196,
+                1352,
+                584
+              ]
+            },
+            {
+              "x": 3000,
+              "y": 0,
+              "width": 600,
+              "height": 724,
+              "draw_x": -2.886598,
+              "draw_y": -51.752577,
+              "draw_width": 525.773196,
+              "draw_height": 634.43299,
+              "alpha_bbox": [
+                181,
+                196,
+                430,
+                584
+              ],
+              "projected_alpha_bbox": [
+                155.7216,
+                120.0,
+                373.9175,
+                460.0
+              ],
+              "original_nominal_origin_x": 1193,
+              "original_body_bbox": [
+                1374,
+                196,
+                1623,
+                584
+              ]
+            },
+            {
+              "x": 3600,
+              "y": 0,
+              "width": 600,
+              "height": 724,
+              "draw_x": -2.886598,
+              "draw_y": -51.752577,
+              "draw_width": 525.773196,
+              "draw_height": 634.43299,
+              "alpha_bbox": [
+                180,
+                196,
+                430,
+                584
+              ],
+              "projected_alpha_bbox": [
+                154.8454,
+                120.0,
+                373.9175,
+                460.0
+              ],
+              "original_nominal_origin_x": 1465,
+              "original_body_bbox": [
+                1645,
+                196,
+                1895,
+                584
+              ]
+            },
+            {
+              "x": 4200,
+              "y": 0,
+              "width": 600,
+              "height": 724,
+              "draw_x": -2.886598,
+              "draw_y": -51.752577,
+              "draw_width": 525.773196,
+              "draw_height": 634.43299,
+              "alpha_bbox": [
+                179,
+                196,
+                425,
+                583
+              ],
+              "projected_alpha_bbox": [
+                153.9691,
+                120.0,
+                369.5361,
+                459.1237
+              ],
+              "original_nominal_origin_x": 1736,
+              "original_body_bbox": [
+                1915,
+                196,
+                2161,
+                583
+              ]
+            }
+          ],
+          "scale": 0.876289,
+          "registration": {
+            "mode": "one-scale-and-one-y-offset-per-action",
+            "source_ground_y": 584,
+            "reference_body_height": 388.0,
+            "source_grid_step": 271.5,
+            "component_assignment": "body and props connected components; edges follow adjacent component",
+            "original_source": "pets/hibiki-cheerleader-fullbody-handdrawn/materials/running-right.png",
+            "original_source_sha256": "30e82fc143236e3e71059d41dc792c4f3dfabd0a9b15b293e770af57a98dd857",
+            "transparent_source_file": "hibiki-running-right.png",
+            "transparent_source_sha256": "ff6b0832ba88b24ad86c25711cd4a05ef82c78d5d0c01b2e32f5d8f1003d0f66",
+            "transparent_source_dimensions": [
+              2172,
+              724
+            ]
+          }
+        },
+        {
+          "row": 2,
+          "state": "running-left",
+          "file": "hibiki-running-left-registered.png",
+          "source_width": 4800,
+          "source_height": 724,
+          "frame_width": 600,
+          "frame_height": 724,
+          "frame_count": 8,
+          "sha256": "9ebf63bcd622e1fe657b129c9af7d9796bd6ade62a5e9a4b04c4cb1260d3652e",
+          "frames": [
+            {
+              "x": 0,
+              "y": 0,
+              "width": 600,
+              "height": 724,
+              "draw_x": -7.716535,
+              "draw_y": -57.585302,
+              "draw_width": 535.433071,
+              "draw_height": 646.089239,
+              "alpha_bbox": [
+                192,
+                198,
+                441,
+                580
+              ],
+              "projected_alpha_bbox": [
+                163.622,
+                119.1076,
+                385.8268,
+                460.0
+              ],
+              "original_nominal_origin_x": -164,
+              "original_body_bbox": [
+                28,
+                198,
+                277,
+                580
+              ]
+            },
+            {
+              "x": 600,
+              "y": 0,
+              "width": 600,
+              "height": 724,
+              "draw_x": -7.716535,
+              "draw_y": -57.585302,
+              "draw_width": 535.433071,
+              "draw_height": 646.089239,
+              "alpha_bbox": [
+                203,
+                198,
+                446,
+                579
+              ],
+              "projected_alpha_bbox": [
+                173.4383,
+                119.1076,
+                390.2887,
+                459.1076
+              ],
+              "original_nominal_origin_x": 107,
+              "original_body_bbox": [
+                310,
+                198,
+                553,
+                579
+              ]
+            },
+            {
+              "x": 1200,
+              "y": 0,
+              "width": 600,
+              "height": 724,
+              "draw_x": -7.716535,
+              "draw_y": -57.585302,
+              "draw_width": 535.433071,
+              "draw_height": 646.089239,
+              "alpha_bbox": [
+                192,
+                198,
+                440,
+                577
+              ],
+              "projected_alpha_bbox": [
+                163.622,
+                119.1076,
+                384.9344,
+                457.3228
+              ],
+              "original_nominal_origin_x": 379,
+              "original_body_bbox": [
+                571,
+                198,
+                819,
+                577
+              ]
+            },
+            {
+              "x": 1800,
+              "y": 0,
+              "width": 600,
+              "height": 724,
+              "draw_x": -7.716535,
+              "draw_y": -57.585302,
+              "draw_width": 535.433071,
+              "draw_height": 646.089239,
+              "alpha_bbox": [
+                188,
+                198,
+                435,
+                580
+              ],
+              "projected_alpha_bbox": [
+                160.0525,
+                119.1076,
+                380.4724,
+                460.0
+              ],
+              "original_nominal_origin_x": 650,
+              "original_body_bbox": [
+                838,
+                198,
+                1085,
+                580
+              ]
+            },
+            {
+              "x": 2400,
+              "y": 0,
+              "width": 600,
+              "height": 724,
+              "draw_x": -7.716535,
+              "draw_y": -57.585302,
+              "draw_width": 535.433071,
+              "draw_height": 646.089239,
+              "alpha_bbox": [
+                183,
+                198,
+                431,
+                580
+              ],
+              "projected_alpha_bbox": [
+                155.5906,
+                119.1076,
+                376.9029,
+                460.0
+              ],
+              "original_nominal_origin_x": 922,
+              "original_body_bbox": [
+                1105,
+                198,
+                1353,
+                580
+              ]
+            },
+            {
+              "x": 3000,
+              "y": 0,
+              "width": 600,
+              "height": 724,
+              "draw_x": -7.716535,
+              "draw_y": -57.585302,
+              "draw_width": 535.433071,
+              "draw_height": 646.089239,
+              "alpha_bbox": [
+                186,
+                198,
+                429,
+                578
+              ],
+              "projected_alpha_bbox": [
+                158.2677,
+                119.1076,
+                375.1181,
+                458.2152
+              ],
+              "original_nominal_origin_x": 1193,
+              "original_body_bbox": [
+                1379,
+                198,
+                1622,
+                578
+              ]
+            },
+            {
+              "x": 3600,
+              "y": 0,
+              "width": 600,
+              "height": 724,
+              "draw_x": -7.716535,
+              "draw_y": -57.585302,
+              "draw_width": 535.433071,
+              "draw_height": 646.089239,
+              "alpha_bbox": [
+                179,
+                198,
+                429,
+                578
+              ],
+              "projected_alpha_bbox": [
+                152.021,
+                119.1076,
+                375.1181,
+                458.2152
+              ],
+              "original_nominal_origin_x": 1465,
+              "original_body_bbox": [
+                1644,
+                198,
+                1894,
+                578
+              ]
+            },
+            {
+              "x": 4200,
+              "y": 0,
+              "width": 600,
+              "height": 724,
+              "draw_x": -7.716535,
+              "draw_y": -57.585302,
+              "draw_width": 535.433071,
+              "draw_height": 646.089239,
+              "alpha_bbox": [
+                173,
+                198,
+                420,
+                579
+              ],
+              "projected_alpha_bbox": [
+                146.6667,
+                119.1076,
+                367.0866,
+                459.1076
+              ],
+              "original_nominal_origin_x": 1736,
+              "original_body_bbox": [
+                1909,
+                198,
+                2156,
+                579
+              ]
+            }
+          ],
+          "scale": 0.892388,
+          "registration": {
+            "mode": "one-scale-and-one-y-offset-per-action",
+            "source_ground_y": 580,
+            "reference_body_height": 381.0,
+            "source_grid_step": 271.5,
+            "component_assignment": "body and props connected components; edges follow adjacent component",
+            "original_source": "pets/hibiki-cheerleader-fullbody-handdrawn/materials/running-left.png",
+            "original_source_sha256": "cc9f87522fe81ee089035c86cfd5f4f3c60682cef7ef017bfc932606cb19670b",
+            "transparent_source_file": "hibiki-running-left.png",
+            "transparent_source_sha256": "cd3d5fb2b2b680aed5cbe94d7bf634018100bbe02de20e72799f50454b79b029",
+            "transparent_source_dimensions": [
+              2172,
+              724
+            ]
+          }
+        },
+        {
+          "row": 3,
+          "state": "waving",
+          "file": "hibiki-waving-registered.png",
+          "source_width": 2400,
+          "source_height": 724,
+          "frame_width": 600,
+          "frame_height": 724,
+          "frame_count": 4,
+          "sha256": "1a7f148642e710b6ed9c5a466e613814f57f5215409b15288790a0865fc5fc1a",
+          "frames": [
+            {
+              "x": 0,
+              "y": 0,
+              "width": 600,
+              "height": 724,
+              "draw_x": 106.846847,
+              "draw_y": 103.153153,
+              "draw_width": 306.306306,
+              "draw_height": 369.60961,
+              "alpha_bbox": [
+                55,
+                33,
+                521,
+                699
+              ],
+              "projected_alpha_bbox": [
+                134.9249,
+                120.0,
+                372.8228,
+                460.0
+              ],
+              "original_nominal_origin_x": -28,
+              "original_body_bbox": [
+                27,
+                33,
+                493,
+                699
+              ]
+            },
+            {
+              "x": 600,
+              "y": 0,
+              "width": 600,
+              "height": 724,
+              "draw_x": 106.846847,
+              "draw_y": 103.153153,
+              "draw_width": 306.306306,
+              "draw_height": 369.60961,
+              "alpha_bbox": [
+                47,
+                33,
+                513,
+                699
+              ],
+              "projected_alpha_bbox": [
+                130.8408,
+                120.0,
+                368.7387,
+                460.0
+              ],
+              "original_nominal_origin_x": 514,
+              "original_body_bbox": [
+                561,
+                33,
+                1027,
+                699
+              ]
+            },
+            {
+              "x": 1200,
+              "y": 0,
+              "width": 600,
+              "height": 724,
+              "draw_x": 106.846847,
+              "draw_y": 103.153153,
+              "draw_width": 306.306306,
+              "draw_height": 369.60961,
+              "alpha_bbox": [
+                47,
+                33,
+                566,
+                699
+              ],
+              "projected_alpha_bbox": [
+                130.8408,
+                120.0,
+                395.7958,
+                460.0
+              ],
+              "original_nominal_origin_x": 1058,
+              "original_body_bbox": [
+                1105,
+                33,
+                1624,
+                699
+              ]
+            },
+            {
+              "x": 1800,
+              "y": 0,
+              "width": 600,
+              "height": 724,
+              "draw_x": 106.846847,
+              "draw_y": 103.153153,
+              "draw_width": 306.306306,
+              "draw_height": 369.60961,
+              "alpha_bbox": [
+                43,
+                33,
+                510,
+                699
+              ],
+              "projected_alpha_bbox": [
+                128.7988,
+                120.0,
+                367.2072,
+                460.0
+              ],
+              "original_nominal_origin_x": 1600,
+              "original_body_bbox": [
+                1643,
+                33,
+                2110,
+                699
+              ]
+            }
+          ],
+          "scale": 0.510511,
+          "registration": {
+            "mode": "one-scale-and-one-y-offset-per-action",
+            "source_ground_y": 699,
+            "reference_body_height": 666.0,
+            "source_grid_step": 543.0,
+            "component_assignment": "body and props connected components; edges follow adjacent component",
+            "original_source": "pets/hibiki-cheerleader-fullbody-handdrawn/materials/waving.png",
+            "original_source_sha256": "383dfc779b8a2105e863883dc3466981b1e1ca1a47807463358ff1138896eb21",
+            "transparent_source_file": "hibiki-waving.png",
+            "transparent_source_sha256": "67e055e0d4199ad1f76fba6015a48488a6d90359756534b960997bdbf5ba6edc",
+            "transparent_source_dimensions": [
+              2172,
+              724
+            ]
+          }
+        },
+        {
+          "row": 4,
+          "state": "jumping",
+          "file": "hibiki-jumping-registered.png",
+          "source_width": 3000,
+          "source_height": 725,
+          "frame_width": 600,
+          "frame_height": 725,
+          "frame_count": 5,
+          "sha256": "23a9d8ca5d4e07cd4d7ab97cda83bfb26f397eeee49abd5b2d9df502c342c72d",
+          "frames": [
+            {
+              "x": 0,
+              "y": 0,
+              "width": 600,
+              "height": 725,
+              "draw_x": 75.884477,
+              "draw_y": 31.624549,
+              "draw_width": 368.231047,
+              "draw_height": 444.945848,
+              "alpha_bbox": [
+                105,
+                118,
+                508,
+                698
+              ],
+              "projected_alpha_bbox": [
+                140.3249,
+                104.0433,
+                387.6534,
+                460.0
+              ],
+              "original_nominal_origin_x": -83,
+              "original_body_bbox": [
+                22,
+                118,
+                425,
+                698
+              ]
+            },
+            {
+              "x": 600,
+              "y": 0,
+              "width": 600,
+              "height": 725,
+              "draw_x": 75.884477,
+              "draw_y": 31.624549,
+              "draw_width": 368.231047,
+              "draw_height": 444.945848,
+              "alpha_bbox": [
+                100,
+                103,
+                515,
+                648
+              ],
+              "projected_alpha_bbox": [
+                137.2563,
+                94.8375,
+                391.9495,
+                429.3141
+              ],
+              "original_nominal_origin_x": 351,
+              "original_body_bbox": [
+                451,
+                103,
+                866,
+                648
+              ]
+            },
+            {
+              "x": 1200,
+              "y": 0,
+              "width": 600,
+              "height": 725,
+              "draw_x": 75.884477,
+              "draw_y": 31.624549,
+              "draw_width": 368.231047,
+              "draw_height": 444.945848,
+              "alpha_bbox": [
+                84,
+                62,
+                516,
+                616
+              ],
+              "projected_alpha_bbox": [
+                127.4368,
+                69.6751,
+                392.5632,
+                409.6751
+              ],
+              "original_nominal_origin_x": 785,
+              "original_body_bbox": [
+                869,
+                62,
+                1301,
+                616
+              ]
+            },
+            {
+              "x": 1800,
+              "y": 0,
+              "width": 600,
+              "height": 725,
+              "draw_x": 75.884477,
+              "draw_y": 31.624549,
+              "draw_width": 368.231047,
+              "draw_height": 444.945848,
+              "alpha_bbox": [
+                88,
+                110,
+                509,
+                661
+              ],
+              "projected_alpha_bbox": [
+                129.8917,
+                99.1336,
+                388.2671,
+                437.2924
+              ],
+              "original_nominal_origin_x": 1219,
+              "original_body_bbox": [
+                1307,
+                110,
+                1728,
+                661
+              ]
+            },
+            {
+              "x": 2400,
+              "y": 0,
+              "width": 600,
+              "height": 725,
+              "draw_x": 75.884477,
+              "draw_y": 31.624549,
+              "draw_width": 368.231047,
+              "draw_height": 444.945848,
+              "alpha_bbox": [
+                99,
+                117,
+                507,
+                695
+              ],
+              "projected_alpha_bbox": [
+                136.6426,
+                103.4296,
+                387.0397,
+                458.1588
+              ],
+              "original_nominal_origin_x": 1653,
+              "original_body_bbox": [
+                1752,
+                117,
+                2160,
+                695
+              ]
+            }
+          ],
+          "scale": 0.613718,
+          "registration": {
+            "mode": "one-scale-and-one-y-offset-per-action",
+            "source_ground_y": 698,
+            "reference_body_height": 554.0,
+            "source_grid_step": 434.0,
+            "component_assignment": "body and props connected components; edges follow adjacent component",
+            "original_source": "pets/hibiki-cheerleader-fullbody-handdrawn/materials/jumping.png",
+            "original_source_sha256": "207bb8df24b7dac76b41c51607f6ab866179c692b6ce29b44f65f20383c5b7a8",
+            "transparent_source_file": "hibiki-jumping.png",
+            "transparent_source_sha256": "ea737b661f91ce2b8f43a78d6d861b7acd6fc1b50622563ef8b1c39932264fe7",
+            "transparent_source_dimensions": [
+              2170,
+              725
+            ]
+          }
+        },
+        {
+          "row": 5,
+          "state": "failed",
+          "file": "hibiki-failed-registered.png",
+          "source_width": 4800,
+          "source_height": 724,
+          "frame_width": 600,
+          "frame_height": 724,
+          "frame_count": 8,
+          "sha256": "419d5af89fdd63d17b9938ff4f09485968e1328b8ff843f928f7a341b51ce8b0",
+          "frames": [
+            {
+              "x": 0,
+              "y": 0,
+              "width": 600,
+              "height": 724,
+              "draw_x": -32.26361,
+              "draw_y": -79.713467,
+              "draw_width": 584.527221,
+              "draw_height": 705.329513,
+              "alpha_bbox": [
+                204,
+                204,
+                423,
+                553
+              ],
+              "projected_alpha_bbox": [
+                166.4756,
+                119.0258,
+                379.8281,
+                459.0258
+              ],
+              "original_nominal_origin_x": -164,
+              "original_body_bbox": [
+                40,
+                204,
+                259,
+                553
+              ]
+            },
+            {
+              "x": 600,
+              "y": 0,
+              "width": 600,
+              "height": 724,
+              "draw_x": -32.26361,
+              "draw_y": -79.713467,
+              "draw_width": 584.527221,
+              "draw_height": 705.329513,
+              "alpha_bbox": [
+                206,
+                204,
+                421,
+                553
+              ],
+              "projected_alpha_bbox": [
+                168.4241,
+                119.0258,
+                377.8797,
+                459.0258
+              ],
+              "original_nominal_origin_x": 107,
+              "original_body_bbox": [
+                313,
+                204,
+                528,
+                553
+              ]
+            },
+            {
+              "x": 1200,
+              "y": 0,
+              "width": 600,
+              "height": 724,
+              "draw_x": -32.26361,
+              "draw_y": -79.713467,
+              "draw_width": 584.527221,
+              "draw_height": 705.329513,
+              "alpha_bbox": [
+                203,
+                212,
+                422,
+                552
+              ],
+              "projected_alpha_bbox": [
+                165.5014,
+                126.8195,
+                378.8539,
+                458.0516
+              ],
+              "original_nominal_origin_x": 379,
+              "original_body_bbox": [
+                582,
+                212,
+                801,
+                552
+              ]
+            },
+            {
+              "x": 1800,
+              "y": 0,
+              "width": 600,
+              "height": 724,
+              "draw_x": -32.26361,
+              "draw_y": -79.713467,
+              "draw_width": 584.527221,
+              "draw_height": 705.329513,
+              "alpha_bbox": [
+                198,
+                208,
+                418,
+                553
+              ],
+              "projected_alpha_bbox": [
+                160.6304,
+                122.9226,
+                374.957,
+                459.0258
+              ],
+              "original_nominal_origin_x": 650,
+              "original_body_bbox": [
+                848,
+                208,
+                1068,
+                553
+              ]
+            },
+            {
+              "x": 2400,
+              "y": 0,
+              "width": 600,
+              "height": 724,
+              "draw_x": -32.26361,
+              "draw_y": -79.713467,
+              "draw_width": 584.527221,
+              "draw_height": 705.329513,
+              "alpha_bbox": [
+                187,
+                208,
+                407,
+                553
+              ],
+              "projected_alpha_bbox": [
+                149.914,
+                122.9226,
+                364.2407,
+                459.0258
+              ],
+              "original_nominal_origin_x": 922,
+              "original_body_bbox": [
+                1109,
+                208,
+                1329,
+                553
+              ]
+            },
+            {
+              "x": 3000,
+              "y": 0,
+              "width": 600,
+              "height": 724,
+              "draw_x": -32.26361,
+              "draw_y": -79.713467,
+              "draw_width": 584.527221,
+              "draw_height": 705.329513,
+              "alpha_bbox": [
+                186,
+                204,
+                403,
+                554
+              ],
+              "projected_alpha_bbox": [
+                148.9398,
+                119.0258,
+                360.3438,
+                460.0
+              ],
+              "original_nominal_origin_x": 1193,
+              "original_body_bbox": [
+                1379,
+                204,
+                1596,
+                554
+              ]
+            },
+            {
+              "x": 3600,
+              "y": 0,
+              "width": 600,
+              "height": 724,
+              "draw_x": -32.26361,
+              "draw_y": -79.713467,
+              "draw_width": 584.527221,
+              "draw_height": 705.329513,
+              "alpha_bbox": [
+                191,
+                204,
+                404,
+                553
+              ],
+              "projected_alpha_bbox": [
+                153.8109,
+                119.0258,
+                361.3181,
+                459.0258
+              ],
+              "original_nominal_origin_x": 1465,
+              "original_body_bbox": [
+                1656,
+                204,
+                1869,
+                553
+              ]
+            },
+            {
+              "x": 4200,
+              "y": 0,
+              "width": 600,
+              "height": 724,
+              "draw_x": -32.26361,
+              "draw_y": -79.713467,
+              "draw_width": 584.527221,
+              "draw_height": 705.329513,
+              "alpha_bbox": [
+                187,
+                204,
+                400,
+                553
+              ],
+              "projected_alpha_bbox": [
+                149.914,
+                119.0258,
+                357.4212,
+                459.0258
+              ],
+              "original_nominal_origin_x": 1736,
+              "original_body_bbox": [
+                1923,
+                204,
+                2136,
+                553
+              ]
+            }
+          ],
+          "scale": 0.974212,
+          "registration": {
+            "mode": "one-scale-and-one-y-offset-per-action",
+            "source_ground_y": 554,
+            "reference_body_height": 349.0,
+            "source_grid_step": 271.5,
+            "component_assignment": "body and props connected components; edges follow adjacent component",
+            "original_source": "pets/hibiki-cheerleader-fullbody-handdrawn/materials/failed.png",
+            "original_source_sha256": "24aaf0304e9eb5603c5493da2d260ba77a8db171d9c44ed0abc53785767a4c20",
+            "transparent_source_file": "hibiki-failed.png",
+            "transparent_source_sha256": "65ee57288a304573aca062e712db8656fc88da22b4e8df2bc43a18165f5f6766",
+            "transparent_source_dimensions": [
+              2172,
+              724
+            ]
+          }
+        },
+        {
+          "row": 6,
+          "state": "waiting",
+          "file": "hibiki-waiting-registered.png",
+          "source_width": 3600,
+          "source_height": 724,
+          "frame_width": 600,
+          "frame_height": 724,
+          "frame_count": 6,
+          "sha256": "d9115b4feac81308606de2c1b776a00c122ffa31de01deaf950a7bc7baf2ad46",
+          "frames": [
+            {
+              "x": 0,
+              "y": 0,
+              "width": 600,
+              "height": 724,
+              "draw_x": 69.878844,
+              "draw_y": 48.070829,
+              "draw_width": 380.242311,
+              "draw_height": 458.825722,
+              "alpha_bbox": [
+                140,
+                113,
+                497,
+                650
+              ],
+              "projected_alpha_bbox": [
+                158.6021,
+                119.6831,
+                384.8462,
+                460.0
+              ],
+              "original_nominal_origin_x": -119,
+              "original_body_bbox": [
+                21,
+                113,
+                378,
+                650
+              ]
+            },
+            {
+              "x": 600,
+              "y": 0,
+              "width": 600,
+              "height": 724,
+              "draw_x": 69.878844,
+              "draw_y": 48.070829,
+              "draw_width": 380.242311,
+              "draw_height": 458.825722,
+              "alpha_bbox": [
+                136,
+                109,
+                494,
+                650
+              ],
+              "projected_alpha_bbox": [
+                156.0671,
+                117.1482,
+                382.945,
+                460.0
+              ],
+              "original_nominal_origin_x": 243,
+              "original_body_bbox": [
+                379,
+                109,
+                737,
+                650
+              ]
+            },
+            {
+              "x": 1200,
+              "y": 0,
+              "width": 600,
+              "height": 724,
+              "draw_x": 69.878844,
+              "draw_y": 48.070829,
+              "draw_width": 380.242311,
+              "draw_height": 458.825722,
+              "alpha_bbox": [
+                119,
+                119,
+                474,
+                650
+              ],
+              "projected_alpha_bbox": [
+                145.2936,
+                123.4856,
+                370.2703,
+                460.0
+              ],
+              "original_nominal_origin_x": 605,
+              "original_body_bbox": [
+                724,
+                119,
+                1079,
+                650
+              ]
+            },
+            {
+              "x": 1800,
+              "y": 0,
+              "width": 600,
+              "height": 724,
+              "draw_x": 69.878844,
+              "draw_y": 48.070829,
+              "draw_width": 380.242311,
+              "draw_height": 458.825722,
+              "alpha_bbox": [
+                111,
+                116,
+                467,
+                650
+              ],
+              "projected_alpha_bbox": [
+                140.2237,
+                121.5843,
+                365.8341,
+                460.0
+              ],
+              "original_nominal_origin_x": 967,
+              "original_body_bbox": [
+                1078,
+                116,
+                1434,
+                650
+              ]
+            },
+            {
+              "x": 2400,
+              "y": 0,
+              "width": 600,
+              "height": 724,
+              "draw_x": 69.878844,
+              "draw_y": 48.070829,
+              "draw_width": 380.242311,
+              "draw_height": 458.825722,
+              "alpha_bbox": [
+                111,
+                113,
+                473,
+                650
+              ],
+              "projected_alpha_bbox": [
+                140.2237,
+                119.6831,
+                369.6365,
+                460.0
+              ],
+              "original_nominal_origin_x": 1329,
+              "original_body_bbox": [
+                1440,
+                113,
+                1802,
+                650
+              ]
+            },
+            {
+              "x": 3000,
+              "y": 0,
+              "width": 600,
+              "height": 724,
+              "draw_x": 69.878844,
+              "draw_y": 48.070829,
+              "draw_width": 380.242311,
+              "draw_height": 458.825722,
+              "alpha_bbox": [
+                112,
+                114,
+                473,
+                650
+              ],
+              "projected_alpha_bbox": [
+                140.8574,
+                120.3169,
+                369.6365,
+                460.0
+              ],
+              "original_nominal_origin_x": 1691,
+              "original_body_bbox": [
+                1803,
+                114,
+                2164,
+                650
+              ]
+            }
+          ],
+          "scale": 0.633737,
+          "registration": {
+            "mode": "one-scale-and-one-y-offset-per-action",
+            "source_ground_y": 650,
+            "reference_body_height": 536.5,
+            "source_grid_step": 362.0,
+            "component_assignment": "body and props connected components; edges follow adjacent component",
+            "original_source": "pets/hibiki-cheerleader-fullbody-handdrawn/materials/waiting.png",
+            "original_source_sha256": "a3555e8906a0954fc3d51250d5ed0e243a5fe13de758bc976f045f254ebd9c7c",
+            "transparent_source_file": "hibiki-waiting.png",
+            "transparent_source_sha256": "1ae906462f7a8cb4c33cae946379ab99bed9171956172710332643e4a3b24918",
+            "transparent_source_dimensions": [
+              2172,
+              724
+            ]
+          }
+        },
+        {
+          "row": 7,
+          "state": "running",
+          "file": "hibiki-running-registered.png",
+          "source_width": 3600,
+          "source_height": 724,
+          "frame_width": 600,
+          "frame_height": 724,
+          "frame_count": 6,
+          "sha256": "76a5e4b95bb1dea2f336fd111995ca563a903c40100767375c62a2509b758e2e",
+          "frames": [
+            {
+              "x": 0,
+              "y": 0,
+              "width": 600,
+              "height": 724,
+              "draw_x": 9.077491,
+              "draw_y": -35.99016,
+              "draw_width": 501.845018,
+              "draw_height": 605.559656,
+              "alpha_bbox": [
+                133,
+                184,
+                476,
+                592
+              ],
+              "projected_alpha_bbox": [
+                120.3198,
+                117.909,
+                407.2079,
+                459.1636
+              ],
+              "original_nominal_origin_x": -119,
+              "original_body_bbox": [
+                14,
+                184,
+                357,
+                592
+              ]
+            },
+            {
+              "x": 600,
+              "y": 0,
+              "width": 600,
+              "height": 724,
+              "draw_x": 9.077491,
+              "draw_y": -35.99016,
+              "draw_width": 501.845018,
+              "draw_height": 605.559656,
+              "alpha_bbox": [
+                153,
+                186,
+                418,
+                593
+              ],
+              "projected_alpha_bbox": [
+                137.048,
+                119.5818,
+                358.6962,
+                460.0
+              ],
+              "original_nominal_origin_x": 243,
+              "original_body_bbox": [
+                396,
+                186,
+                661,
+                593
+              ]
+            },
+            {
+              "x": 1200,
+              "y": 0,
+              "width": 600,
+              "height": 724,
+              "draw_x": 9.077491,
+              "draw_y": -35.99016,
+              "draw_width": 501.845018,
+              "draw_height": 605.559656,
+              "alpha_bbox": [
+                118,
+                186,
+                459,
+                592
+              ],
+              "projected_alpha_bbox": [
+                107.7737,
+                119.5818,
+                392.9889,
+                459.1636
+              ],
+              "original_nominal_origin_x": 605,
+              "original_body_bbox": [
+                723,
+                186,
+                1009,
+                592
+              ]
+            },
+            {
+              "x": 1800,
+              "y": 0,
+              "width": 600,
+              "height": 724,
+              "draw_x": 9.077491,
+              "draw_y": -35.99016,
+              "draw_width": 501.845018,
+              "draw_height": 605.559656,
+              "alpha_bbox": [
+                143,
+                237,
+                402,
+                593
+              ],
+              "projected_alpha_bbox": [
+                128.6839,
+                162.2386,
+                345.3137,
+                460.0
+              ],
+              "original_nominal_origin_x": 967,
+              "original_body_bbox": [
+                1110,
+                237,
+                1369,
+                593
+              ]
+            },
+            {
+              "x": 2400,
+              "y": 0,
+              "width": 600,
+              "height": 724,
+              "draw_x": 9.077491,
+              "draw_y": -35.99016,
+              "draw_width": 501.845018,
+              "draw_height": 605.559656,
+              "alpha_bbox": [
+                59,
+                138,
+                450,
+                535
+              ],
+              "projected_alpha_bbox": [
+                58.4256,
+                79.4342,
+                385.4613,
+                411.4883
+              ],
+              "original_nominal_origin_x": 1329,
+              "original_body_bbox": [
+                1389,
+                138,
+                1760,
+                535
+              ]
+            },
+            {
+              "x": 3000,
+              "y": 0,
+              "width": 600,
+              "height": 724,
+              "draw_x": 9.077491,
+              "draw_y": -35.99016,
+              "draw_width": 501.845018,
+              "draw_height": 605.559656,
+              "alpha_bbox": [
+                112,
+                163,
+                467,
+                593
+              ],
+              "projected_alpha_bbox": [
+                102.7552,
+                100.3444,
+                399.6802,
+                460.0
+              ],
+              "original_nominal_origin_x": 1691,
+              "original_body_bbox": [
+                1803,
+                163,
+                2158,
+                593
+              ]
+            }
+          ],
+          "scale": 0.836408,
+          "registration": {
+            "mode": "one-scale-and-one-y-offset-per-action",
+            "source_ground_y": 593,
+            "reference_body_height": 406.5,
+            "source_grid_step": 362.0,
+            "component_assignment": "body and props connected components; edges follow adjacent component",
+            "original_source": "pets/hibiki-cheerleader-fullbody-handdrawn/materials/running.png",
+            "original_source_sha256": "d6885b0250c0036843318f629460318bc2eb4440ee7c25ba613552b295206432",
+            "transparent_source_file": "hibiki-running.png",
+            "transparent_source_sha256": "95b28db717bcc7a33dd5353806090e203945b15d9c0764f2656f19c7293cd919",
+            "transparent_source_dimensions": [
+              2172,
+              724
+            ]
+          }
+        },
+        {
+          "row": 8,
+          "state": "review",
+          "file": "hibiki-review-registered.png",
+          "source_width": 3600,
+          "source_height": 724,
+          "frame_width": 600,
+          "frame_height": 724,
+          "frame_count": 6,
+          "sha256": "0e1ad00feeb4efb196cdf9372cd9002a833ef18a03d910f3971e97731a79d2f6",
+          "frames": [
+            {
+              "x": 0,
+              "y": 0,
+              "width": 600,
+              "height": 724,
+              "draw_x": -13.458445,
+              "draw_y": -59.571046,
+              "draw_width": 546.91689,
+              "draw_height": 659.946381,
+              "alpha_bbox": [
+                178,
+                197,
+                423,
+                570
+              ],
+              "projected_alpha_bbox": [
+                148.7936,
+                120.0,
+                372.118,
+                460.0
+              ],
+              "original_nominal_origin_x": -119,
+              "original_body_bbox": [
+                59,
+                197,
+                304,
+                570
+              ]
+            },
+            {
+              "x": 600,
+              "y": 0,
+              "width": 600,
+              "height": 724,
+              "draw_x": -13.458445,
+              "draw_y": -59.571046,
+              "draw_width": 546.91689,
+              "draw_height": 659.946381,
+              "alpha_bbox": [
+                187,
+                197,
+                437,
+                570
+              ],
+              "projected_alpha_bbox": [
+                156.9973,
+                120.0,
+                384.8794,
+                460.0
+              ],
+              "original_nominal_origin_x": 243,
+              "original_body_bbox": [
+                430,
+                197,
+                680,
+                570
+              ]
+            },
+            {
+              "x": 1200,
+              "y": 0,
+              "width": 600,
+              "height": 724,
+              "draw_x": -13.458445,
+              "draw_y": -59.571046,
+              "draw_width": 546.91689,
+              "draw_height": 659.946381,
+              "alpha_bbox": [
+                185,
+                198,
+                422,
+                570
+              ],
+              "projected_alpha_bbox": [
+                155.1743,
+                120.9115,
+                371.2064,
+                460.0
+              ],
+              "original_nominal_origin_x": 605,
+              "original_body_bbox": [
+                790,
+                198,
+                1027,
+                570
+              ]
+            },
+            {
+              "x": 1800,
+              "y": 0,
+              "width": 600,
+              "height": 724,
+              "draw_x": -13.458445,
+              "draw_y": -59.571046,
+              "draw_width": 546.91689,
+              "draw_height": 659.946381,
+              "alpha_bbox": [
+                170,
+                197,
+                445,
+                570
+              ],
+              "projected_alpha_bbox": [
+                141.5013,
+                120.0,
+                392.1716,
+                460.0
+              ],
+              "original_nominal_origin_x": 967,
+              "original_body_bbox": [
+                1137,
+                197,
+                1412,
+                570
+              ]
+            },
+            {
+              "x": 2400,
+              "y": 0,
+              "width": 600,
+              "height": 724,
+              "draw_x": -13.458445,
+              "draw_y": -59.571046,
+              "draw_width": 546.91689,
+              "draw_height": 659.946381,
+              "alpha_bbox": [
+                174,
+                197,
+                412,
+                570
+              ],
+              "projected_alpha_bbox": [
+                145.1475,
+                120.0,
+                362.0912,
+                460.0
+              ],
+              "original_nominal_origin_x": 1329,
+              "original_body_bbox": [
+                1503,
+                197,
+                1741,
+                570
+              ]
+            },
+            {
+              "x": 3000,
+              "y": 0,
+              "width": 600,
+              "height": 724,
+              "draw_x": -13.458445,
+              "draw_y": -59.571046,
+              "draw_width": 546.91689,
+              "draw_height": 659.946381,
+              "alpha_bbox": [
+                178,
+                197,
+                424,
+                570
+              ],
+              "projected_alpha_bbox": [
+                148.7936,
+                120.0,
+                373.0295,
+                460.0
+              ],
+              "original_nominal_origin_x": 1691,
+              "original_body_bbox": [
+                1869,
+                197,
+                2115,
+                570
+              ]
+            }
+          ],
+          "scale": 0.911528,
+          "registration": {
+            "mode": "one-scale-and-one-y-offset-per-action",
+            "source_ground_y": 570,
+            "reference_body_height": 373.0,
+            "source_grid_step": 362.0,
+            "component_assignment": "body and props connected components; edges follow adjacent component",
+            "original_source": "pets/hibiki-cheerleader-fullbody-handdrawn/materials/review.png",
+            "original_source_sha256": "bb24089546fd235ec66f6ffe9fed76610213e62114b9fd1be9bee5fa0144cca7",
+            "transparent_source_file": "hibiki-review.png",
+            "transparent_source_sha256": "125cbf7e86383983389185da994cd3aa141cea700c76dca3ac34b00df1f054be",
+            "transparent_source_dimensions": [
+              2172,
+              724
+            ]
+          }
+        },
+        {
+          "row": 9,
+          "state": "look-row-9",
+          "file": "hibiki-look-row-9-registered.png",
+          "source_width": 4800,
+          "source_height": 724,
+          "frame_width": 600,
+          "frame_height": 724,
+          "frame_count": 8,
+          "sha256": "b8bec91002aedcb6e416c2ac314fff3e2742223c5e47205d18cbbc3d26971bd8",
+          "frames": [
+            {
+              "x": 0,
+              "y": 0,
+              "width": 600,
+              "height": 724,
+              "draw_x": 23.066202,
+              "draw_y": -17.816492,
+              "draw_width": 473.867596,
+              "draw_height": 571.800232,
+              "alpha_bbox": [
+                177,
+                175,
+                450,
+                605
+              ],
+              "projected_alpha_bbox": [
+                162.8571,
+                120.3949,
+                378.4669,
+                460.0
+              ],
+              "original_nominal_origin_x": -164,
+              "original_body_bbox": [
+                13,
+                175,
+                286,
+                605
+              ]
+            },
+            {
+              "x": 600,
+              "y": 0,
+              "width": 600,
+              "height": 724,
+              "draw_x": 23.066202,
+              "draw_y": -17.816492,
+              "draw_width": 473.867596,
+              "draw_height": 571.800232,
+              "alpha_bbox": [
+                180,
+                172,
+                447,
+                605
+              ],
+              "projected_alpha_bbox": [
+                165.2265,
+                118.0256,
+                376.0976,
+                460.0
+              ],
+              "original_nominal_origin_x": 107,
+              "original_body_bbox": [
+                287,
+                172,
+                554,
+                605
+              ]
+            },
+            {
+              "x": 1200,
+              "y": 0,
+              "width": 600,
+              "height": 724,
+              "draw_x": 23.066202,
+              "draw_y": -17.816492,
+              "draw_width": 473.867596,
+              "draw_height": 571.800232,
+              "alpha_bbox": [
+                179,
+                171,
+                440,
+                605
+              ],
+              "projected_alpha_bbox": [
+                164.4367,
+                117.2358,
+                370.5691,
+                460.0
+              ],
+              "original_nominal_origin_x": 379,
+              "original_body_bbox": [
+                558,
+                171,
+                819,
+                605
+              ]
+            },
+            {
+              "x": 1800,
+              "y": 0,
+              "width": 600,
+              "height": 724,
+              "draw_x": 23.066202,
+              "draw_y": -17.816492,
+              "draw_width": 473.867596,
+              "draw_height": 571.800232,
+              "alpha_bbox": [
+                172,
+                174,
+                433,
+                605
+              ],
+              "projected_alpha_bbox": [
+                158.9082,
+                119.6051,
+                365.0407,
+                460.0
+              ],
+              "original_nominal_origin_x": 650,
+              "original_body_bbox": [
+                822,
+                174,
+                1083,
+                605
+              ]
+            },
+            {
+              "x": 2400,
+              "y": 0,
+              "width": 600,
+              "height": 724,
+              "draw_x": 23.066202,
+              "draw_y": -17.816492,
+              "draw_width": 473.867596,
+              "draw_height": 571.800232,
+              "alpha_bbox": [
+                168,
+                170,
+                429,
+                605
+              ],
+              "projected_alpha_bbox": [
+                155.7491,
+                116.446,
+                361.8815,
+                460.0
+              ],
+              "original_nominal_origin_x": 922,
+              "original_body_bbox": [
+                1090,
+                170,
+                1351,
+                605
+              ]
+            },
+            {
+              "x": 3000,
+              "y": 0,
+              "width": 600,
+              "height": 724,
+              "draw_x": 23.066202,
+              "draw_y": -17.816492,
+              "draw_width": 473.867596,
+              "draw_height": 571.800232,
+              "alpha_bbox": [
+                167,
+                176,
+                422,
+                605
+              ],
+              "projected_alpha_bbox": [
+                154.9593,
+                121.1847,
+                356.3531,
+                460.0
+              ],
+              "original_nominal_origin_x": 1193,
+              "original_body_bbox": [
+                1360,
+                176,
+                1615,
+                605
+              ]
+            },
+            {
+              "x": 3600,
+              "y": 0,
+              "width": 600,
+              "height": 724,
+              "draw_x": 23.066202,
+              "draw_y": -17.816492,
+              "draw_width": 473.867596,
+              "draw_height": 571.800232,
+              "alpha_bbox": [
+                161,
+                177,
+                418,
+                605
+              ],
+              "projected_alpha_bbox": [
+                150.2207,
+                121.9744,
+                353.194,
+                460.0
+              ],
+              "original_nominal_origin_x": 1465,
+              "original_body_bbox": [
+                1626,
+                177,
+                1883,
+                605
+              ]
+            },
+            {
+              "x": 4200,
+              "y": 0,
+              "width": 600,
+              "height": 724,
+              "draw_x": 23.066202,
+              "draw_y": -17.816492,
+              "draw_width": 473.867596,
+              "draw_height": 571.800232,
+              "alpha_bbox": [
+                160,
+                178,
+                420,
+                605
+              ],
+              "projected_alpha_bbox": [
+                149.4309,
+                122.7642,
+                354.7735,
+                460.0
+              ],
+              "original_nominal_origin_x": 1736,
+              "original_body_bbox": [
+                1896,
+                178,
+                2156,
+                605
+              ]
+            }
+          ],
+          "scale": 0.789779,
+          "registration": {
+            "mode": "one-scale-and-one-y-offset-per-action",
+            "source_ground_y": 605,
+            "reference_body_height": 430.5,
+            "source_grid_step": 271.5,
+            "component_assignment": "body and props connected components; edges follow adjacent component",
+            "original_source": "pets/hibiki-cheerleader-fullbody-handdrawn/materials/look-row-9.png",
+            "original_source_sha256": "846f407613028efdf4a85a869d9bf3891b531acf6dc69a1b2a104898ee0f1710",
+            "transparent_source_file": "hibiki-look-row-9.png",
+            "transparent_source_sha256": "291c0b008a210eb997d1c558a5d5b08db44eee268ff5be23e1b507e3b82f6538",
+            "transparent_source_dimensions": [
+              2172,
+              724
+            ]
+          }
+        },
+        {
+          "row": 10,
+          "state": "look-row-10",
+          "file": "hibiki-look-row-10-registered.png",
+          "source_width": 4800,
+          "source_height": 724,
+          "frame_width": 600,
+          "frame_height": 724,
+          "frame_count": 8,
+          "sha256": "87d17b1eccdba51b6b491d078b1e1961b46897e6d12374c96d3418338a935578",
+          "frames": [
+            {
+              "x": 0,
+              "y": 0,
+              "width": 600,
+              "height": 724,
+              "draw_x": 24.43418,
+              "draw_y": -15.842956,
+              "draw_width": 471.13164,
+              "draw_height": 568.498845,
+              "alpha_bbox": [
+                172,
+                172,
+                450,
+                606
+              ],
+              "projected_alpha_bbox": [
+                159.4919,
+                119.2148,
+                377.7829,
+                460.0
+              ],
+              "original_nominal_origin_x": -164,
+              "original_body_bbox": [
+                8,
+                172,
+                286,
+                606
+              ]
+            },
+            {
+              "x": 600,
+              "y": 0,
+              "width": 600,
+              "height": 724,
+              "draw_x": 24.43418,
+              "draw_y": -15.842956,
+              "draw_width": 471.13164,
+              "draw_height": 568.498845,
+              "alpha_bbox": [
+                168,
+                172,
+                444,
+                606
+              ],
+              "projected_alpha_bbox": [
+                156.351,
+                119.2148,
+                373.0716,
+                460.0
+              ],
+              "original_nominal_origin_x": 107,
+              "original_body_bbox": [
+                275,
+                172,
+                551,
+                606
+              ]
+            },
+            {
+              "x": 1200,
+              "y": 0,
+              "width": 600,
+              "height": 724,
+              "draw_x": 24.43418,
+              "draw_y": -15.842956,
+              "draw_width": 471.13164,
+              "draw_height": 568.498845,
+              "alpha_bbox": [
+                163,
+                172,
+                439,
+                606
+              ],
+              "projected_alpha_bbox": [
+                152.4249,
+                119.2148,
+                369.1455,
+                460.0
+              ],
+              "original_nominal_origin_x": 379,
+              "original_body_bbox": [
+                542,
+                172,
+                818,
+                606
+              ]
+            },
+            {
+              "x": 1800,
+              "y": 0,
+              "width": 600,
+              "height": 724,
+              "draw_x": 24.43418,
+              "draw_y": -15.842956,
+              "draw_width": 471.13164,
+              "draw_height": 568.498845,
+              "alpha_bbox": [
+                164,
+                173,
+                436,
+                606
+              ],
+              "projected_alpha_bbox": [
+                153.2102,
+                120.0,
+                366.7898,
+                460.0
+              ],
+              "original_nominal_origin_x": 650,
+              "original_body_bbox": [
+                814,
+                173,
+                1086,
+                606
+              ]
+            },
+            {
+              "x": 2400,
+              "y": 0,
+              "width": 600,
+              "height": 724,
+              "draw_x": 24.43418,
+              "draw_y": -15.842956,
+              "draw_width": 471.13164,
+              "draw_height": 568.498845,
+              "alpha_bbox": [
+                161,
+                173,
+                435,
+                606
+              ],
+              "projected_alpha_bbox": [
+                150.8545,
+                120.0,
+                366.0046,
+                460.0
+              ],
+              "original_nominal_origin_x": 922,
+              "original_body_bbox": [
+                1083,
+                173,
+                1357,
+                606
+              ]
+            },
+            {
+              "x": 3000,
+              "y": 0,
+              "width": 600,
+              "height": 724,
+              "draw_x": 24.43418,
+              "draw_y": -15.842956,
+              "draw_width": 471.13164,
+              "draw_height": 568.498845,
+              "alpha_bbox": [
+                157,
+                173,
+                435,
+                606
+              ],
+              "projected_alpha_bbox": [
+                147.7136,
+                120.0,
+                366.0046,
+                460.0
+              ],
+              "original_nominal_origin_x": 1193,
+              "original_body_bbox": [
+                1350,
+                173,
+                1628,
+                606
+              ]
+            },
+            {
+              "x": 3600,
+              "y": 0,
+              "width": 600,
+              "height": 724,
+              "draw_x": 24.43418,
+              "draw_y": -15.842956,
+              "draw_width": 471.13164,
+              "draw_height": 568.498845,
+              "alpha_bbox": [
+                153,
+                174,
+                431,
+                606
+              ],
+              "projected_alpha_bbox": [
+                144.5727,
+                120.7852,
+                362.8637,
+                460.0
+              ],
+              "original_nominal_origin_x": 1465,
+              "original_body_bbox": [
+                1618,
+                174,
+                1896,
+                606
+              ]
+            },
+            {
+              "x": 4200,
+              "y": 0,
+              "width": 600,
+              "height": 724,
+              "draw_x": 24.43418,
+              "draw_y": -15.842956,
+              "draw_width": 471.13164,
+              "draw_height": 568.498845,
+              "alpha_bbox": [
+                150,
+                173,
+                430,
+                606
+              ],
+              "projected_alpha_bbox": [
+                142.2171,
+                120.0,
+                362.0785,
+                460.0
+              ],
+              "original_nominal_origin_x": 1736,
+              "original_body_bbox": [
+                1886,
+                173,
+                2166,
+                606
+              ]
+            }
+          ],
+          "scale": 0.785219,
+          "registration": {
+            "mode": "one-scale-and-one-y-offset-per-action",
+            "source_ground_y": 606,
+            "reference_body_height": 433.0,
+            "source_grid_step": 271.5,
+            "component_assignment": "body and props connected components; edges follow adjacent component",
+            "original_source": "pets/hibiki-cheerleader-fullbody-handdrawn/materials/look-row-10.png",
+            "original_source_sha256": "9354dd67e53942eea7360e3a83f603316de97d7106720e977d90b6bd3827568b",
+            "transparent_source_file": "hibiki-look-row-10.png",
+            "transparent_source_sha256": "a9c770155857c07d0f9320bcd7c4266bcd371460e057254bc50dafbdd656bb12",
+            "transparent_source_dimensions": [
+              2172,
+              724
+            ]
+          }
+        }
+      ]
+    },
+    "toki": {
+      "stage_width": 520,
+      "stage_height": 520,
+      "subject_height": 340,
+      "baseline_y": 460,
+      "rows": [
+        {
+          "row": 0,
+          "state": "idle",
+          "file": "toki-idle-registered.png",
+          "source_width": 3600,
+          "source_height": 724,
+          "frame_width": 600,
+          "frame_height": 724,
+          "frame_count": 6,
+          "sha256": "4bba3e36d1727919b4ec02fab0aae4c1e77972d13f0373986e0a36947f1148b3",
+          "frames": [
+            {
+              "x": 0,
+              "y": 0,
+              "width": 600,
+              "height": 724,
+              "draw_x": 63.846154,
+              "draw_y": 90.576923,
+              "draw_width": 392.307692,
+              "draw_height": 473.384615,
+              "alpha_bbox": [
+                143,
+                45,
+                456,
+                565
+              ],
+              "projected_alpha_bbox": [
+                157.3462,
+                120.0,
+                362.0,
+                460.0
+              ],
+              "original_nominal_origin_x": -119,
+              "original_body_bbox": [
+                24,
+                45,
+                333,
+                565
+              ]
+            },
+            {
+              "x": 600,
+              "y": 0,
+              "width": 600,
+              "height": 724,
+              "draw_x": 63.846154,
+              "draw_y": 90.576923,
+              "draw_width": 392.307692,
+              "draw_height": 473.384615,
+              "alpha_bbox": [
+                143,
+                45,
+                456,
+                565
+              ],
+              "projected_alpha_bbox": [
+                157.3462,
+                120.0,
+                362.0,
+                460.0
+              ],
+              "original_nominal_origin_x": 243,
+              "original_body_bbox": [
+                386,
+                45,
+                695,
+                565
+              ]
+            },
+            {
+              "x": 1200,
+              "y": 0,
+              "width": 600,
+              "height": 724,
+              "draw_x": 63.846154,
+              "draw_y": 90.576923,
+              "draw_width": 392.307692,
+              "draw_height": 473.384615,
+              "alpha_bbox": [
+                143,
+                45,
+                456,
+                565
+              ],
+              "projected_alpha_bbox": [
+                157.3462,
+                120.0,
+                362.0,
+                460.0
+              ],
+              "original_nominal_origin_x": 605,
+              "original_body_bbox": [
+                748,
+                45,
+                1057,
+                565
+              ]
+            },
+            {
+              "x": 1800,
+              "y": 0,
+              "width": 600,
+              "height": 724,
+              "draw_x": 63.846154,
+              "draw_y": 90.576923,
+              "draw_width": 392.307692,
+              "draw_height": 473.384615,
+              "alpha_bbox": [
+                143,
+                45,
+                456,
+                565
+              ],
+              "projected_alpha_bbox": [
+                157.3462,
+                120.0,
+                362.0,
+                460.0
+              ],
+              "original_nominal_origin_x": 967,
+              "original_body_bbox": [
+                1110,
+                45,
+                1419,
+                565
+              ]
+            },
+            {
+              "x": 2400,
+              "y": 0,
+              "width": 600,
+              "height": 724,
+              "draw_x": 63.846154,
+              "draw_y": 90.576923,
+              "draw_width": 392.307692,
+              "draw_height": 473.384615,
+              "alpha_bbox": [
+                143,
+                45,
+                456,
+                565
+              ],
+              "projected_alpha_bbox": [
+                157.3462,
+                120.0,
+                362.0,
+                460.0
+              ],
+              "original_nominal_origin_x": 1329,
+              "original_body_bbox": [
+                1472,
+                45,
+                1781,
+                565
+              ]
+            },
+            {
+              "x": 3000,
+              "y": 0,
+              "width": 600,
+              "height": 724,
+              "draw_x": 63.846154,
+              "draw_y": 90.576923,
+              "draw_width": 392.307692,
+              "draw_height": 473.384615,
+              "alpha_bbox": [
+                143,
+                45,
+                456,
+                565
+              ],
+              "projected_alpha_bbox": [
+                157.3462,
+                120.0,
+                362.0,
+                460.0
+              ],
+              "original_nominal_origin_x": 1691,
+              "original_body_bbox": [
+                1834,
+                45,
+                2143,
+                565
+              ]
+            }
+          ],
+          "scale": 0.653846,
+          "registration": {
+            "mode": "one-scale-and-one-y-offset-per-action",
+            "source_ground_y": 565,
+            "reference_body_height": 520.0,
+            "source_grid_step": 362.0,
+            "component_assignment": "body and props connected components; edges follow adjacent component",
+            "original_source": "pets/toki-bunny-fullbody-handdrawn/materials/selected-sources/idle.png",
+            "original_source_sha256": "99d48f998de20be3b67e06880b5b96267902a4e7ca0f626e365136d9637dcc9d",
+            "transparent_source_file": "toki-idle.png",
+            "transparent_source_sha256": "3a24c747207c250ed7f203bba1aa8c5496cafd58621d80fcff54e6d068cf6a3a",
+            "transparent_source_dimensions": [
+              2172,
+              724
+            ]
+          }
+        },
+        {
+          "row": 1,
+          "state": "running-right",
+          "file": "toki-running-right-registered.png",
+          "source_width": 4800,
+          "source_height": 724,
+          "frame_width": 600,
+          "frame_height": 724,
+          "frame_count": 8,
+          "sha256": "a62c07d58129356c79895eec369f5be4d1bc86c1625438d12f02f2e791d187ff",
+          "frames": [
+            {
+              "x": 0,
+              "y": 0,
+              "width": 600,
+              "height": 724,
+              "draw_x": -3.225806,
+              "draw_y": -33.109677,
+              "draw_width": 526.451613,
+              "draw_height": 635.251613,
+              "alpha_bbox": [
+                172,
+                175,
+                426,
+                560
+              ],
+              "projected_alpha_bbox": [
+                147.6903,
+                120.4387,
+                370.5548,
+                458.2452
+              ],
+              "original_nominal_origin_x": -164,
+              "original_body_bbox": [
+                11,
+                175,
+                262,
+                560
+              ]
+            },
+            {
+              "x": 600,
+              "y": 0,
+              "width": 600,
+              "height": 724,
+              "draw_x": -3.225806,
+              "draw_y": -33.109677,
+              "draw_width": 526.451613,
+              "draw_height": 635.251613,
+              "alpha_bbox": [
+                170,
+                173,
+                425,
+                562
+              ],
+              "projected_alpha_bbox": [
+                145.9355,
+                118.6839,
+                369.6774,
+                460.0
+              ],
+              "original_nominal_origin_x": 107,
+              "original_body_bbox": [
+                283,
+                173,
+                532,
+                562
+              ]
+            },
+            {
+              "x": 1200,
+              "y": 0,
+              "width": 600,
+              "height": 724,
+              "draw_x": -3.225806,
+              "draw_y": -33.109677,
+              "draw_width": 526.451613,
+              "draw_height": 635.251613,
+              "alpha_bbox": [
+                170,
+                175,
+                425,
+                561
+              ],
+              "projected_alpha_bbox": [
+                145.9355,
+                120.4387,
+                369.6774,
+                459.1226
+              ],
+              "original_nominal_origin_x": 379,
+              "original_body_bbox": [
+                554,
+                175,
+                804,
+                561
+              ]
+            },
+            {
+              "x": 1800,
+              "y": 0,
+              "width": 600,
+              "height": 724,
+              "draw_x": -3.225806,
+              "draw_y": -33.109677,
+              "draw_width": 526.451613,
+              "draw_height": 635.251613,
+              "alpha_bbox": [
+                171,
+                173,
+                424,
+                562
+              ],
+              "projected_alpha_bbox": [
+                146.8129,
+                118.6839,
+                368.8,
+                460.0
+              ],
+              "original_nominal_origin_x": 650,
+              "original_body_bbox": [
+                826,
+                173,
+                1074,
+                562
+              ]
+            },
+            {
+              "x": 2400,
+              "y": 0,
+              "width": 600,
+              "height": 724,
+              "draw_x": -3.225806,
+              "draw_y": -33.109677,
+              "draw_width": 526.451613,
+              "draw_height": 635.251613,
+              "alpha_bbox": [
+                170,
+                175,
+                425,
+                560
+              ],
+              "projected_alpha_bbox": [
+                145.9355,
+                120.4387,
+                369.6774,
+                458.2452
+              ],
+              "original_nominal_origin_x": 922,
+              "original_body_bbox": [
+                1097,
+                175,
+                1347,
+                560
+              ]
+            },
+            {
+              "x": 3000,
+              "y": 0,
+              "width": 600,
+              "height": 724,
+              "draw_x": -3.225806,
+              "draw_y": -33.109677,
+              "draw_width": 526.451613,
+              "draw_height": 635.251613,
+              "alpha_bbox": [
+                170,
+                173,
+                425,
+                562
+              ],
+              "projected_alpha_bbox": [
+                145.9355,
+                118.6839,
+                369.6774,
+                460.0
+              ],
+              "original_nominal_origin_x": 1193,
+              "original_body_bbox": [
+                1369,
+                173,
+                1618,
+                562
+              ]
+            },
+            {
+              "x": 3600,
+              "y": 0,
+              "width": 600,
+              "height": 724,
+              "draw_x": -3.225806,
+              "draw_y": -33.109677,
+              "draw_width": 526.451613,
+              "draw_height": 635.251613,
+              "alpha_bbox": [
+                170,
+                175,
+                425,
+                561
+              ],
+              "projected_alpha_bbox": [
+                145.9355,
+                120.4387,
+                369.6774,
+                459.1226
+              ],
+              "original_nominal_origin_x": 1465,
+              "original_body_bbox": [
+                1640,
+                175,
+                1890,
+                561
+              ]
+            },
+            {
+              "x": 4200,
+              "y": 0,
+              "width": 600,
+              "height": 724,
+              "draw_x": -3.225806,
+              "draw_y": -33.109677,
+              "draw_width": 526.451613,
+              "draw_height": 635.251613,
+              "alpha_bbox": [
+                170,
+                173,
+                424,
+                562
+              ],
+              "projected_alpha_bbox": [
+                145.9355,
+                118.6839,
+                368.8,
+                460.0
+              ],
+              "original_nominal_origin_x": 1736,
+              "original_body_bbox": [
+                1913,
+                173,
+                2160,
+                562
+              ]
+            }
+          ],
+          "scale": 0.877419,
+          "registration": {
+            "mode": "one-scale-and-one-y-offset-per-action",
+            "source_ground_y": 562,
+            "reference_body_height": 387.5,
+            "source_grid_step": 271.5,
+            "component_assignment": "body and props connected components; edges follow adjacent component",
+            "original_source": "pets/toki-bunny-fullbody-handdrawn/materials/selected-sources/running-right.png",
+            "original_source_sha256": "acc0720a67d153a1da85323ea8e6d855cb060c1906c9a81140bb9e064bf4f5bf",
+            "transparent_source_file": "toki-running-right.png",
+            "transparent_source_sha256": "18041b7ea8ac10ab20f99ba4906f1c55d05b78c883adea8f71aefc72e26cec3c",
+            "transparent_source_dimensions": [
+              2172,
+              724
+            ]
+          }
+        },
+        {
+          "row": 2,
+          "state": "running-left",
+          "file": "toki-running-left-registered.png",
+          "source_width": 4800,
+          "source_height": 724,
+          "frame_width": 600,
+          "frame_height": 724,
+          "frame_count": 8,
+          "sha256": "e7ee82e9a86747f11e751d5b831e18bf4a031816136fde8e706a26c4e9cb4568",
+          "frames": [
+            {
+              "x": 0,
+              "y": 0,
+              "width": 600,
+              "height": 724,
+              "draw_x": -1.538462,
+              "draw_y": -31.692308,
+              "draw_width": 523.076923,
+              "draw_height": 631.179487,
+              "alpha_bbox": [
+                174,
+                175,
+                426,
+                563
+              ],
+              "projected_alpha_bbox": [
+                150.1538,
+                120.8718,
+                369.8462,
+                459.1282
+              ],
+              "original_nominal_origin_x": -164,
+              "original_body_bbox": [
+                10,
+                175,
+                262,
+                563
+              ]
+            },
+            {
+              "x": 600,
+              "y": 0,
+              "width": 600,
+              "height": 724,
+              "draw_x": -1.538462,
+              "draw_y": -31.692308,
+              "draw_width": 523.076923,
+              "draw_height": 631.179487,
+              "alpha_bbox": [
+                175,
+                173,
+                426,
+                564
+              ],
+              "projected_alpha_bbox": [
+                151.0256,
+                119.1282,
+                369.8462,
+                460.0
+              ],
+              "original_nominal_origin_x": 107,
+              "original_body_bbox": [
+                282,
+                173,
+                533,
+                564
+              ]
+            },
+            {
+              "x": 1200,
+              "y": 0,
+              "width": 600,
+              "height": 724,
+              "draw_x": -1.538462,
+              "draw_y": -31.692308,
+              "draw_width": 523.076923,
+              "draw_height": 631.179487,
+              "alpha_bbox": [
+                174,
+                175,
+                426,
+                563
+              ],
+              "projected_alpha_bbox": [
+                150.1538,
+                120.8718,
+                369.8462,
+                459.1282
+              ],
+              "original_nominal_origin_x": 379,
+              "original_body_bbox": [
+                553,
+                175,
+                805,
+                563
+              ]
+            },
+            {
+              "x": 1800,
+              "y": 0,
+              "width": 600,
+              "height": 724,
+              "draw_x": -1.538462,
+              "draw_y": -31.692308,
+              "draw_width": 523.076923,
+              "draw_height": 631.179487,
+              "alpha_bbox": [
+                175,
+                173,
+                426,
+                564
+              ],
+              "projected_alpha_bbox": [
+                151.0256,
+                119.1282,
+                369.8462,
+                460.0
+              ],
+              "original_nominal_origin_x": 650,
+              "original_body_bbox": [
+                825,
+                173,
+                1076,
+                564
+              ]
+            },
+            {
+              "x": 2400,
+              "y": 0,
+              "width": 600,
+              "height": 724,
+              "draw_x": -1.538462,
+              "draw_y": -31.692308,
+              "draw_width": 523.076923,
+              "draw_height": 631.179487,
+              "alpha_bbox": [
+                174,
+                174,
+                426,
+                563
+              ],
+              "projected_alpha_bbox": [
+                150.1538,
+                120.0,
+                369.8462,
+                459.1282
+              ],
+              "original_nominal_origin_x": 922,
+              "original_body_bbox": [
+                1096,
+                174,
+                1348,
+                563
+              ]
+            },
+            {
+              "x": 3000,
+              "y": 0,
+              "width": 600,
+              "height": 724,
+              "draw_x": -1.538462,
+              "draw_y": -31.692308,
+              "draw_width": 523.076923,
+              "draw_height": 631.179487,
+              "alpha_bbox": [
+                175,
+                173,
+                426,
+                564
+              ],
+              "projected_alpha_bbox": [
+                151.0256,
+                119.1282,
+                369.8462,
+                460.0
+              ],
+              "original_nominal_origin_x": 1193,
+              "original_body_bbox": [
+                1368,
+                173,
+                1619,
+                564
+              ]
+            },
+            {
+              "x": 3600,
+              "y": 0,
+              "width": 600,
+              "height": 724,
+              "draw_x": -1.538462,
+              "draw_y": -31.692308,
+              "draw_width": 523.076923,
+              "draw_height": 631.179487,
+              "alpha_bbox": [
+                174,
+                175,
+                426,
+                563
+              ],
+              "projected_alpha_bbox": [
+                150.1538,
+                120.8718,
+                369.8462,
+                459.1282
+              ],
+              "original_nominal_origin_x": 1465,
+              "original_body_bbox": [
+                1639,
+                175,
+                1891,
+                563
+              ]
+            },
+            {
+              "x": 4200,
+              "y": 0,
+              "width": 600,
+              "height": 724,
+              "draw_x": -1.538462,
+              "draw_y": -31.692308,
+              "draw_width": 523.076923,
+              "draw_height": 631.179487,
+              "alpha_bbox": [
+                175,
+                172,
+                426,
+                563
+              ],
+              "projected_alpha_bbox": [
+                151.0256,
+                118.2564,
+                369.8462,
+                459.1282
+              ],
+              "original_nominal_origin_x": 1736,
+              "original_body_bbox": [
+                1911,
+                172,
+                2162,
+                563
+              ]
+            }
+          ],
+          "scale": 0.871795,
+          "registration": {
+            "mode": "one-scale-and-one-y-offset-per-action",
+            "source_ground_y": 564,
+            "reference_body_height": 390.0,
+            "source_grid_step": 271.5,
+            "component_assignment": "body and props connected components; edges follow adjacent component",
+            "original_source": "pets/toki-bunny-fullbody-handdrawn/materials/selected-sources/running-left.png",
+            "original_source_sha256": "d796b2d1e985a3296b11c23770ac46412b212838fdeee3e24f75c84cdb1d2c4c",
+            "transparent_source_file": "toki-running-left.png",
+            "transparent_source_sha256": "999168259a7697b16f2ff2fdffae2515ed347ba5d5ddbe7305ca5efeb872b2f1",
+            "transparent_source_dimensions": [
+              2172,
+              724
+            ]
+          }
+        },
+        {
+          "row": 3,
+          "state": "waving",
+          "file": "toki-waving-registered.png",
+          "source_width": 2400,
+          "source_height": 724,
+          "frame_width": 600,
+          "frame_height": 724,
+          "frame_count": 4,
+          "sha256": "dbf2493a3fc42f82b862dcef7aeb4edfafc1688cece5d65fcfc03db27e9abc6c",
+          "frames": [
+            {
+              "x": 0,
+              "y": 0,
+              "width": 600,
+              "height": 724,
+              "draw_x": 64.410355,
+              "draw_y": 90.987536,
+              "draw_width": 391.179291,
+              "draw_height": 472.023011,
+              "alpha_bbox": [
+                143,
+                45,
+                457,
+                565
+              ],
+              "projected_alpha_bbox": [
+                157.6414,
+                120.326,
+                362.3586,
+                459.348
+              ],
+              "original_nominal_origin_x": -28,
+              "original_body_bbox": [
+                115,
+                45,
+                425,
+                565
+              ]
+            },
+            {
+              "x": 600,
+              "y": 0,
+              "width": 600,
+              "height": 724,
+              "draw_x": 64.410355,
+              "draw_y": 90.987536,
+              "draw_width": 391.179291,
+              "draw_height": 472.023011,
+              "alpha_bbox": [
+                88,
+                44,
+                471,
+                566
+              ],
+              "projected_alpha_bbox": [
+                121.7833,
+                119.674,
+                371.4861,
+                460.0
+              ],
+              "original_nominal_origin_x": 514,
+              "original_body_bbox": [
+                658,
+                44,
+                967,
+                566
+              ]
+            },
+            {
+              "x": 1200,
+              "y": 0,
+              "width": 600,
+              "height": 724,
+              "draw_x": 64.410355,
+              "draw_y": 90.987536,
+              "draw_width": 391.179291,
+              "draw_height": 472.023011,
+              "alpha_bbox": [
+                87,
+                44,
+                470,
+                566
+              ],
+              "projected_alpha_bbox": [
+                121.1314,
+                119.674,
+                370.8341,
+                460.0
+              ],
+              "original_nominal_origin_x": 1058,
+              "original_body_bbox": [
+                1200,
+                44,
+                1510,
+                566
+              ]
+            },
+            {
+              "x": 1800,
+              "y": 0,
+              "width": 600,
+              "height": 724,
+              "draw_x": 64.410355,
+              "draw_y": 90.987536,
+              "draw_width": 391.179291,
+              "draw_height": 472.023011,
+              "alpha_bbox": [
+                144,
+                44,
+                457,
+                565
+              ],
+              "projected_alpha_bbox": [
+                158.2934,
+                119.674,
+                362.3586,
+                459.348
+              ],
+              "original_nominal_origin_x": 1600,
+              "original_body_bbox": [
+                1744,
+                44,
+                2053,
+                565
+              ]
+            }
+          ],
+          "scale": 0.651965,
+          "registration": {
+            "mode": "one-scale-and-one-y-offset-per-action",
+            "source_ground_y": 566,
+            "reference_body_height": 521.5,
+            "source_grid_step": 543.0,
+            "component_assignment": "body and props connected components; edges follow adjacent component",
+            "original_source": "pets/toki-bunny-fullbody-handdrawn/materials/selected-sources/waving.png",
+            "original_source_sha256": "e99490f5cac3522e29f67b93ed3439e68e83771d611bb18c075d4d397761e84e",
+            "transparent_source_file": "toki-waving.png",
+            "transparent_source_sha256": "01a3776a075c6392a8b5ce605bc5376912c067f0228dc720e19180db9a416892",
+            "transparent_source_dimensions": [
+              2172,
+              724
+            ]
+          }
+        },
+        {
+          "row": 4,
+          "state": "jumping",
+          "file": "toki-jumping-registered.png",
+          "source_width": 3000,
+          "source_height": 724,
+          "frame_width": 600,
+          "frame_height": 724,
+          "frame_count": 5,
+          "sha256": "317a0945eeca42f5ecbdf4827f71a75317acbdfb95459fdabba1757086a12445",
+          "frames": [
+            {
+              "x": 0,
+              "y": 0,
+              "width": 600,
+              "height": 724,
+              "draw_x": 58.816568,
+              "draw_y": 81.104536,
+              "draw_width": 402.366864,
+              "draw_height": 485.522682,
+              "alpha_bbox": [
+                136,
+                58,
+                494,
+                565
+              ],
+              "projected_alpha_bbox": [
+                150.0197,
+                120.0,
+                390.0986,
+                460.0
+              ],
+              "original_nominal_origin_x": -83,
+              "original_body_bbox": [
+                96,
+                58,
+                402,
+                565
+              ]
+            },
+            {
+              "x": 600,
+              "y": 0,
+              "width": 600,
+              "height": 724,
+              "draw_x": 58.816568,
+              "draw_y": 81.104536,
+              "draw_width": 402.366864,
+              "draw_height": 485.522682,
+              "alpha_bbox": [
+                90,
+                65,
+                479,
+                565
+              ],
+              "projected_alpha_bbox": [
+                119.1716,
+                124.6943,
+                380.0394,
+                460.0
+              ],
+              "original_nominal_origin_x": 352,
+              "original_body_bbox": [
+                459,
+                65,
+                831,
+                565
+              ]
+            },
+            {
+              "x": 1200,
+              "y": 0,
+              "width": 600,
+              "height": 724,
+              "draw_x": 58.816568,
+              "draw_y": 81.104536,
+              "draw_width": 402.366864,
+              "draw_height": 485.522682,
+              "alpha_bbox": [
+                104,
+                88,
+                482,
+                565
+              ],
+              "projected_alpha_bbox": [
+                128.5602,
+                140.1183,
+                382.0513,
+                460.0
+              ],
+              "original_nominal_origin_x": 786,
+              "original_body_bbox": [
+                937,
+                88,
+                1266,
+                565
+              ]
+            },
+            {
+              "x": 1800,
+              "y": 0,
+              "width": 600,
+              "height": 724,
+              "draw_x": 58.816568,
+              "draw_y": 81.104536,
+              "draw_width": 402.366864,
+              "draw_height": 485.522682,
+              "alpha_bbox": [
+                146,
+                56,
+                524,
+                565
+              ],
+              "projected_alpha_bbox": [
+                156.7258,
+                118.6588,
+                410.217,
+                460.0
+              ],
+              "original_nominal_origin_x": 1220,
+              "original_body_bbox": [
+                1406,
+                56,
+                1718,
+                565
+              ]
+            },
+            {
+              "x": 2400,
+              "y": 0,
+              "width": 600,
+              "height": 724,
+              "draw_x": 58.816568,
+              "draw_y": 81.104536,
+              "draw_width": 402.366864,
+              "draw_height": 485.522682,
+              "alpha_bbox": [
+                133,
+                57,
+                500,
+                565
+              ],
+              "projected_alpha_bbox": [
+                148.0079,
+                119.3294,
+                394.1223,
+                460.0
+              ],
+              "original_nominal_origin_x": 1655,
+              "original_body_bbox": [
+                1833,
+                57,
+                2141,
+                565
+              ]
+            }
+          ],
+          "scale": 0.670611,
+          "registration": {
+            "mode": "one-scale-and-one-y-offset-per-action",
+            "source_ground_y": 565,
+            "reference_body_height": 507.0,
+            "source_grid_step": 434.4,
+            "component_assignment": "body and props connected components; edges follow adjacent component",
+            "original_source": "pets/toki-bunny-fullbody-handdrawn/materials/selected-sources/jumping.png",
+            "original_source_sha256": "e9a7c264f24400e4fb73a3d31b440bb007e3673062a7102d223068a1868006d7",
+            "transparent_source_file": "toki-jumping.png",
+            "transparent_source_sha256": "522dba0de6bcbabef2301e9d12ef9b1a2a42854f545aa10e84a2da94c1773182",
+            "transparent_source_dimensions": [
+              2172,
+              724
+            ]
+          }
+        },
+        {
+          "row": 5,
+          "state": "failed",
+          "file": "toki-failed-registered.png",
+          "source_width": 4800,
+          "source_height": 724,
+          "frame_width": 600,
+          "frame_height": 724,
+          "frame_count": 8,
+          "sha256": "3b165a38b5664449a27c6013ea3ec8916919f31346e6380fe9538d98decfcb37",
+          "frames": [
+            {
+              "x": 0,
+              "y": 0,
+              "width": 600,
+              "height": 724,
+              "draw_x": -2.210797,
+              "draw_y": -32.956298,
+              "draw_width": 524.421594,
+              "draw_height": 632.802057,
+              "alpha_bbox": [
+                182,
+                175,
+                418,
+                564
+              ],
+              "projected_alpha_bbox": [
+                156.8638,
+                120.0,
+                363.1362,
+                460.0
+              ],
+              "original_nominal_origin_x": -164,
+              "original_body_bbox": [
+                18,
+                175,
+                250,
+                564
+              ]
+            },
+            {
+              "x": 600,
+              "y": 0,
+              "width": 600,
+              "height": 724,
+              "draw_x": -2.210797,
+              "draw_y": -32.956298,
+              "draw_width": 524.421594,
+              "draw_height": 632.802057,
+              "alpha_bbox": [
+                183,
+                175,
+                418,
+                564
+              ],
+              "projected_alpha_bbox": [
+                157.7378,
+                120.0,
+                363.1362,
+                460.0
+              ],
+              "original_nominal_origin_x": 107,
+              "original_body_bbox": [
+                290,
+                175,
+                522,
+                564
+              ]
+            },
+            {
+              "x": 1200,
+              "y": 0,
+              "width": 600,
+              "height": 724,
+              "draw_x": -2.210797,
+              "draw_y": -32.956298,
+              "draw_width": 524.421594,
+              "draw_height": 632.802057,
+              "alpha_bbox": [
+                183,
+                175,
+                418,
+                564
+              ],
+              "projected_alpha_bbox": [
+                157.7378,
+                120.0,
+                363.1362,
+                460.0
+              ],
+              "original_nominal_origin_x": 379,
+              "original_body_bbox": [
+                562,
+                175,
+                793,
+                564
+              ]
+            },
+            {
+              "x": 1800,
+              "y": 0,
+              "width": 600,
+              "height": 724,
+              "draw_x": -2.210797,
+              "draw_y": -32.956298,
+              "draw_width": 524.421594,
+              "draw_height": 632.802057,
+              "alpha_bbox": [
+                172,
+                175,
+                418,
+                564
+              ],
+              "projected_alpha_bbox": [
+                148.1234,
+                120.0,
+                363.1362,
+                460.0
+              ],
+              "original_nominal_origin_x": 650,
+              "original_body_bbox": [
+                822,
+                175,
+                1065,
+                564
+              ]
+            },
+            {
+              "x": 2400,
+              "y": 0,
+              "width": 600,
+              "height": 724,
+              "draw_x": -2.210797,
+              "draw_y": -32.956298,
+              "draw_width": 524.421594,
+              "draw_height": 632.802057,
+              "alpha_bbox": [
+                183,
+                175,
+                417,
+                564
+              ],
+              "projected_alpha_bbox": [
+                157.7378,
+                120.0,
+                362.2622,
+                460.0
+              ],
+              "original_nominal_origin_x": 922,
+              "original_body_bbox": [
+                1105,
+                175,
+                1336,
+                564
+              ]
+            },
+            {
+              "x": 3000,
+              "y": 0,
+              "width": 600,
+              "height": 724,
+              "draw_x": -2.210797,
+              "draw_y": -32.956298,
+              "draw_width": 524.421594,
+              "draw_height": 632.802057,
+              "alpha_bbox": [
+                183,
+                175,
+                418,
+                563
+              ],
+              "projected_alpha_bbox": [
+                157.7378,
+                120.0,
+                363.1362,
+                459.126
+              ],
+              "original_nominal_origin_x": 1193,
+              "original_body_bbox": [
+                1376,
+                175,
+                1607,
+                563
+              ]
+            },
+            {
+              "x": 3600,
+              "y": 0,
+              "width": 600,
+              "height": 724,
+              "draw_x": -2.210797,
+              "draw_y": -32.956298,
+              "draw_width": 524.421594,
+              "draw_height": 632.802057,
+              "alpha_bbox": [
+                183,
+                175,
+                417,
+                563
+              ],
+              "projected_alpha_bbox": [
+                157.7378,
+                120.0,
+                362.2622,
+                459.126
+              ],
+              "original_nominal_origin_x": 1465,
+              "original_body_bbox": [
+                1648,
+                175,
+                1879,
+                563
+              ]
+            },
+            {
+              "x": 4200,
+              "y": 0,
+              "width": 600,
+              "height": 724,
+              "draw_x": -2.210797,
+              "draw_y": -32.956298,
+              "draw_width": 524.421594,
+              "draw_height": 632.802057,
+              "alpha_bbox": [
+                183,
+                175,
+                418,
+                564
+              ],
+              "projected_alpha_bbox": [
+                157.7378,
+                120.0,
+                363.1362,
+                460.0
+              ],
+              "original_nominal_origin_x": 1736,
+              "original_body_bbox": [
+                1919,
+                175,
+                2151,
+                564
+              ]
+            }
+          ],
+          "scale": 0.874036,
+          "registration": {
+            "mode": "one-scale-and-one-y-offset-per-action",
+            "source_ground_y": 564,
+            "reference_body_height": 389.0,
+            "source_grid_step": 271.5,
+            "component_assignment": "body and props connected components; edges follow adjacent component",
+            "original_source": "pets/toki-bunny-fullbody-handdrawn/materials/selected-sources/failed.png",
+            "original_source_sha256": "7e8245269bbd47a6548438788aa96db4f801e138a1a6c3e51cac569c211f1041",
+            "transparent_source_file": "toki-failed.png",
+            "transparent_source_sha256": "61c5d7a00f0c3c195b1ca0a9f8d63e5cbdba9fc6ddc33b50d98f8dff8dacec43",
+            "transparent_source_dimensions": [
+              2172,
+              724
+            ]
+          }
+        },
+        {
+          "row": 6,
+          "state": "waiting",
+          "file": "toki-waiting-registered.png",
+          "source_width": 3600,
+          "source_height": 724,
+          "frame_width": 600,
+          "frame_height": 724,
+          "frame_count": 6,
+          "sha256": "ac06315f455ce97023ecbfb890de43208707dff849c3ea79382b01df27b675f0",
+          "frames": [
+            {
+              "x": 0,
+              "y": 0,
+              "width": 600,
+              "height": 724,
+              "draw_x": 63.468208,
+              "draw_y": 89.865125,
+              "draw_width": 393.063584,
+              "draw_height": 474.296724,
+              "alpha_bbox": [
+                143,
+                46,
+                456,
+                565
+              ],
+              "projected_alpha_bbox": [
+                157.1484,
+                120.0,
+                362.1965,
+                460.0
+              ],
+              "original_nominal_origin_x": -119,
+              "original_body_bbox": [
+                24,
+                46,
+                333,
+                565
+              ]
+            },
+            {
+              "x": 600,
+              "y": 0,
+              "width": 600,
+              "height": 724,
+              "draw_x": 63.468208,
+              "draw_y": 89.865125,
+              "draw_width": 393.063584,
+              "draw_height": 474.296724,
+              "alpha_bbox": [
+                144,
+                46,
+                456,
+                565
+              ],
+              "projected_alpha_bbox": [
+                157.8035,
+                120.0,
+                362.1965,
+                460.0
+              ],
+              "original_nominal_origin_x": 243,
+              "original_body_bbox": [
+                387,
+                46,
+                695,
+                565
+              ]
+            },
+            {
+              "x": 1200,
+              "y": 0,
+              "width": 600,
+              "height": 724,
+              "draw_x": 63.468208,
+              "draw_y": 89.865125,
+              "draw_width": 393.063584,
+              "draw_height": 474.296724,
+              "alpha_bbox": [
+                144,
+                46,
+                456,
+                565
+              ],
+              "projected_alpha_bbox": [
+                157.8035,
+                120.0,
+                362.1965,
+                460.0
+              ],
+              "original_nominal_origin_x": 605,
+              "original_body_bbox": [
+                749,
+                46,
+                1057,
+                565
+              ]
+            },
+            {
+              "x": 1800,
+              "y": 0,
+              "width": 600,
+              "height": 724,
+              "draw_x": 63.468208,
+              "draw_y": 89.865125,
+              "draw_width": 393.063584,
+              "draw_height": 474.296724,
+              "alpha_bbox": [
+                144,
+                46,
+                456,
+                565
+              ],
+              "projected_alpha_bbox": [
+                157.8035,
+                120.0,
+                362.1965,
+                460.0
+              ],
+              "original_nominal_origin_x": 967,
+              "original_body_bbox": [
+                1111,
+                46,
+                1419,
+                565
+              ]
+            },
+            {
+              "x": 2400,
+              "y": 0,
+              "width": 600,
+              "height": 724,
+              "draw_x": 63.468208,
+              "draw_y": 89.865125,
+              "draw_width": 393.063584,
+              "draw_height": 474.296724,
+              "alpha_bbox": [
+                143,
+                46,
+                456,
+                565
+              ],
+              "projected_alpha_bbox": [
+                157.1484,
+                120.0,
+                362.1965,
+                460.0
+              ],
+              "original_nominal_origin_x": 1329,
+              "original_body_bbox": [
+                1472,
+                46,
+                1781,
+                565
+              ]
+            },
+            {
+              "x": 3000,
+              "y": 0,
+              "width": 600,
+              "height": 724,
+              "draw_x": 63.468208,
+              "draw_y": 89.865125,
+              "draw_width": 393.063584,
+              "draw_height": 474.296724,
+              "alpha_bbox": [
+                143,
+                46,
+                456,
+                565
+              ],
+              "projected_alpha_bbox": [
+                157.1484,
+                120.0,
+                362.1965,
+                460.0
+              ],
+              "original_nominal_origin_x": 1691,
+              "original_body_bbox": [
+                1834,
+                46,
+                2142,
+                565
+              ]
+            }
+          ],
+          "scale": 0.655106,
+          "registration": {
+            "mode": "one-scale-and-one-y-offset-per-action",
+            "source_ground_y": 565,
+            "reference_body_height": 519.0,
+            "source_grid_step": 362.0,
+            "component_assignment": "body and props connected components; edges follow adjacent component",
+            "original_source": "pets/toki-bunny-fullbody-handdrawn/materials/selected-sources/waiting.png",
+            "original_source_sha256": "ff9bfd0bbbf1a60dcdfdef390820a64eb2564f7bdba35c125da5a13179895aa5",
+            "transparent_source_file": "toki-waiting.png",
+            "transparent_source_sha256": "ff9bfd0bbbf1a60dcdfdef390820a64eb2564f7bdba35c125da5a13179895aa5",
+            "transparent_source_dimensions": [
+              2172,
+              724
+            ]
+          }
+        },
+        {
+          "row": 7,
+          "state": "running",
+          "file": "toki-running-registered.png",
+          "source_width": 3600,
+          "source_height": 724,
+          "frame_width": 600,
+          "frame_height": 724,
+          "frame_count": 6,
+          "sha256": "8e9c6a263756f7673300ee3ef1147b843a560d6e68646526d4ac21bee146b566",
+          "frames": [
+            {
+              "x": 0,
+              "y": 0,
+              "width": 600,
+              "height": 724,
+              "draw_x": 64.222649,
+              "draw_y": 55.393474,
+              "draw_width": 391.554702,
+              "draw_height": 472.476008,
+              "alpha_bbox": [
+                129,
+                99,
+                488,
+                620
+              ],
+              "projected_alpha_bbox": [
+                148.4069,
+                120.0,
+                382.6871,
+                460.0
+              ],
+              "original_nominal_origin_x": -119,
+              "original_body_bbox": [
+                10,
+                99,
+                369,
+                620
+              ]
+            },
+            {
+              "x": 600,
+              "y": 0,
+              "width": 600,
+              "height": 724,
+              "draw_x": 64.222649,
+              "draw_y": 55.393474,
+              "draw_width": 391.554702,
+              "draw_height": 472.476008,
+              "alpha_bbox": [
+                130,
+                99,
+                486,
+                620
+              ],
+              "projected_alpha_bbox": [
+                149.0595,
+                120.0,
+                381.382,
+                460.0
+              ],
+              "original_nominal_origin_x": 243,
+              "original_body_bbox": [
+                373,
+                99,
+                729,
+                620
+              ]
+            },
+            {
+              "x": 1200,
+              "y": 0,
+              "width": 600,
+              "height": 724,
+              "draw_x": 64.222649,
+              "draw_y": 55.393474,
+              "draw_width": 391.554702,
+              "draw_height": 472.476008,
+              "alpha_bbox": [
+                131,
+                99,
+                487,
+                620
+              ],
+              "projected_alpha_bbox": [
+                149.7121,
+                120.0,
+                382.0345,
+                460.0
+              ],
+              "original_nominal_origin_x": 605,
+              "original_body_bbox": [
+                736,
+                99,
+                1092,
+                620
+              ]
+            },
+            {
+              "x": 1800,
+              "y": 0,
+              "width": 600,
+              "height": 724,
+              "draw_x": 64.222649,
+              "draw_y": 55.393474,
+              "draw_width": 391.554702,
+              "draw_height": 472.476008,
+              "alpha_bbox": [
+                131,
+                99,
+                494,
+                620
+              ],
+              "projected_alpha_bbox": [
+                149.7121,
+                120.0,
+                386.6027,
+                460.0
+              ],
+              "original_nominal_origin_x": 967,
+              "original_body_bbox": [
+                1098,
+                99,
+                1461,
+                620
+              ]
+            },
+            {
+              "x": 2400,
+              "y": 0,
+              "width": 600,
+              "height": 724,
+              "draw_x": 64.222649,
+              "draw_y": 55.393474,
+              "draw_width": 391.554702,
+              "draw_height": 472.476008,
+              "alpha_bbox": [
+                131,
+                99,
+                487,
+                620
+              ],
+              "projected_alpha_bbox": [
+                149.7121,
+                120.0,
+                382.0345,
+                460.0
+              ],
+              "original_nominal_origin_x": 1329,
+              "original_body_bbox": [
+                1460,
+                99,
+                1816,
+                620
+              ]
+            },
+            {
+              "x": 3000,
+              "y": 0,
+              "width": 600,
+              "height": 724,
+              "draw_x": 64.222649,
+              "draw_y": 55.393474,
+              "draw_width": 391.554702,
+              "draw_height": 472.476008,
+              "alpha_bbox": [
+                129,
+                99,
+                481,
+                620
+              ],
+              "projected_alpha_bbox": [
+                148.4069,
+                120.0,
+                378.119,
+                460.0
+              ],
+              "original_nominal_origin_x": 1691,
+              "original_body_bbox": [
+                1820,
+                99,
+                2172,
+                620
+              ]
+            }
+          ],
+          "scale": 0.652591,
+          "registration": {
+            "mode": "one-scale-and-one-y-offset-per-action",
+            "source_ground_y": 620,
+            "reference_body_height": 521.0,
+            "source_grid_step": 362.0,
+            "component_assignment": "body and props connected components; edges follow adjacent component",
+            "original_source": "pets/toki-bunny-fullbody-handdrawn/materials/selected-sources/running.png",
+            "original_source_sha256": "b115b23240fb53698298bbb031431f599a1f5f0f696b7a2c0168c7d0c2d1889b",
+            "transparent_source_file": "toki-running.png",
+            "transparent_source_sha256": "518e1696076804fc3c9d5c1214d68442cac1d1568f5f655e8ec42a0796adbb39",
+            "transparent_source_dimensions": [
+              2172,
+              724
+            ]
+          }
+        },
+        {
+          "row": 8,
+          "state": "review",
+          "file": "toki-review-registered.png",
+          "source_width": 3600,
+          "source_height": 724,
+          "frame_width": 600,
+          "frame_height": 724,
+          "frame_count": 6,
+          "sha256": "7b8ef56383fbadc131456db0a05f105373455ea79a251e8c0107665612c4f49e",
+          "frames": [
+            {
+              "x": 0,
+              "y": 0,
+              "width": 600,
+              "height": 724,
+              "draw_x": 1.772152,
+              "draw_y": -27.189873,
+              "draw_width": 516.455696,
+              "draw_height": 623.189873,
+              "alpha_bbox": [
+                181,
+                171,
+                424,
+                566
+              ],
+              "projected_alpha_bbox": [
+                157.5696,
+                120.0,
+                366.7342,
+                460.0
+              ],
+              "original_nominal_origin_x": -119,
+              "original_body_bbox": [
+                62,
+                171,
+                299,
+                566
+              ]
+            },
+            {
+              "x": 600,
+              "y": 0,
+              "width": 600,
+              "height": 724,
+              "draw_x": 1.772152,
+              "draw_y": -27.189873,
+              "draw_width": 516.455696,
+              "draw_height": 623.189873,
+              "alpha_bbox": [
+                180,
+                171,
+                423,
+                566
+              ],
+              "projected_alpha_bbox": [
+                156.7089,
+                120.0,
+                365.8734,
+                460.0
+              ],
+              "original_nominal_origin_x": 243,
+              "original_body_bbox": [
+                423,
+                171,
+                660,
+                566
+              ]
+            },
+            {
+              "x": 1200,
+              "y": 0,
+              "width": 600,
+              "height": 724,
+              "draw_x": 1.772152,
+              "draw_y": -27.189873,
+              "draw_width": 516.455696,
+              "draw_height": 623.189873,
+              "alpha_bbox": [
+                180,
+                171,
+                423,
+                566
+              ],
+              "projected_alpha_bbox": [
+                156.7089,
+                120.0,
+                365.8734,
+                460.0
+              ],
+              "original_nominal_origin_x": 605,
+              "original_body_bbox": [
+                785,
+                171,
+                1022,
+                566
+              ]
+            },
+            {
+              "x": 1800,
+              "y": 0,
+              "width": 600,
+              "height": 724,
+              "draw_x": 1.772152,
+              "draw_y": -27.189873,
+              "draw_width": 516.455696,
+              "draw_height": 623.189873,
+              "alpha_bbox": [
+                179,
+                171,
+                423,
+                566
+              ],
+              "projected_alpha_bbox": [
+                155.8481,
+                120.0,
+                365.8734,
+                460.0
+              ],
+              "original_nominal_origin_x": 967,
+              "original_body_bbox": [
+                1146,
+                171,
+                1384,
+                566
+              ]
+            },
+            {
+              "x": 2400,
+              "y": 0,
+              "width": 600,
+              "height": 724,
+              "draw_x": 1.772152,
+              "draw_y": -27.189873,
+              "draw_width": 516.455696,
+              "draw_height": 623.189873,
+              "alpha_bbox": [
+                180,
+                171,
+                423,
+                566
+              ],
+              "projected_alpha_bbox": [
+                156.7089,
+                120.0,
+                365.8734,
+                460.0
+              ],
+              "original_nominal_origin_x": 1329,
+              "original_body_bbox": [
+                1509,
+                171,
+                1745,
+                566
+              ]
+            },
+            {
+              "x": 3000,
+              "y": 0,
+              "width": 600,
+              "height": 724,
+              "draw_x": 1.772152,
+              "draw_y": -27.189873,
+              "draw_width": 516.455696,
+              "draw_height": 623.189873,
+              "alpha_bbox": [
+                181,
+                171,
+                423,
+                566
+              ],
+              "projected_alpha_bbox": [
+                157.5696,
+                120.0,
+                365.8734,
+                460.0
+              ],
+              "original_nominal_origin_x": 1691,
+              "original_body_bbox": [
+                1872,
+                171,
+                2108,
+                566
+              ]
+            }
+          ],
+          "scale": 0.860759,
+          "registration": {
+            "mode": "one-scale-and-one-y-offset-per-action",
+            "source_ground_y": 566,
+            "reference_body_height": 395.0,
+            "source_grid_step": 362.0,
+            "component_assignment": "body and props connected components; edges follow adjacent component",
+            "original_source": "pets/toki-bunny-fullbody-handdrawn/materials/selected-sources/review.png",
+            "original_source_sha256": "22d01d268f11922809e9c46a9654f6c0f9668197552d16e910e5894b73632a43",
+            "transparent_source_file": "toki-review.png",
+            "transparent_source_sha256": "4414313280c5e9fd3d3330285376450ff103d0604a7853cebbbedaaddbc06b58",
+            "transparent_source_dimensions": [
+              2172,
+              724
+            ]
+          }
+        }
+      ]
+    }
+  }
+}

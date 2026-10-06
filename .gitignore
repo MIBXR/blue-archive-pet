@@ -1,3 +1,6 @@
 .DS_Store
 Thumbs.db
 .env
+site/downloads/*.zip
+site/downloads/*.tmp
+site/assets/motion-hd/*.png
