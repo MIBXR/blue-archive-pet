@@ -12,7 +12,7 @@
 
 把猫冢响的拉拉队服形象做成一只二头身桌宠。灰黑长发、软软的狗耳、额前青蓝护目镜和淡金光环，配上蓝白制服与黄白花球；粗细略有起伏的深色线条、浅紫色眼睛，保留她有些害羞的神情。
 
-角色为《蔚蓝档案 / Blue Archive》中的猫冢响（Nekozuka Hibiki）。制作参考包括收藏的角色插画、手绘风格图，以及应援动作和表情截图；部分插画作者尚未确认。桌宠通过 AI 辅助生成与后续整理制作；角色及参考作品的权利归原权利人。
+角色为《蔚蓝档案 / Blue Archive》中的猫冢响（Nekozuka Hibiki）。手绘风格参考来自插画家 [JAZZ_JACK_](https://x.com/JAZZ_JACK_)，由收藏者补充确认。其他角色插画、应援动作和表情截图按各自来源保存，尚未核实的单张素材不另行推定作者。桌宠通过 AI 辅助生成与后续整理制作；角色及参考作品的权利归原权利人。
 
 <table>
 <tr><td align="center" width="50%"><b>采用的主形象</b><br><a href="references/canonical-base.png"><img src="references/canonical-base.png" width="260" alt="采用的角色主形象参考"></a></td><td align="center" width="50%"><b>成品中的日常姿态</b><br><img src="../package/previews/idle.gif" width="192" alt="拉拉队响最终待机动作"></td></tr>

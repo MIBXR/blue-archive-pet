@@ -6,7 +6,7 @@
 
 <p align="center"><b>v1.1 &nbsp; / &nbsp; sprite v2 &nbsp; / &nbsp; 透明 PNG + 动作 GIF</b></p>
 
-<p align="center"><a href="#动作预览">全部动作</a> &nbsp; · &nbsp; <a href="spritesheet.png">正式图集</a> &nbsp; · &nbsp; <a href="pet.json">桌宠信息</a> &nbsp; · &nbsp; <a href="https://github.com/MIBXR/hibiki-pet/releases/tag/v1.1-hibiki-cheerleader-fullbody-handdrawn">发布页</a></p>
+<p align="center"><a href="#动作预览">全部动作</a> &nbsp; · &nbsp; <a href="spritesheet.png">正式图集</a> &nbsp; · &nbsp; <a href="pet.json">桌宠信息</a> &nbsp; · &nbsp; <a href="https://github.com/MIBXR/blue-archive-pet/releases/tag/v1.1-hibiki-cheerleader-fullbody-handdrawn">发布页</a></p>
 
 把猫冢响的拉拉队服形象做成一只二头身桌宠。灰黑长发、软软的狗耳、额前青蓝护目镜和淡金光环，配上蓝白制服与黄白花球；粗细略有起伏的深色线条、浅紫色眼睛，保留她有些害羞的神情。
 
@@ -54,6 +54,6 @@
 
 ## 来源与署名
 
-角色为《蔚蓝档案 / Blue Archive》中的猫冢响（Nekozuka Hibiki）。制作参考包括收藏的角色插画、手绘风格图，以及应援动作和表情截图；部分插画作者尚未确认。桌宠通过 AI 辅助生成与后续整理制作；角色及参考作品的权利归原权利人。
+角色为《蔚蓝档案 / Blue Archive》中的猫冢响（Nekozuka Hibiki）。手绘风格参考来自插画家 [JAZZ_JACK_](https://x.com/JAZZ_JACK_)，由收藏者补充确认。其他角色插画、应援动作和表情截图按各自来源保存，尚未核实的单张素材不另行推定作者。桌宠通过 AI 辅助生成与后续整理制作；角色及参考作品的权利归原权利人。
 
-[完整创作记录](https://github.com/MIBXR/hibiki-pet/tree/main/pets/hibiki-cheerleader-fullbody-handdrawn/creation)
+[完整创作记录](https://github.com/MIBXR/blue-archive-pet/tree/main/pets/hibiki-cheerleader-fullbody-handdrawn/creation)

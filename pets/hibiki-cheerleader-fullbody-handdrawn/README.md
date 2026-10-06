@@ -6,7 +6,7 @@
 
 <p align="center"><b>v1.1 &nbsp; / &nbsp; 9 种日常动作 &nbsp; / &nbsp; 16 个注视方向</b></p>
 
-<p align="center"><a href="#全部动作">完整动作</a> &nbsp; · &nbsp; <a href="creation/README.md">创作记录</a> &nbsp; · &nbsp; <a href="materials/">高清原稿</a> &nbsp; · &nbsp; <a href="https://github.com/MIBXR/hibiki-pet/releases/download/v1.1-hibiki-cheerleader-fullbody-handdrawn/hibiki-cheerleader-fullbody-handdrawn-portable.zip">下载 ZIP</a></p>
+<p align="center"><a href="#全部动作">完整动作</a> &nbsp; · &nbsp; <a href="creation/README.md">创作记录</a> &nbsp; · &nbsp; <a href="materials/">高清原稿</a> &nbsp; · &nbsp; <a href="https://github.com/MIBXR/blue-archive-pet/releases/download/v1.1-hibiki-cheerleader-fullbody-handdrawn/hibiki-cheerleader-fullbody-handdrawn-portable.zip">下载 ZIP</a></p>
 
 <p align="center"><img src="package/previews/idle.gif" width="192" alt="拉拉队响待机"><img src="package/previews/running.gif" width="192" alt="拉拉队响工作状态"></p>
 
@@ -53,7 +53,7 @@
 
 v1.1 采用应援动作与表情参考，重新绘制工作状态：左右摆花球、收回蓄力、跳起和落地，并加入蓝色侧摆星星与黄色跳跃星形。其他动作沿用已有成品。
 
-[查看 v1.1 发布页](https://github.com/MIBXR/hibiki-pet/releases/tag/v1.1-hibiki-cheerleader-fullbody-handdrawn) · [浏览全部发布](https://github.com/MIBXR/hibiki-pet/releases)
+[查看 v1.1 发布页](https://github.com/MIBXR/blue-archive-pet/releases/tag/v1.1-hibiki-cheerleader-fullbody-handdrawn) · [浏览全部发布](https://github.com/MIBXR/blue-archive-pet/releases)
 
 ## 从参考到成品
 
@@ -68,6 +68,6 @@ v1.1 采用应援动作与表情参考，重新绘制工作状态：左右摆花
 
 ## 来源与署名
 
-角色为《蔚蓝档案 / Blue Archive》中的猫冢响（Nekozuka Hibiki）。制作参考包括收藏的角色插画、手绘风格图，以及应援动作和表情截图；部分插画作者尚未确认。桌宠通过 AI 辅助生成与后续整理制作；角色及参考作品的权利归原权利人。
+角色为《蔚蓝档案 / Blue Archive》中的猫冢响（Nekozuka Hibiki）。手绘风格参考来自插画家 [JAZZ_JACK_](https://x.com/JAZZ_JACK_)，由收藏者补充确认。其他角色插画、应援动作和表情截图按各自来源保存，尚未核实的单张素材不另行推定作者。桌宠通过 AI 辅助生成与后续整理制作；角色及参考作品的权利归原权利人。
 
 [返回作品首页](../../README.md)
