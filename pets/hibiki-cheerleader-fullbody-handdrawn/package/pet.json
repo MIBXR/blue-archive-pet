@@ -4,7 +4,7 @@
   "slug": "hibiki-cheerleader-fullbody-handdrawn",
   "name": "猫冢响-拉拉队服全身手绘风格",
   "description": "戴着蓝色护目镜、抱着黄白花球的猫冢响；灰黑长发与软软狗耳，蓝白拉拉队服，害羞又努力地为你加油，认真工作时显露工程师的专注。",
-  "artwork_version": "v1.0",
+  "artwork_version": "v1.1",
   "sprite": {
     "version": 2,
     "file": "spritesheet.png",
@@ -28,6 +28,6 @@
       8,
       8
     ],
-    "sha256": "335a5dd0fc32d18df8b388e329463d4be76c9e96ccf33d6579c2ede8b20f3174"
+    "sha256": "c333547448c0460678a970e51abaa566e1cfbd4c81335ff66bc449f39323bfb2"
   }
 }
