@@ -1,0 +1,62 @@
+{
+  "schema_version": 1,
+  "manifest_type": "delivery-metadata",
+  "name": "飞鸟马时-兔女郎全身手绘风格",
+  "description": "浅金长发、蓝紫椭圆眼与深蓝兔女郎装的飞鸟马时；双手交叉提着千禧标志公文箱，冷静认真地接收耳麦信息，也会得意比 V、模仿兔爪摇晃，坐上转椅陪你工作。",
+  "sprite_sheet": "spritesheet.png",
+  "sprite_sheet_sha256": "f5017eb5170348875f138c8c111697cda27199cc1e73a295e66e4781730db10f",
+  "sprite_sheet_rgba_sha256": "e57901beb4815cae879db41f9731c4657c555ad81e492c2a67786d4eb7bcc406",
+  "format": "ChatGPT Pets v2",
+  "dimensions": [
+    1536,
+    2288
+  ],
+  "cell_dimensions": [
+    192,
+    208
+  ],
+  "frames_per_row": [
+    6,
+    8,
+    8,
+    4,
+    5,
+    8,
+    6,
+    6,
+    6,
+    8,
+    8
+  ],
+  "states": [
+    "idle",
+    "running-right",
+    "running-left",
+    "waving",
+    "jumping",
+    "failed",
+    "waiting",
+    "running",
+    "review"
+  ],
+  "chair_follow_order": [
+    "000",
+    "022.5",
+    "045",
+    "067.5",
+    "090",
+    "112.5",
+    "135",
+    "157.5",
+    "180",
+    "202.5",
+    "225",
+    "247.5",
+    "270",
+    "292.5",
+    "315",
+    "337.5"
+  ],
+  "default_install_behavior": "preserve the current active pet",
+  "artwork_version": "1.0"
+}

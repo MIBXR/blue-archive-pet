@@ -5,3 +5,6 @@
 *.webp binary
 *.gif binary
 *.zip binary
+
+# Preserve imported prompt originals, including their original line endings.
+pets/toki-bunny-fullbody-handdrawn/creation/prompts/** -text whitespace=cr-at-eol
