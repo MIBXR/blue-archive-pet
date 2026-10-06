@@ -8,7 +8,7 @@
 
 ![啦啦队响待机](pets/hibiki-cheerleader-fullbody-handdrawn/package/previews/idle.gif) ![啦啦队响挥手](pets/hibiki-cheerleader-fullbody-handdrawn/package/previews/waving.gif)
 
-**v1.0** · [作品与动作](pets/hibiki-cheerleader-fullbody-handdrawn/) · [制作记录](pets/hibiki-cheerleader-fullbody-handdrawn/creation/README.md) · [高清原稿](pets/hibiki-cheerleader-fullbody-handdrawn/materials/) · [下载便携包](https://github.com/MIBXR/pet-hibiki-cheerleader-fullbody-handdrawn/releases/tag/v1.0-hibiki-cheerleader-fullbody-handdrawn)
+**v1.1** · [作品与动作](pets/hibiki-cheerleader-fullbody-handdrawn/) · [制作记录](pets/hibiki-cheerleader-fullbody-handdrawn/creation/README.md) · [高清原稿](pets/hibiki-cheerleader-fullbody-handdrawn/materials/) · [下载便携包](https://github.com/MIBXR/pet-hibiki-cheerleader-fullbody-handdrawn/releases/tag/v1.1-hibiki-cheerleader-fullbody-handdrawn)
 
 ## 版本与来源
 

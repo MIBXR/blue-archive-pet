@@ -14,12 +14,24 @@
 - [前八方向的角色特征参考](references/identity-pair-look-row-9.png)
 - [采用的注视方向姿态参考](references/look-anchors-approved.png)
 - [透明高清主图](../materials/main.png)
+- [应援动作参考拼板](references/official-motion-board.png)
+- [应援表情参考拼板](references/official-expression-board.png)
+- [制作新动作时使用的既有图集参考](references/previous-design-atlas.png)
 - [角色原始参考](references/source-illustrations/01.jpg)
 - [角色原始参考](references/source-illustrations/02.png)
 - [角色原始参考](references/source-illustrations/03.jpg)
 - [角色原始参考](references/source-illustrations/04.jpg)
 - [角色原始参考](references/source-illustrations/05.jpg)
 - [角色原始参考](references/source-illustrations/06.jpg)
+- [应援动作原始参考](references/motion-stills/01.jpg)
+- [应援动作原始参考](references/motion-stills/02.jpg)
+- [应援动作原始参考](references/motion-stills/03.jpg)
+- [应援动作原始参考](references/motion-stills/04.jpg)
+- [应援动作原始参考](references/motion-stills/05.jpg)
+- [应援动作原始参考](references/motion-stills/06.jpg)
+- [应援动作原始参考](references/motion-stills/07.jpg)
+- [应援动作原始参考](references/motion-stills/08.jpg)
+- [应援动作原始参考](references/motion-stills/09.jpg)
 
 [角色主形象提示词](prompts/character.md)记录整体风格、特征与构图要求。动作由保存的 imagegen 生成原稿制作，再进行去背景、选帧、位置调整和配色处理，形成[成品图集](../package/spritesheet.png)。
 
@@ -41,6 +53,6 @@
 
 提示词保留实际采用的文字。高清原稿保存生成阶段的细节，成品图集保存最终选择的帧与排列。
 
-## v1.0
+## v1.1
 
-建立拉拉队服全身手绘形象，完成九种动作和十六个注视方向。
+依据应援动作与表情参考，更新工作状态：左右摆动花球、收回蓄力、跳起和落地。其他动作保留。
