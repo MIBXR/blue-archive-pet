@@ -8,7 +8,7 @@
 
 <p align="center"><a href="#动作预览">全部动作</a> &nbsp; · &nbsp; <a href="spritesheet.png">正式图集</a> &nbsp; · &nbsp; <a href="pet.json">桌宠信息</a> &nbsp; · &nbsp; <a href="https://github.com/MIBXR/hibiki-pet/releases/tag/v1.1-hibiki-cheerleader-fullbody-handdrawn">发布页</a></p>
 
-把猫冢响的拉拉队服形象做成一只二头身桌宠。灰黑长发、软软的狗耳、额前青蓝护目镜和淡金光环，配上蓝白制服与黄白花球；粗细略有起伏的深色线条、浅紫色眼睛和脸颊排线，保留她有些害羞的神情。
+把猫冢响的拉拉队服形象做成一只二头身桌宠。灰黑长发、软软的狗耳、额前青蓝护目镜和淡金光环，配上蓝白制服与黄白花球；粗细略有起伏的深色线条、浅紫色眼睛，保留她有些害羞的神情。
 
 ## 动作预览
 
@@ -16,7 +16,7 @@
 <tr>
 <td align="center" width="33%"><b>01 · 待机</b><br><a href="previews/idle.gif"><img src="previews/idle.gif" width="144" alt="拉拉队响：待机动作预览"></a><br><sub>花球放低，带着害羞的神情眨眼。</sub></td>
 <td align="center" width="33%"><b>02 · 向右跑</b><br><a href="previews/running-right.gif"><img src="previews/running-right.gif" width="144" alt="拉拉队响：向右跑动作预览"></a><br><sub>抱好花球，朝右迈开小步。</sub></td>
-<td align="center" width="33%"><b>03 · 向左跑</b><br><a href="previews/running-left.gif"><img src="previews/running-left.gif" width="144" alt="拉拉队响：向左跑动作预览"></a><br><sub>朝左出发，耳朵和马尾跟着动。</sub></td>
+<td align="center" width="33%"><b>03 · 向左跑</b><br><a href="previews/running-left.gif"><img src="previews/running-left.gif" width="144" alt="拉拉队响：向左跑动作预览"></a><br><sub>朝左出发，耳朵和尾巴跟着动。</sub></td>
 </tr>
 <tr>
 <td align="center" width="33%"><b>04 · 挥手</b><br><a href="previews/waving.gif"><img src="previews/waving.gif" width="144" alt="拉拉队响：挥手动作预览"></a><br><sub>举起一只花球，和你打招呼。</sub></td>

@@ -12,13 +12,13 @@
 
 ## 认识响
 
-把猫冢响的拉拉队服形象做成一只二头身桌宠。灰黑长发、软软的狗耳、额前青蓝护目镜和淡金光环，配上蓝白制服与黄白花球；粗细略有起伏的深色线条、浅紫色眼睛和脸颊排线，保留她有些害羞的神情。
+把猫冢响的拉拉队服形象做成一只二头身桌宠。灰黑长发、软软的狗耳、额前青蓝护目镜和淡金光环，配上蓝白制服与黄白花球；粗细略有起伏的深色线条、浅紫色眼睛，保留她有些害羞的神情。
 
 她平时把花球放低，安静眨眼；等你时把两只花球拢到胸前，失落时又会拿它们遮住脸。轮到工作状态，就认真跳起一段带星星的应援舞。
 
 | 形象 | 表情 | 动作里的小道具 |
 | --- | --- | --- |
-| 二头身全身、狗耳与马尾、蓝白拉拉队服 | 浅紫眼睛、脸颊排线与害羞的小嘴 | 两只黄白花球、额前护目镜、淡金光环 |
+| 二头身全身、狗耳与尾巴、蓝白拉拉队服 | 浅紫眼睛、脸颊排线与害羞的小嘴 | 两只黄白花球、额前护目镜、淡金光环 |
 
 ## 动作剧场
 
@@ -28,7 +28,7 @@
 <tr>
 <td align="center" width="33%"><b>01 · 待机</b><br><a href="pets/hibiki-cheerleader-fullbody-handdrawn/package/previews/idle.gif"><img src="pets/hibiki-cheerleader-fullbody-handdrawn/package/previews/idle.gif" width="192" alt="拉拉队响：待机动作预览"></a><br><sub>花球放低，带着害羞的神情眨眼。</sub></td>
 <td align="center" width="33%"><b>02 · 向右跑</b><br><a href="pets/hibiki-cheerleader-fullbody-handdrawn/package/previews/running-right.gif"><img src="pets/hibiki-cheerleader-fullbody-handdrawn/package/previews/running-right.gif" width="192" alt="拉拉队响：向右跑动作预览"></a><br><sub>抱好花球，朝右迈开小步。</sub></td>
-<td align="center" width="33%"><b>03 · 向左跑</b><br><a href="pets/hibiki-cheerleader-fullbody-handdrawn/package/previews/running-left.gif"><img src="pets/hibiki-cheerleader-fullbody-handdrawn/package/previews/running-left.gif" width="192" alt="拉拉队响：向左跑动作预览"></a><br><sub>朝左出发，耳朵和马尾跟着动。</sub></td>
+<td align="center" width="33%"><b>03 · 向左跑</b><br><a href="pets/hibiki-cheerleader-fullbody-handdrawn/package/previews/running-left.gif"><img src="pets/hibiki-cheerleader-fullbody-handdrawn/package/previews/running-left.gif" width="192" alt="拉拉队响：向左跑动作预览"></a><br><sub>朝左出发，耳朵和尾巴跟着动。</sub></td>
 </tr>
 <tr>
 <td align="center" width="33%"><b>04 · 挥手</b><br><a href="pets/hibiki-cheerleader-fullbody-handdrawn/package/previews/waving.gif"><img src="pets/hibiki-cheerleader-fullbody-handdrawn/package/previews/waving.gif" width="192" alt="拉拉队响：挥手动作预览"></a><br><sub>举起一只花球，和你打招呼。</sub></td>
@@ -53,7 +53,7 @@
 
 **向左摆动 → 收回 → 向右摆动 → 蹲下蓄力 → 跳起 → 落地。**
 
-v1.1 的工作动作按这六拍展开。侧摆时出现蓝色星星，跳起时黄色星形在身后绽开；耳朵、马尾和花球一起跟随动作，最后回到可以继续循环的站姿。
+v1.1 的工作动作按这六拍展开。侧摆时出现蓝色星星，跳起时黄色星形在身后绽开；耳朵、尾巴和花球一起跟随动作，最后回到可以继续循环的站姿。
 
 [看看这段动作的提示词](pets/hibiki-cheerleader-fullbody-handdrawn/creation/prompts/running.md) · [查看高清生成原稿](pets/hibiki-cheerleader-fullbody-handdrawn/materials/running.png) · [查看动作与表情参考](pets/hibiki-cheerleader-fullbody-handdrawn/creation/README.md#应援动作与表情)
 

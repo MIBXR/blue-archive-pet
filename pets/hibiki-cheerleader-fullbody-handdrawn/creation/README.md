@@ -10,7 +10,7 @@
 
 ## 形象从哪里来
 
-把猫冢响的拉拉队服形象做成一只二头身桌宠。灰黑长发、软软的狗耳、额前青蓝护目镜和淡金光环，配上蓝白制服与黄白花球；粗细略有起伏的深色线条、浅紫色眼睛和脸颊排线，保留她有些害羞的神情。
+把猫冢响的拉拉队服形象做成一只二头身桌宠。灰黑长发、软软的狗耳、额前青蓝护目镜和淡金光环，配上蓝白制服与黄白花球；粗细略有起伏的深色线条、浅紫色眼睛，保留她有些害羞的神情。
 
 角色为《蔚蓝档案 / Blue Archive》中的猫冢响（Nekozuka Hibiki）。制作参考包括收藏的角色插画、手绘风格图，以及应援动作和表情截图；部分插画作者尚未确认。桌宠通过 AI 辅助生成与后续整理制作；角色及参考作品的权利归原权利人。
 
@@ -20,7 +20,7 @@
 
 ## 想保留下来的细节
 
-**完整的应援形象。** 狗耳、马尾、尾巴、护目镜与光环，围绕小小的全身轮廓保留下来。
+**完整的应援形象。** 狗耳、尾巴、护目镜与光环，围绕小小的全身轮廓保留下来。
 
 **花球贯穿日常。** 打招呼、等待、失落与检查，都由手中的两只花球参与表达。
 
@@ -37,7 +37,7 @@
 | 动作与成品 | 制作思路 | 提示词与高清原稿 |
 | :---: | --- | --- |
 | **待机**<br><img src="../package/previews/idle.gif" width="112" alt="拉拉队响待机"><br><sub>6 帧</sub> | 以主形象的低位花球站姿为起点，用眨眼与细小表情变化表现安静陪伴。 | [提示词](prompts/idle.md)<br>[高清原稿](../materials/idle.png) |
-| **向右跑**<br><img src="../package/previews/running-right.gif" width="112" alt="拉拉队响向右跑"><br><sub>8 帧</sub> | 保留手持花球的完整向右跑姿，步态、马尾和狗耳一起表达移动方向。 | [提示词](prompts/running-right.md)<br>[高清原稿](../materials/running-right.png) |
+| **向右跑**<br><img src="../package/previews/running-right.gif" width="112" alt="拉拉队响向右跑"><br><sub>8 帧</sub> | 保留手持花球的完整向右跑姿，步态、尾巴和狗耳一起表达移动方向。 | [提示词](prompts/running-right.md)<br>[高清原稿](../materials/running-right.png) |
 | **向左跑**<br><img src="../package/previews/running-left.gif" width="112" alt="拉拉队响向左跑"><br><sub>8 帧</sub> | 保存独立的向左跑姿，让护目镜、制服与花球在侧向轮廓中仍然清楚可辨。 | [提示词](prompts/running-left.md)<br>[高清原稿](../materials/running-left.png) |
 | **挥手**<br><img src="../package/previews/waving.gif" width="112" alt="拉拉队响挥手"><br><sub>4 帧</sub> | 把一只花球举到脸旁再放下，让挥手成为符合拉拉队形象的招呼动作。 | [提示词](prompts/waving.md)<br>[高清原稿](../materials/waving.png) |
 | **跳跃**<br><img src="../package/previews/jumping.gif" width="112" alt="拉拉队响跳跃"><br><sub>5 帧</sub> | 抬起两只花球、离地、落回原处，形成一个短小直接的跳跃动作。 | [提示词](prompts/jumping.md)<br>[高清原稿](../materials/jumping.png) |

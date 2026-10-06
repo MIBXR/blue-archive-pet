@@ -10,11 +10,11 @@
 
 <p align="center"><img src="package/previews/idle.gif" width="192" alt="拉拉队响待机"><img src="package/previews/running.gif" width="192" alt="拉拉队响工作状态"></p>
 
-把猫冢响的拉拉队服形象做成一只二头身桌宠。灰黑长发、软软的狗耳、额前青蓝护目镜和淡金光环，配上蓝白制服与黄白花球；粗细略有起伏的深色线条、浅紫色眼睛和脸颊排线，保留她有些害羞的神情。
+把猫冢响的拉拉队服形象做成一只二头身桌宠。灰黑长发、软软的狗耳、额前青蓝护目镜和淡金光环，配上蓝白制服与黄白花球；粗细略有起伏的深色线条、浅紫色眼睛，保留她有些害羞的神情。
 
 ## 她的模样
 
-**完整的应援形象。** 狗耳、马尾、尾巴、护目镜与光环，围绕小小的全身轮廓保留下来。
+**完整的应援形象。** 狗耳、尾巴、护目镜与光环，围绕小小的全身轮廓保留下来。
 
 **花球贯穿日常。** 打招呼、等待、失落与检查，都由手中的两只花球参与表达。
 
@@ -28,7 +28,7 @@
 <tr>
 <td align="center" width="33%"><b>01 · 待机</b><br><a href="package/previews/idle.gif"><img src="package/previews/idle.gif" width="192" alt="拉拉队响：待机动作预览"></a><br><sub>花球放低，带着害羞的神情眨眼。</sub></td>
 <td align="center" width="33%"><b>02 · 向右跑</b><br><a href="package/previews/running-right.gif"><img src="package/previews/running-right.gif" width="192" alt="拉拉队响：向右跑动作预览"></a><br><sub>抱好花球，朝右迈开小步。</sub></td>
-<td align="center" width="33%"><b>03 · 向左跑</b><br><a href="package/previews/running-left.gif"><img src="package/previews/running-left.gif" width="192" alt="拉拉队响：向左跑动作预览"></a><br><sub>朝左出发，耳朵和马尾跟着动。</sub></td>
+<td align="center" width="33%"><b>03 · 向左跑</b><br><a href="package/previews/running-left.gif"><img src="package/previews/running-left.gif" width="192" alt="拉拉队响：向左跑动作预览"></a><br><sub>朝左出发，耳朵和尾巴跟着动。</sub></td>
 </tr>
 <tr>
 <td align="center" width="33%"><b>04 · 挥手</b><br><a href="package/previews/waving.gif"><img src="package/previews/waving.gif" width="192" alt="拉拉队响：挥手动作预览"></a><br><sub>举起一只花球，和你打招呼。</sub></td>
