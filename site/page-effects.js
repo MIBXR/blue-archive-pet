@@ -112,9 +112,7 @@ for (const card of document.querySelectorAll('.collection-card')) {
 for (const card of document.querySelectorAll('.still-card')) {
   bind(card, card, 'card', { lift: -2, tilt: 1.7 });
 }
-for (const card of document.querySelectorAll('.download-card')) {
-  bind(card, card, 'card', { lift: -2, tilt: .65 });
-}
+// Download cards stay stationary; their buttons provide the hover feedback.
 for (const button of document.querySelectorAll('.button:not([data-pause]), .collection-cta')) {
   bind(button, button, 'button', { x: 2.3, y: 1.2, lift: -2 });
 }
