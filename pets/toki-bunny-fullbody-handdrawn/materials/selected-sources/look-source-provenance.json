@@ -1,0 +1,792 @@
+{
+  "schema_version": 1,
+  "recovered_at": "2026-10-07",
+  "artwork_operation": "Recovered original selected generated strips; no new artwork and no enlargement.",
+  "rows": [
+    {
+      "row": 9,
+      "original_source": "look-row-9.png",
+      "source_width": 2169,
+      "source_height": 725,
+      "source_sha256": "906afe1f9a99c1fed479081f238b9b569ac8c15a53e0a9dc3f20bae31a9c7c3f",
+      "direction_offset": 0,
+      "directions": [
+        "000",
+        "022.5",
+        "045",
+        "067.5",
+        "090",
+        "112.5",
+        "135",
+        "157.5"
+      ],
+      "component_ownership": [
+        {
+          "bbox": [
+            12,
+            121,
+            274,
+            626
+          ],
+          "pixels": 73747,
+          "frame": 0
+        },
+        {
+          "bbox": [
+            61,
+            189,
+            87,
+            199
+          ],
+          "pixels": 183,
+          "frame": 0
+        },
+        {
+          "bbox": [
+            26,
+            195,
+            58,
+            227
+          ],
+          "pixels": 277,
+          "frame": 0
+        },
+        {
+          "bbox": [
+            41,
+            218,
+            77,
+            257
+          ],
+          "pixels": 454,
+          "frame": 0
+        },
+        {
+          "bbox": [
+            12,
+            234,
+            25,
+            278
+          ],
+          "pixels": 358,
+          "frame": 0
+        },
+        {
+          "bbox": [
+            283,
+            123,
+            532,
+            626
+          ],
+          "pixels": 70670,
+          "frame": 1
+        },
+        {
+          "bbox": [
+            291,
+            209,
+            323,
+            241
+          ],
+          "pixels": 270,
+          "frame": 1
+        },
+        {
+          "bbox": [
+            277,
+            248,
+            291,
+            290
+          ],
+          "pixels": 314,
+          "frame": 1
+        },
+        {
+          "bbox": [
+            539,
+            122,
+            783,
+            626
+          ],
+          "pixels": 69937,
+          "frame": 2
+        },
+        {
+          "bbox": [
+            580,
+            203,
+            610,
+            214
+          ],
+          "pixels": 215,
+          "frame": 2
+        },
+        {
+          "bbox": [
+            548,
+            210,
+            578,
+            241
+          ],
+          "pixels": 259,
+          "frame": 2
+        },
+        {
+          "bbox": [
+            533,
+            247,
+            548,
+            290
+          ],
+          "pixels": 332,
+          "frame": 2
+        },
+        {
+          "bbox": [
+            799,
+            120,
+            1040,
+            626
+          ],
+          "pixels": 71517,
+          "frame": 3
+        },
+        {
+          "bbox": [
+            816,
+            190,
+            869,
+            220
+          ],
+          "pixels": 401,
+          "frame": 3
+        },
+        {
+          "bbox": [
+            825,
+            218,
+            861,
+            258
+          ],
+          "pixels": 448,
+          "frame": 3
+        },
+        {
+          "bbox": [
+            793,
+            229,
+            811,
+            277
+          ],
+          "pixels": 366,
+          "frame": 3
+        },
+        {
+          "bbox": [
+            810,
+            274,
+            846,
+            289
+          ],
+          "pixels": 290,
+          "frame": 3
+        },
+        {
+          "bbox": [
+            1055,
+            121,
+            1299,
+            626
+          ],
+          "pixels": 71702,
+          "frame": 4
+        },
+        {
+          "bbox": [
+            1081,
+            190,
+            1132,
+            219
+          ],
+          "pixels": 377,
+          "frame": 4
+        },
+        {
+          "bbox": [
+            1089,
+            218,
+            1124,
+            256
+          ],
+          "pixels": 439,
+          "frame": 4
+        },
+        {
+          "bbox": [
+            1057,
+            228,
+            1075,
+            274
+          ],
+          "pixels": 326,
+          "frame": 4
+        },
+        {
+          "bbox": [
+            1070,
+            274,
+            1104,
+            286
+          ],
+          "pixels": 260,
+          "frame": 4
+        },
+        {
+          "bbox": [
+            1342,
+            120,
+            1571,
+            626
+          ],
+          "pixels": 68221,
+          "frame": 5
+        },
+        {
+          "bbox": [
+            1378,
+            220,
+            1415,
+            258
+          ],
+          "pixels": 446,
+          "frame": 5
+        },
+        {
+          "bbox": [
+            1348,
+            231,
+            1365,
+            276
+          ],
+          "pixels": 336,
+          "frame": 5
+        },
+        {
+          "bbox": [
+            1613,
+            120,
+            1839,
+            626
+          ],
+          "pixels": 68500,
+          "frame": 6
+        },
+        {
+          "bbox": [
+            1635,
+            194,
+            1682,
+            222
+          ],
+          "pixels": 329,
+          "frame": 6
+        },
+        {
+          "bbox": [
+            1613,
+            230,
+            1631,
+            275
+          ],
+          "pixels": 344,
+          "frame": 6
+        },
+        {
+          "bbox": [
+            1896,
+            121,
+            2156,
+            626
+          ],
+          "pixels": 74804,
+          "frame": 7
+        },
+        {
+          "bbox": [
+            1910,
+            192,
+            1962,
+            220
+          ],
+          "pixels": 374,
+          "frame": 7
+        },
+        {
+          "bbox": [
+            1919,
+            219,
+            1955,
+            257
+          ],
+          "pixels": 448,
+          "frame": 7
+        },
+        {
+          "bbox": [
+            1889,
+            229,
+            1906,
+            274
+          ],
+          "pixels": 344,
+          "frame": 7
+        }
+      ],
+      "source_frame_bounds": [
+        [
+          12,
+          121,
+          274,
+          626
+        ],
+        [
+          277,
+          123,
+          532,
+          626
+        ],
+        [
+          533,
+          122,
+          783,
+          626
+        ],
+        [
+          793,
+          120,
+          1040,
+          626
+        ],
+        [
+          1055,
+          121,
+          1299,
+          626
+        ],
+        [
+          1342,
+          120,
+          1571,
+          626
+        ],
+        [
+          1613,
+          120,
+          1839,
+          626
+        ],
+        [
+          1889,
+          121,
+          2156,
+          626
+        ]
+      ]
+    },
+    {
+      "row": 10,
+      "original_source": "look-row-10.png",
+      "source_width": 2172,
+      "source_height": 724,
+      "source_sha256": "43d2be7154756733beda8b9fef2767ec42bab2d03e33482df348e770620f1f7a",
+      "direction_offset": 8,
+      "directions": [
+        "180",
+        "202.5",
+        "225",
+        "247.5",
+        "270",
+        "292.5",
+        "315",
+        "337.5"
+      ],
+      "component_ownership": [
+        {
+          "bbox": [
+            12,
+            102,
+            267,
+            619
+          ],
+          "pixels": 73319,
+          "frame": 0
+        },
+        {
+          "bbox": [
+            34,
+            193,
+            69,
+            233
+          ],
+          "pixels": 459,
+          "frame": 0
+        },
+        {
+          "bbox": [
+            2,
+            209,
+            21,
+            255
+          ],
+          "pixels": 384,
+          "frame": 0
+        },
+        {
+          "bbox": [
+            269,
+            102,
+            526,
+            619
+          ],
+          "pixels": 73679,
+          "frame": 1
+        },
+        {
+          "bbox": [
+            266,
+            164,
+            319,
+            198
+          ],
+          "pixels": 451,
+          "frame": 1
+        },
+        {
+          "bbox": [
+            286,
+            193,
+            321,
+            232
+          ],
+          "pixels": 460,
+          "frame": 1
+        },
+        {
+          "bbox": [
+            255,
+            208,
+            271,
+            255
+          ],
+          "pixels": 378,
+          "frame": 1
+        },
+        {
+          "bbox": [
+            523,
+            97,
+            788,
+            619
+          ],
+          "pixels": 75563,
+          "frame": 2
+        },
+        {
+          "bbox": [
+            542,
+            193,
+            577,
+            233
+          ],
+          "pixels": 459,
+          "frame": 2
+        },
+        {
+          "bbox": [
+            511,
+            208,
+            527,
+            255
+          ],
+          "pixels": 374,
+          "frame": 2
+        },
+        {
+          "bbox": [
+            783,
+            95,
+            1041,
+            619
+          ],
+          "pixels": 72733,
+          "frame": 3
+        },
+        {
+          "bbox": [
+            800,
+            193,
+            836,
+            232
+          ],
+          "pixels": 438,
+          "frame": 3
+        },
+        {
+          "bbox": [
+            769,
+            208,
+            784,
+            255
+          ],
+          "pixels": 372,
+          "frame": 3
+        },
+        {
+          "bbox": [
+            883,
+            542,
+            884,
+            543
+          ],
+          "pixels": 1,
+          "frame": 3
+        },
+        {
+          "bbox": [
+            1033,
+            99,
+            1287,
+            619
+          ],
+          "pixels": 69842,
+          "frame": 4
+        },
+        {
+          "bbox": [
+            1032,
+            164,
+            1085,
+            198
+          ],
+          "pixels": 446,
+          "frame": 4
+        },
+        {
+          "bbox": [
+            1050,
+            193,
+            1085,
+            232
+          ],
+          "pixels": 453,
+          "frame": 4
+        },
+        {
+          "bbox": [
+            1019,
+            208,
+            1034,
+            255
+          ],
+          "pixels": 362,
+          "frame": 4
+        },
+        {
+          "bbox": [
+            1303,
+            93,
+            1559,
+            619
+          ],
+          "pixels": 72006,
+          "frame": 5
+        },
+        {
+          "bbox": [
+            1302,
+            164,
+            1356,
+            197
+          ],
+          "pixels": 439,
+          "frame": 5
+        },
+        {
+          "bbox": [
+            1320,
+            193,
+            1355,
+            232
+          ],
+          "pixels": 440,
+          "frame": 5
+        },
+        {
+          "bbox": [
+            1289,
+            208,
+            1304,
+            255
+          ],
+          "pixels": 370,
+          "frame": 5
+        },
+        {
+          "bbox": [
+            1593,
+            95,
+            1852,
+            619
+          ],
+          "pixels": 73407,
+          "frame": 6
+        },
+        {
+          "bbox": [
+            1593,
+            164,
+            1646,
+            197
+          ],
+          "pixels": 437,
+          "frame": 6
+        },
+        {
+          "bbox": [
+            1609,
+            193,
+            1645,
+            232
+          ],
+          "pixels": 465,
+          "frame": 6
+        },
+        {
+          "bbox": [
+            1578,
+            207,
+            1593,
+            255
+          ],
+          "pixels": 376,
+          "frame": 6
+        },
+        {
+          "bbox": [
+            1898,
+            97,
+            2147,
+            619
+          ],
+          "pixels": 72032,
+          "frame": 7
+        },
+        {
+          "bbox": [
+            1903,
+            164,
+            1956,
+            197
+          ],
+          "pixels": 451,
+          "frame": 7
+        },
+        {
+          "bbox": [
+            1918,
+            194,
+            1956,
+            233
+          ],
+          "pixels": 469,
+          "frame": 7
+        },
+        {
+          "bbox": [
+            1887,
+            208,
+            1901,
+            255
+          ],
+          "pixels": 363,
+          "frame": 7
+        }
+      ],
+      "source_frame_bounds": [
+        [
+          2,
+          102,
+          267,
+          619
+        ],
+        [
+          255,
+          102,
+          526,
+          619
+        ],
+        [
+          511,
+          97,
+          788,
+          619
+        ],
+        [
+          769,
+          95,
+          1041,
+          619
+        ],
+        [
+          1019,
+          99,
+          1287,
+          619
+        ],
+        [
+          1289,
+          93,
+          1559,
+          619
+        ],
+        [
+          1578,
+          95,
+          1852,
+          619
+        ],
+        [
+          1887,
+          97,
+          2147,
+          619
+        ]
+      ]
+    }
+  ],
+  "assembly_lineage": {
+    "selected_originals": "toki-final/run/decoded/look-row-9.png and look-row-10.png",
+    "selection_record": "toki-final/run/imagegen-jobs.json",
+    "selected_source_hashes_match_record": true,
+    "source_chroma_mask": "green > red + 55 AND green > blue + 55; alpha-only hard mask used to recover original four-connected component ownership",
+    "component_assignment": "All original source connected components; preserve four observed outer-halo ownership corrections in row 10.",
+    "original_registration_record": "toki-final/run/qa/look-full-pixels-final/registration-audit.json",
+    "original_registration_record_sha256": "a79e90f1cedc39b5d1f1b93f9626f85fe6fe45071f13870a5146936df6f16f1d",
+    "approved_look_inheritance": "toki-final final look rows -> toki-base-aligned final look rows -> package/spritesheet.png",
+    "published_atlas_sha256": "f5017eb5170348875f138c8c111697cda27199cc1e73a295e66e4781730db10f",
+    "published_look_region": [
+      0,
+      1872,
+      1536,
+      2288
+    ],
+    "published_look_rgba_sha256": "9f708bc84b2c5d649a429740f72c08f92ab9ed58268e5e76b1dd1eae1f5c0148",
+    "all_16_published_cells_equal_original_final": true,
+    "published_atlas_equals_base_aligned_final_bytes": true
+  },
+  "website_preparation": {
+    "matting": "Original observed green > red + 55 AND green > blue + 55 background mask; existing spatial-chroma alpha and edge-unmix algorithm.",
+    "registration": "One shared scale for all sixteen directions; fixed common-width cells retain nominal source-grid positions; one ground offset for each source strip."
+  },
+  "origin": "Local production workspace dated 2026-10-05; recovered selected toki-final originals."
+}

@@ -1,0 +1,192 @@
+{
+  "errors": [],
+  "badResponses": [],
+  "viewports": [
+    {
+      "page": "/index.html",
+      "width": 1440,
+      "scrollWidth": 1440,
+      "imagesReady": true
+    },
+    {
+      "page": "/index.html",
+      "width": 1024,
+      "scrollWidth": 1024,
+      "imagesReady": true
+    },
+    {
+      "page": "/index.html",
+      "width": 760,
+      "scrollWidth": 760,
+      "imagesReady": true
+    },
+    {
+      "page": "/index.html",
+      "width": 390,
+      "scrollWidth": 390,
+      "imagesReady": true
+    },
+    {
+      "page": "/index.html",
+      "width": 320,
+      "scrollWidth": 320,
+      "imagesReady": true
+    },
+    {
+      "page": "/hibiki.html",
+      "width": 1440,
+      "scrollWidth": 1440,
+      "imagesReady": true
+    },
+    {
+      "page": "/hibiki.html",
+      "width": 1024,
+      "scrollWidth": 1024,
+      "imagesReady": true
+    },
+    {
+      "page": "/hibiki.html",
+      "width": 760,
+      "scrollWidth": 760,
+      "imagesReady": true
+    },
+    {
+      "page": "/hibiki.html",
+      "width": 390,
+      "scrollWidth": 390,
+      "imagesReady": true
+    },
+    {
+      "page": "/hibiki.html",
+      "width": 320,
+      "scrollWidth": 320,
+      "imagesReady": true
+    },
+    {
+      "page": "/toki.html",
+      "width": 1440,
+      "scrollWidth": 1440,
+      "imagesReady": true
+    },
+    {
+      "page": "/toki.html",
+      "width": 1024,
+      "scrollWidth": 1024,
+      "imagesReady": true
+    },
+    {
+      "page": "/toki.html",
+      "width": 760,
+      "scrollWidth": 760,
+      "imagesReady": true
+    },
+    {
+      "page": "/toki.html",
+      "width": 390,
+      "scrollWidth": 390,
+      "imagesReady": true
+    },
+    {
+      "page": "/toki.html",
+      "width": 320,
+      "scrollWidth": 320,
+      "imagesReady": true
+    }
+  ],
+  "flows": [
+    "index: layout 1440",
+    "index: layout 1024",
+    "index: layout 760",
+    "index: layout 390",
+    "index: layout 320",
+    "hibiki: layout 1440",
+    "hibiki: layout 1024",
+    "hibiki: layout 760",
+    "hibiki: layout 390",
+    "hibiki: layout 320",
+    "hibiki: pause freezes all previews",
+    "hibiki: theater independent from hero and install",
+    "hibiki: action idle",
+    "hibiki: action running-right",
+    "hibiki: action running-left",
+    "hibiki: action waving",
+    "hibiki: action jumping",
+    "hibiki: action failed",
+    "hibiki: action waiting",
+    "hibiki: action running",
+    "hibiki: action review",
+    "hibiki: direction 0",
+    "hibiki: direction 1",
+    "hibiki: direction 2",
+    "hibiki: direction 3",
+    "hibiki: direction 4",
+    "hibiki: direction 5",
+    "hibiki: direction 6",
+    "hibiki: direction 7",
+    "hibiki: direction 8",
+    "hibiki: direction 9",
+    "hibiki: direction 10",
+    "hibiki: direction 11",
+    "hibiki: direction 12",
+    "hibiki: direction 13",
+    "hibiki: direction 14",
+    "hibiki: direction 15",
+    "hibiki: sixteen distinct direction frames",
+    "hibiki: direction source provenance",
+    "hibiki: keyboard direction wraps",
+    "hibiki: safe fixed-release installation instruction",
+    "hibiki: activation is opt-in",
+    "hibiki: clipboard refusal exposes manual instruction",
+    "hibiki: browser ZIP checksum matches instruction",
+    "hibiki: resume animates",
+    "toki: layout 1440",
+    "toki: layout 1024",
+    "toki: layout 760",
+    "toki: layout 390",
+    "toki: layout 320",
+    "toki: pause freezes all previews",
+    "toki: theater independent from hero and install",
+    "toki: action idle",
+    "toki: action running-right",
+    "toki: action running-left",
+    "toki: action waving",
+    "toki: action jumping",
+    "toki: action failed",
+    "toki: action waiting",
+    "toki: action running",
+    "toki: action review",
+    "toki: direction 0",
+    "toki: direction 1",
+    "toki: direction 2",
+    "toki: direction 3",
+    "toki: direction 4",
+    "toki: direction 5",
+    "toki: direction 6",
+    "toki: direction 7",
+    "toki: direction 8",
+    "toki: direction 9",
+    "toki: direction 10",
+    "toki: direction 11",
+    "toki: direction 12",
+    "toki: direction 13",
+    "toki: direction 14",
+    "toki: direction 15",
+    "toki: sixteen distinct direction frames",
+    "toki: direction source provenance",
+    "toki: HD chair stage",
+    "toki: keyboard direction wraps",
+    "toki: safe fixed-release installation instruction",
+    "toki: activation is opt-in",
+    "toki: clipboard refusal exposes manual instruction",
+    "toki: browser ZIP checksum matches instruction",
+    "toki: resume animates",
+    "reduced motion starts paused",
+    "reduced motion remains still",
+    "hibiki: no-JS download and explicit static fallback",
+    "toki: no-JS download and explicit static fallback",
+    "HD failure uses formal atlas",
+    "metadata failure does not offer empty copied instruction",
+    "subdirectory imports and asset paths",
+    "normal site has no script errors or failed resources"
+  ]
+}
