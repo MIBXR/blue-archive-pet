@@ -414,7 +414,7 @@ function validateMetadata(metadata) {
       const parts = release.pathname.split('/');
       if (release.protocol !== 'https:' || release.hostname !== 'github.com' ||
         release.username || release.password || release.search || release.hash ||
-        parts.length !== 7 || parts.slice(1, 5).join('/') !== 'MIBXR/blue-archive-pet/releases/download' ||
+        parts.length !== 7 || parts.slice(1, 5).join('/') !== 'MIBXR/blue-archive-pets/releases/download' ||
         !parts[5] || parts[5] === 'latest' || parts[6] !== entry.package_file) {
         throw new Error(`${pet}: the fixed release download could not be verified`);
       }

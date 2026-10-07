@@ -20,8 +20,8 @@
 
 <table>
 <tr>
-<td align="center" width="50%"><sub>HIBIKI · CHEERLEADER</sub><h3>拉拉队响</h3><img src="pets/hibiki-cheerleader-fullbody-handdrawn/package/previews/waving.gif" width="192" alt="猫冢响举起花球打招呼"><p>有一点害羞，也会很认真地为你加油。</p><p><b>v1.1</b> · <a href="pets/hibiki-cheerleader-fullbody-handdrawn/README.md">看看响的日常</a> · <a href="https://github.com/MIBXR/blue-archive-pet/releases/download/v1.1-hibiki-cheerleader-fullbody-handdrawn/hibiki-cheerleader-fullbody-handdrawn-portable.zip">下载 ZIP</a></p></td>
-<td align="center" width="50%"><sub>TOKI · BUNNY</sub><h3>兔女郎时</h3><img src="pets/toki-bunny-fullbody-handdrawn/package/previews/states/waving.gif" width="192" alt="飞鸟马时举起双手比 V 问候"><p>冷静待命，偶尔也会得意地比个 V。</p><p><b>v1.0</b> · <a href="pets/toki-bunny-fullbody-handdrawn/README.md">看看时的日常</a> · <a href="https://github.com/MIBXR/blue-archive-pet/releases/download/v1.0-toki-bunny-fullbody-handdrawn/toki-bunny-fullbody-handdrawn-portable.zip">下载 ZIP</a></p></td>
+<td align="center" width="50%"><sub>HIBIKI · CHEERLEADER</sub><h3>拉拉队响</h3><img src="pets/hibiki-cheerleader-fullbody-handdrawn/package/previews/waving.gif" width="192" alt="猫冢响举起花球打招呼"><p>有一点害羞，也会很认真地为你加油。</p><p><b>v1.1</b> · <a href="pets/hibiki-cheerleader-fullbody-handdrawn/README.md">看看响的日常</a> · <a href="https://github.com/MIBXR/blue-archive-pets/releases/download/v1.1-hibiki-cheerleader-fullbody-handdrawn/hibiki-cheerleader-fullbody-handdrawn-portable.zip">下载 ZIP</a></p></td>
+<td align="center" width="50%"><sub>TOKI · BUNNY</sub><h3>兔女郎时</h3><img src="pets/toki-bunny-fullbody-handdrawn/package/previews/states/waving.gif" width="192" alt="飞鸟马时举起双手比 V 问候"><p>冷静待命，偶尔也会得意地比个 V。</p><p><b>v1.0</b> · <a href="pets/toki-bunny-fullbody-handdrawn/README.md">看看时的日常</a> · <a href="https://github.com/MIBXR/blue-archive-pets/releases/download/v1.0-toki-bunny-fullbody-handdrawn/toki-bunny-fullbody-handdrawn-portable.zip">下载 ZIP</a></p></td>
 </tr>
 </table>
 
@@ -134,10 +134,10 @@ v1.1 的工作动作按这六拍展开。侧摆时出现蓝色星星，跳起时
 
 | 作品 | 当前版本 | 便携包 | 发布记录 |
 | --- | --- | --- | --- |
-| 猫冢响-拉拉队服全身手绘风格 | v1.1 | [下载 ZIP](https://github.com/MIBXR/blue-archive-pet/releases/download/v1.1-hibiki-cheerleader-fullbody-handdrawn/hibiki-cheerleader-fullbody-handdrawn-portable.zip) | [版本详情](https://github.com/MIBXR/blue-archive-pet/releases/tag/v1.1-hibiki-cheerleader-fullbody-handdrawn) |
-| 飞鸟马时-兔女郎全身手绘风格 | v1.0 | [下载 ZIP](https://github.com/MIBXR/blue-archive-pet/releases/download/v1.0-toki-bunny-fullbody-handdrawn/toki-bunny-fullbody-handdrawn-portable.zip) | [版本详情](https://github.com/MIBXR/blue-archive-pet/releases/tag/v1.0-toki-bunny-fullbody-handdrawn) |
+| 猫冢响-拉拉队服全身手绘风格 | v1.1 | [下载 ZIP](https://github.com/MIBXR/blue-archive-pets/releases/download/v1.1-hibiki-cheerleader-fullbody-handdrawn/hibiki-cheerleader-fullbody-handdrawn-portable.zip) | [版本详情](https://github.com/MIBXR/blue-archive-pets/releases/tag/v1.1-hibiki-cheerleader-fullbody-handdrawn) |
+| 飞鸟马时-兔女郎全身手绘风格 | v1.0 | [下载 ZIP](https://github.com/MIBXR/blue-archive-pets/releases/download/v1.0-toki-bunny-fullbody-handdrawn/toki-bunny-fullbody-handdrawn-portable.zip) | [版本详情](https://github.com/MIBXR/blue-archive-pets/releases/tag/v1.0-toki-bunny-fullbody-handdrawn) |
 
-便携包包含 sprite v2 正式图集、必要的桌宠信息、使用说明和逐动作预览；将完整文件夹交给支持该格式的桌宠应用或 Agent 导入。两款作品分别保存版本，旧版可在[全部发布](https://github.com/MIBXR/blue-archive-pet/releases)中查看。
+便携包包含 sprite v2 正式图集、必要的桌宠信息、使用说明和逐动作预览；将完整文件夹交给支持该格式的桌宠应用或 Agent 导入。两款作品分别保存版本，旧版可在[全部发布](https://github.com/MIBXR/blue-archive-pets/releases)中查看。
 
 ## 来源与署名
 

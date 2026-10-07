@@ -6,7 +6,7 @@
 
 <p align="center"><b>v1.1 &nbsp; / &nbsp; 9 种日常动作 &nbsp; / &nbsp; 16 个注视方向</b></p>
 
-<p align="center"><a href="#全部动作">完整动作</a> &nbsp; · &nbsp; <a href="creation/README.md">创作记录</a> &nbsp; · &nbsp; <a href="materials/">高清原稿</a> &nbsp; · &nbsp; <a href="https://github.com/MIBXR/blue-archive-pet/releases/download/v1.1-hibiki-cheerleader-fullbody-handdrawn/hibiki-cheerleader-fullbody-handdrawn-portable.zip">下载 ZIP</a></p>
+<p align="center"><a href="#全部动作">完整动作</a> &nbsp; · &nbsp; <a href="creation/README.md">创作记录</a> &nbsp; · &nbsp; <a href="materials/">高清原稿</a> &nbsp; · &nbsp; <a href="https://github.com/MIBXR/blue-archive-pets/releases/download/v1.1-hibiki-cheerleader-fullbody-handdrawn/hibiki-cheerleader-fullbody-handdrawn-portable.zip">下载 ZIP</a></p>
 
 <p align="center"><img src="package/previews/idle.gif" width="192" alt="拉拉队响待机"><img src="package/previews/running.gif" width="192" alt="拉拉队响工作状态"></p>
 
@@ -53,7 +53,7 @@
 
 v1.1 采用应援动作与表情参考，重新绘制工作状态：左右摆花球、收回蓄力、跳起和落地，并加入蓝色侧摆星星与黄色跳跃星形。其他动作沿用已有成品。
 
-[查看 v1.1 发布页](https://github.com/MIBXR/blue-archive-pet/releases/tag/v1.1-hibiki-cheerleader-fullbody-handdrawn) · [浏览全部发布](https://github.com/MIBXR/blue-archive-pet/releases)
+[查看 v1.1 发布页](https://github.com/MIBXR/blue-archive-pets/releases/tag/v1.1-hibiki-cheerleader-fullbody-handdrawn) · [浏览全部发布](https://github.com/MIBXR/blue-archive-pets/releases)
 
 ## 从参考到成品
 

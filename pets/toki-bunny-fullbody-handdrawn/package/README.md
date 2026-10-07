@@ -6,7 +6,7 @@
 
 ## 安装
 
-1. 下载并解压[便携 ZIP](https://github.com/MIBXR/blue-archive-pet/releases/download/v1.0-toki-bunny-fullbody-handdrawn/toki-bunny-fullbody-handdrawn-portable.zip)，保留本说明、`pet.json` 和 `spritesheet.png`。
+1. 下载并解压[便携 ZIP](https://github.com/MIBXR/blue-archive-pets/releases/download/v1.0-toki-bunny-fullbody-handdrawn/toki-bunny-fullbody-handdrawn-portable.zip)，保留本说明、`pet.json` 和 `spritesheet.png`。
 2. 让已连接 ChatGPT Pets 的助手读取这些文件，核对图集 SHA-256，并使用 Pets 验证工具预检。
 3. 预检通过后，在目标环境中核实要更新的自定义宠物；已有对应宠物时使用该环境实际查到的 ID 更新，没有时创建新宠物。
 4. 安装后重新读取宠物记录，核实名称、描述和图集。默认保持当前启用选择；只有明确要求时才切换。
@@ -40,4 +40,4 @@
 
 本次入库没有改变图集或任何预览字节。交付元数据整理时移除了原环境 ID、历史更新和启用状态，并增加作品版本字段，避免把源账号状态误当成新环境的安装结果。
 
-角色来自《碧蓝档案 / Blue Archive》；手绘风格参考为用户确认的 [JAZZ JACK（@JAZZ_JACK_）](https://x.com/JAZZ_JACK_)。桌宠由 AI 辅助生成与后续整理制作，角色和参考作品的权利归相应权利人。完整来源与高清原稿见[作品页面](https://github.com/MIBXR/blue-archive-pet/tree/main/pets/toki-bunny-fullbody-handdrawn)。
+角色来自《碧蓝档案 / Blue Archive》；手绘风格参考为用户确认的 [JAZZ JACK（@JAZZ_JACK_）](https://x.com/JAZZ_JACK_)。桌宠由 AI 辅助生成与后续整理制作，角色和参考作品的权利归相应权利人。完整来源与高清原稿见[作品页面](https://github.com/MIBXR/blue-archive-pets/tree/main/pets/toki-bunny-fullbody-handdrawn)。

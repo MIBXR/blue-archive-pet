@@ -8,7 +8,7 @@ for(const pet of Object.values(metadata.pets)){
   const checksum=bytes=>createHash('sha256').update(bytes).digest('hex');
   try{if(checksum(await readFile(target))===pet.package_sha256){console.log(`${pet.version}: ${pet.package_file} verified`);continue;}}catch(error){if(error.code!=='ENOENT')throw error;}
   const source=new URL(pet.release_url);
-  if(source.protocol!=='https:'||source.hostname!=='github.com'||!source.pathname.startsWith('/MIBXR/blue-archive-pet/releases/download/')||source.pathname.includes('/latest/')||!source.pathname.endsWith('/'+pet.package_file))throw Error('Unexpected release URL');
+  if(source.protocol!=='https:'||source.hostname!=='github.com'||!source.pathname.startsWith('/MIBXR/blue-archive-pets/releases/download/')||source.pathname.includes('/latest/')||!source.pathname.endsWith('/'+pet.package_file))throw Error('Unexpected release URL');
   const response=await fetch(source);
   if(!response.ok)throw Error(`Release download failed (${response.status})`);
   const bytes=Buffer.from(await response.arrayBuffer());

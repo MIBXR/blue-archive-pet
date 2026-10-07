@@ -6,7 +6,7 @@
 
 <p align="center"><b>v1.0 &nbsp; / &nbsp; 9 种日常动作 &nbsp; / &nbsp; 16 个转椅跟随方向</b></p>
 
-<p align="center"><a href="#全部动作">完整动作</a> &nbsp; · &nbsp; <a href="creation/README.md">创作记录</a> &nbsp; · &nbsp; <a href="materials/README.md">高清原稿</a> &nbsp; · &nbsp; <a href="https://github.com/MIBXR/blue-archive-pet/releases/download/v1.0-toki-bunny-fullbody-handdrawn/toki-bunny-fullbody-handdrawn-portable.zip">下载 ZIP</a></p>
+<p align="center"><a href="#全部动作">完整动作</a> &nbsp; · &nbsp; <a href="creation/README.md">创作记录</a> &nbsp; · &nbsp; <a href="materials/README.md">高清原稿</a> &nbsp; · &nbsp; <a href="https://github.com/MIBXR/blue-archive-pets/releases/download/v1.0-toki-bunny-fullbody-handdrawn/toki-bunny-fullbody-handdrawn-portable.zip">下载 ZIP</a></p>
 
 <p align="center"><img src="package/previews/states/idle.gif" width="192" alt="兔女郎时待机"><img src="package/previews/states/waving.gif" width="192" alt="兔女郎时双手比 V"></p>
 
@@ -65,7 +65,7 @@
 
 这一版保存用户提供的首个正式版本。创作中间稿按用途收录，不另编造早期版本或开发日期。图集和全部预览的原始字节保持不变；归档时仅整理说明，并从交付元数据中移除源环境的宠物 ID 与历史启用状态。
 
-[查看 v1.0 发布页](https://github.com/MIBXR/blue-archive-pet/releases/tag/v1.0-toki-bunny-fullbody-handdrawn) · [浏览全部发布](https://github.com/MIBXR/blue-archive-pet/releases)
+[查看 v1.0 发布页](https://github.com/MIBXR/blue-archive-pets/releases/tag/v1.0-toki-bunny-fullbody-handdrawn) · [浏览全部发布](https://github.com/MIBXR/blue-archive-pets/releases)
 
 ## 来源与署名
 
