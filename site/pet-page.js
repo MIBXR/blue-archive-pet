@@ -1,4 +1,4 @@
-import {PetPlayer,loadInstallMetadata,createInstallInstruction,copyInstallInstruction} from './pet-runtime.js?v=3';
+import {PetPlayer,loadInstallMetadata,createInstallInstruction,copyInstallInstruction} from './pet-runtime.js?v=4';
 
 const pet=document.body.dataset.pet;
 const states=['idle','running-right','running-left','waving','jumping','failed','waiting','running','review'];

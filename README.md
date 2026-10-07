@@ -21,7 +21,7 @@
 <table>
 <tr>
 <td align="center" width="50%"><sub>HIBIKI · CHEERLEADER</sub><h3>拉拉队响</h3><img src="pets/hibiki-cheerleader-fullbody-handdrawn/package/previews/waving.gif" width="192" alt="猫冢响举起花球打招呼"><p>有一点害羞，也会很认真地为你加油。</p><p><b>v1.1</b> · <a href="pets/hibiki-cheerleader-fullbody-handdrawn/README.md">看看响的日常</a> · <a href="https://github.com/MIBXR/blue-archive-pets/releases/download/v1.1-hibiki-cheerleader-fullbody-handdrawn/hibiki-cheerleader-fullbody-handdrawn-portable.zip">下载 ZIP</a></p></td>
-<td align="center" width="50%"><sub>TOKI · BUNNY</sub><h3>兔女郎时</h3><img src="pets/toki-bunny-fullbody-handdrawn/package/previews/states/waving.gif" width="192" alt="飞鸟马时举起双手比 V 问候"><p>冷静待命，偶尔也会得意地比个 V。</p><p><b>v1.0</b> · <a href="pets/toki-bunny-fullbody-handdrawn/README.md">看看时的日常</a> · <a href="https://github.com/MIBXR/blue-archive-pets/releases/download/v1.0-toki-bunny-fullbody-handdrawn/toki-bunny-fullbody-handdrawn-portable.zip">下载 ZIP</a></p></td>
+<td align="center" width="50%"><sub>TOKI · BUNNY</sub><h3>兔女郎时</h3><img src="pets/toki-bunny-fullbody-handdrawn/package/previews/states/waving.png" width="192" alt="飞鸟马时举起双手比 V 问候"><p>冷静待命，偶尔也会得意地比个 V。</p><p><b>v1.0</b> · <a href="pets/toki-bunny-fullbody-handdrawn/README.md">看看时的日常</a> · <a href="https://github.com/MIBXR/blue-archive-pets/releases/download/v1.0-toki-bunny-fullbody-handdrawn/toki-bunny-fullbody-handdrawn-portable.zip">下载 ZIP</a></p></td>
 </tr>
 </table>
 
@@ -46,7 +46,7 @@
 
 ## 动作剧场
 
-每款都完整展示九种日常动作与十六方向跟随。GIF 来自各自的成品图集；点击动图可以单独查看，实际触发与播放节奏由桌宠应用决定。
+每款都完整展示九种日常动作与十六方向跟随。预览来自各自的成品图集；时使用透明 APNG 保留原始半透明边缘，响沿用 GIF；点击动图可以单独查看，实际触发与播放节奏由桌宠应用决定。
 
 ### 01 · 拉拉队响
 
@@ -91,32 +91,32 @@ v1.1 的工作动作按这六拍展开。侧摆时出现蓝色星星，跳起时
 
 <table>
 <tr>
-<td align="center" width="33%"><b>01 · 待机</b><br><a href="pets/toki-bunny-fullbody-handdrawn/package/previews/states/idle.gif"><img src="pets/toki-bunny-fullbody-handdrawn/package/previews/states/idle.gif" width="192" alt="兔女郎时：待机动作预览"></a><br><sub>双手交叉提着公文箱，安静地眨眨眼。</sub></td>
-<td align="center" width="33%"><b>02 · 向右走</b><br><a href="pets/toki-bunny-fullbody-handdrawn/package/previews/states/running-right.gif"><img src="pets/toki-bunny-fullbody-handdrawn/package/previews/states/running-right.gif" width="192" alt="兔女郎时：向右走动作预览"></a><br><sub>右手提好公文箱，迈开紧凑的小步。</sub></td>
-<td align="center" width="33%"><b>03 · 向左走</b><br><a href="pets/toki-bunny-fullbody-handdrawn/package/previews/states/running-left.gif"><img src="pets/toki-bunny-fullbody-handdrawn/package/previews/states/running-left.gif" width="192" alt="兔女郎时：向左走动作预览"></a><br><sub>换个方向，提着箱子继续前行。</sub></td>
+<td align="center" width="33%"><b>01 · 待机</b><br><a href="pets/toki-bunny-fullbody-handdrawn/package/previews/states/idle.png"><img src="pets/toki-bunny-fullbody-handdrawn/package/previews/states/idle.png" width="192" alt="兔女郎时：待机动作预览"></a><br><sub>双手交叉提着公文箱，安静地眨眨眼。</sub></td>
+<td align="center" width="33%"><b>02 · 向右走</b><br><a href="pets/toki-bunny-fullbody-handdrawn/package/previews/states/running-right.png"><img src="pets/toki-bunny-fullbody-handdrawn/package/previews/states/running-right.png" width="192" alt="兔女郎时：向右走动作预览"></a><br><sub>右手提好公文箱，迈开紧凑的小步。</sub></td>
+<td align="center" width="33%"><b>03 · 向左走</b><br><a href="pets/toki-bunny-fullbody-handdrawn/package/previews/states/running-left.png"><img src="pets/toki-bunny-fullbody-handdrawn/package/previews/states/running-left.png" width="192" alt="兔女郎时：向左走动作预览"></a><br><sub>换个方向，提着箱子继续前行。</sub></td>
 </tr>
 <tr>
-<td align="center" width="33%"><b>04 · 比 V 问候</b><br><a href="pets/toki-bunny-fullbody-handdrawn/package/previews/states/waving.gif"><img src="pets/toki-bunny-fullbody-handdrawn/package/previews/states/waving.gif" width="192" alt="兔女郎时：比 V 问候动作预览"></a><br><sub>举起双手比 V，露出一点得意的神情。</sub></td>
-<td align="center" width="33%"><b>05 · 学兔子</b><br><a href="pets/toki-bunny-fullbody-handdrawn/package/previews/states/jumping.gif"><img src="pets/toki-bunny-fullbody-handdrawn/package/previews/states/jumping.gif" width="192" alt="兔女郎时：学兔子动作预览"></a><br><sub>双手模仿兔爪，俯身后轻轻左右摇摆。</sub></td>
-<td align="center" width="33%"><b>06 · 失落</b><br><a href="pets/toki-bunny-fullbody-handdrawn/package/previews/states/failed.gif"><img src="pets/toki-bunny-fullbody-handdrawn/package/previews/states/failed.gif" width="192" alt="兔女郎时：失落动作预览"></a><br><sub>垂下眼睛，叹一口气，再恢复站姿。</sub></td>
+<td align="center" width="33%"><b>04 · 比 V 问候</b><br><a href="pets/toki-bunny-fullbody-handdrawn/package/previews/states/waving.png"><img src="pets/toki-bunny-fullbody-handdrawn/package/previews/states/waving.png" width="192" alt="兔女郎时：比 V 问候动作预览"></a><br><sub>举起双手比 V，露出一点得意的神情。</sub></td>
+<td align="center" width="33%"><b>05 · 学兔子</b><br><a href="pets/toki-bunny-fullbody-handdrawn/package/previews/states/jumping.png"><img src="pets/toki-bunny-fullbody-handdrawn/package/previews/states/jumping.png" width="192" alt="兔女郎时：学兔子动作预览"></a><br><sub>双手模仿兔爪，俯身后轻轻左右摇摆。</sub></td>
+<td align="center" width="33%"><b>06 · 失落</b><br><a href="pets/toki-bunny-fullbody-handdrawn/package/previews/states/failed.png"><img src="pets/toki-bunny-fullbody-handdrawn/package/previews/states/failed.png" width="192" alt="兔女郎时：失落动作预览"></a><br><sub>垂下眼睛，叹一口气，再恢复站姿。</sub></td>
 </tr>
 <tr>
-<td align="center" width="33%"><b>07 · 等待回应</b><br><a href="pets/toki-bunny-fullbody-handdrawn/package/previews/states/waiting.gif"><img src="pets/toki-bunny-fullbody-handdrawn/package/previews/states/waiting.gif" width="192" alt="兔女郎时：等待回应动作预览"></a><br><sub>一手提箱，一手询问，稍作停顿等你。</sub></td>
-<td align="center" width="33%"><b>08 · 工作</b><br><a href="pets/toki-bunny-fullbody-handdrawn/package/previews/states/running.gif"><img src="pets/toki-bunny-fullbody-handdrawn/package/previews/states/running.gif" width="192" alt="兔女郎时：工作动作预览"></a><br><sub>轻触耳麦接收信息，点头后整理武器。</sub></td>
-<td align="center" width="33%"><b>09 · 检查与确认</b><br><a href="pets/toki-bunny-fullbody-handdrawn/package/previews/states/review.gif"><img src="pets/toki-bunny-fullbody-handdrawn/package/previews/states/review.gif" width="192" alt="兔女郎时：检查与确认动作预览"></a><br><sub>认真查看，再用小小的表情给出回应。</sub></td>
+<td align="center" width="33%"><b>07 · 等待回应</b><br><a href="pets/toki-bunny-fullbody-handdrawn/package/previews/states/waiting.png"><img src="pets/toki-bunny-fullbody-handdrawn/package/previews/states/waiting.png" width="192" alt="兔女郎时：等待回应动作预览"></a><br><sub>一手提箱，一手询问，稍作停顿等你。</sub></td>
+<td align="center" width="33%"><b>08 · 工作</b><br><a href="pets/toki-bunny-fullbody-handdrawn/package/previews/states/running.png"><img src="pets/toki-bunny-fullbody-handdrawn/package/previews/states/running.png" width="192" alt="兔女郎时：工作动作预览"></a><br><sub>轻触耳麦接收信息，点头后整理武器。</sub></td>
+<td align="center" width="33%"><b>09 · 检查与确认</b><br><a href="pets/toki-bunny-fullbody-handdrawn/package/previews/states/review.png"><img src="pets/toki-bunny-fullbody-handdrawn/package/previews/states/review.png" width="192" alt="兔女郎时：检查与确认动作预览"></a><br><sub>认真查看，再用小小的表情给出回应。</sub></td>
 </tr>
 </table>
 
 <table>
 <tr>
-<td align="center" width="33%"><b>10 · 十六方向转椅跟随</b><br><a href="pets/toki-bunny-fullbody-handdrawn/package/previews/chair-follow.gif"><img src="pets/toki-bunny-fullbody-handdrawn/package/previews/chair-follow.gif" width="192" alt="飞鸟马时坐在转椅上依次朝向十六个方向"></a></td>
-<td><b>坐上转椅，转过身来陪你。</b><br><br>十六个方向使用坐姿与转椅表现跟随，依次展示不同朝向。<br><br><sub>GIF 用于欣赏已保存的方向姿态，实际跟随方式由桌宠应用决定。</sub></td>
+<td align="center" width="33%"><b>10 · 十六方向转椅跟随</b><br><a href="pets/toki-bunny-fullbody-handdrawn/package/previews/chair-follow.png"><img src="pets/toki-bunny-fullbody-handdrawn/package/previews/chair-follow.png" width="192" alt="飞鸟马时坐在转椅上依次朝向十六个方向"></a></td>
+<td><b>坐上转椅，转过身来陪你。</b><br><br>十六个方向使用坐姿与转椅表现跟随，依次展示不同朝向。<br><br><sub>透明 APNG 用于欣赏已保存的方向姿态，实际跟随方式由桌宠应用决定。</sub></td>
 </tr>
 </table>
 
 “学兔子”是一段脚不离地的俯身与侧摇动作，配上粉色动效；“工作”则把接收耳麦信息、点头和整理武器连成一段小小的日常。
 
-[看全部动作串联 GIF](pets/toki-bunny-fullbody-handdrawn/package/previews/all-states.gif) · [看动作视频](pets/toki-bunny-fullbody-handdrawn/package/previews/all-states.mp4) · [看待机与学兔子的串联](pets/toki-bunny-fullbody-handdrawn/package/previews/idle-bunny-idle.gif) · [查看动作静帧](pets/toki-bunny-fullbody-handdrawn/package/previews/motion-stills.png)
+[看全部动作串联 APNG](pets/toki-bunny-fullbody-handdrawn/package/previews/all-states.png) · [看动作视频](pets/toki-bunny-fullbody-handdrawn/package/previews/all-states.mp4) · [看待机与学兔子的串联](pets/toki-bunny-fullbody-handdrawn/package/previews/idle-bunny-idle.png) · [查看动作静帧](pets/toki-bunny-fullbody-handdrawn/package/previews/motion-stills.png)
 
 ## 创作收藏
 
@@ -128,9 +128,11 @@ v1.1 的工作动作按这六拍展开。侧摆时出现蓝色星星，跳起时
 | 实际使用的角色与动作提示词 | [提示词收藏](pets/hibiki-cheerleader-fullbody-handdrawn/creation/prompts/) | [提示词收藏](pets/toki-bunny-fullbody-handdrawn/creation/prompts/) |
 | 采用的参考图片 | [参考收藏](pets/hibiki-cheerleader-fullbody-handdrawn/creation/references/) | [参考收藏](pets/toki-bunny-fullbody-handdrawn/creation/references/) |
 | 高清生成原稿与关键素材 | [高清素材](pets/hibiki-cheerleader-fullbody-handdrawn/materials/) | [高清素材](pets/toki-bunny-fullbody-handdrawn/materials/) |
-| 最终图集、桌宠信息与逐动作 GIF | [解包成品](pets/hibiki-cheerleader-fullbody-handdrawn/package/README.md) | [解包成品](pets/toki-bunny-fullbody-handdrawn/package/README.md) |
+| 最终图集、桌宠信息与逐动作预览 | [解包成品](pets/hibiki-cheerleader-fullbody-handdrawn/package/README.md) | [解包成品](pets/toki-bunny-fullbody-handdrawn/package/README.md) |
 
 ## 下载与收藏
+
+时的 v1.0 Release ZIP 保留原发布字节及历史预览；当前仓库的透明预览单独更新，直接取自正式图集，不使用网站高清素材。历史 ZIP 说明中的旧仓库链接仍可重定向至本仓库。
 
 | 作品 | 当前版本 | 便携包 | 发布记录 |
 | --- | --- | --- | --- |

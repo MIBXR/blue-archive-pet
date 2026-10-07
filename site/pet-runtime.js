@@ -425,7 +425,7 @@ function validateMetadata(metadata) {
 
 /** Loads the manifest from the same deployment base used by the ZIP links. */
 export async function loadInstallMetadata({ baseUrl = document.baseURI } = {}) {
-  const url = new URL('downloads/agent-install.json', resolveBaseUrl(baseUrl)).href;
+  const url = new URL('downloads/agent-install.json?v=4', resolveBaseUrl(baseUrl)).href;
   if (!metadataLoads.has(url)) {
     const pending = fetch(url).then((response) => {
       if (!response.ok) throw new Error(`Installation information could not load (${response.status})`);

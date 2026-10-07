@@ -38,7 +38,7 @@ python -m http.server 4177
 
 复制安装指令只会复制可查看的文字。默认保留当前启用的宠物，勾选后才请求启用新宠物。浏览器拒绝剪贴板时展示可手动复制的文本；安装信息缺失时提示直接下载 ZIP。关闭 JavaScript 仍可阅读故事、查看主图并下载 ZIP。
 
-网页下载 ZIP 是已发布 Release 的原始字节。Agent 指令使用同一固定版本的公开 Release URL，方便 Agent 下载；二者 SHA-256 一致。完整校验值、包内配置/说明/图集路径见 `downloads/agent-install.json`。未更改 `pets/` 下的原稿、正式图集与应用配置。
+网页下载 ZIP 是已发布 Release 的原始字节。Agent 指令使用同一固定版本的公开 Release URL，方便 Agent 下载；二者 SHA-256 一致。仓库链接、固定 Release URL 及两处 URL 校验均使用 `MIBXR/blue-archive-pets`；安装脚本与元数据使用更新的缓存标识，避免浏览器继续混用改名前的信息。仓库链接、固定 Release URL 及两处 URL 校验均使用 `MIBXR/blue-archive-pets`；安装脚本与元数据使用更新的缓存标识，避免浏览器继续混用改名前的信息。完整校验值、包内配置/说明/图集路径见 `downloads/agent-install.json`。未更改 `pets/` 下的原稿、正式图集与应用配置。
 
 ## 设计依据与来源
 
