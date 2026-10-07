@@ -1,4 +1,4 @@
-import {PetPlayer,loadInstallMetadata,createInstallInstruction,copyInstallInstruction} from './pet-runtime.js';
+import {PetPlayer,loadInstallMetadata,createInstallInstruction,copyInstallInstruction} from './pet-runtime.js?v=3';
 
 const pet=document.body.dataset.pet;
 const states=['idle','running-right','running-left','waving','jumping','failed','waiting','running','review'];
@@ -44,7 +44,7 @@ function updateStageNote(){
   const source=theater.canvas.dataset.petSource;
   const note=document.querySelector('[data-stage-note]');
   if(mode==='directions'){
-    note.textContent=pet==='toki'?'转椅方向取自正式图集，以原始大小展示。':'移动指针或选择方向，看看她的注视。';
+    note.textContent=source==='original-hd'?'移动指针或选择方向，欣赏原稿里的十六个转向。':'方向取自正式桌宠图集，作为原稿暂时不可用时的预览。';
   }else{
     note.textContent=source==='original-hd'?'高清原稿中的动作 · 保留原有画风与节奏。':'正式桌宠图集中的动作 · 按原始大小展示。';
   }

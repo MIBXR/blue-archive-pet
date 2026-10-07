@@ -1,5 +1,7 @@
 const CELL_WIDTH = 192;
 const CELL_HEIGHT = 208;
+// Formal fallback shares the originals' stage, body height and floor.
+const PUBLISHED_RENDER_BOXES = {"hibiki":[{"x":71.32948,"y":74.797688,"width":377.34104,"height":408.786127},{"x":72.413793,"y":75.057471,"width":375.172414,"height":406.436782},{"x":71.32948,"y":72.83237,"width":377.34104,"height":408.786127},{"x":70.232558,"y":72.55814,"width":379.534884,"height":411.162791},{"x":63.373494,"y":56.506024,"width":393.253012,"height":426.024096},{"x":70.232558,"y":72.55814,"width":379.534884,"height":411.162791},{"x":71.32948,"y":72.83237,"width":377.34104,"height":408.786127},{"x":69.122807,"y":68.304094,"width":381.754386,"height":413.567251},{"x":72.413793,"y":75.057471,"width":375.172414,"height":406.436782},{"x":69.122807,"y":70.292398,"width":381.754386,"height":413.567251},{"x":70.232558,"y":72.55814,"width":379.534884,"height":411.162791}],"toki":[{"x":80.659341,"y":82.637363,"width":358.681319,"height":388.571429},{"x":85.454545,"y":92.727273,"width":349.090909,"height":378.181818},{"x":84.043127,"y":89.757412,"width":351.913747,"height":381.239892},{"x":80.659341,"y":82.637363,"width":358.681319,"height":388.571429},{"x":84.516129,"y":90.752688,"width":350.967742,"height":380.215054},{"x":79.668508,"y":80.552486,"width":360.662983,"height":390.718232},{"x":84.516129,"y":90.752688,"width":350.967742,"height":380.215054},{"x":81.639344,"y":84.699454,"width":356.721311,"height":386.448087},{"x":86.382979,"y":94.680851,"width":347.234043,"height":376.170213},{"x":86.382979,"y":94.680851,"width":347.234043,"height":376.170213},{"x":92.615385,"y":107.794872,"width":334.769231,"height":362.666667}]};
 const FRAME_COUNTS = Object.freeze([6, 8, 8, 4, 5, 8, 6, 6, 6, 8, 8]);
 const STATES = Object.freeze([
   'idle', 'running-right', 'running-left', 'waving', 'jumping',
@@ -16,7 +18,7 @@ const SLUGS = Object.freeze({
 const imageLoads = new Map();
 const metadataLoads = new Map();
 const hdRowLoads = new Map();
-const hdManifestUrl = new URL('assets/motion-hd/manifest.json', import.meta.url);
+const hdManifestUrl = new URL('assets/motion-hd/manifest.json?v=3', import.meta.url);
 let hdManifestLoad;
 
 function requirePet(pet) {
@@ -160,8 +162,8 @@ export class PetPlayer {
     };
     this._motion?.addEventListener('change', this._onMotionChange);
 
-    element.width = CELL_WIDTH;
-    element.height = CELL_HEIGHT;
+    element.width = 520;
+    element.height = 520;
     element.dataset.petStatus = 'loading';
     this._context.imageSmoothingEnabled = false;
 
@@ -191,6 +193,14 @@ export class PetPlayer {
   get paused() { return this._paused; }
   get state() { return this._response?.state ?? this._base.state ?? null; }
   get direction() { return this._response ? null : this._base.direction ?? null; }
+
+  /** Prepare the complete turn before an interaction traverses both strips. */
+  async prepareDirections() {
+    this._assertActive();
+    await this.ready;
+    if (!this._destroyed) await Promise.all([this._ensureHDRow(9), this._ensureHDRow(10)]);
+    return this;
+  }
 
   setState(state) {
     this._assertActive();
@@ -283,8 +293,6 @@ export class PetPlayer {
   }
 
   _ensureHDRow(row) {
-    // Toki's turning chair exists only in the published atlas; its source stays explicit.
-    if (this.pet === 'toki' && row >= 9) return Promise.resolve(null);
     if (!this._hdRows.has(row)) {
       const asset = { loading: true, value: null, promise: null };
       this._hdRows.set(row, asset);
@@ -333,16 +341,23 @@ export class PetPlayer {
     const direction = mode.direction;
     const row = direction === undefined ? STATES.indexOf(mode.state) : 9 + Math.floor(direction / 8);
     const column = direction === undefined ? mode.frame : direction % 8;
+    // Keep the last rendered pose while its replacement is loading. A pending
+    // original is not a failed original, and must not briefly show the small atlas.
+    if (this._hdRows.get(row)?.loading) {
+      this.canvas.setAttribute('aria-busy', 'true');
+      return;
+    }
+    this.canvas.removeAttribute('aria-busy');
     const original = this._hdRows.get(row)?.value;
     const previousSource = this.canvas.dataset.petSource;
-    const width = original?.width ?? CELL_WIDTH;
-    const height = original?.height ?? CELL_HEIGHT;
+    const width = original?.width ?? 520;
+    const height = original?.height ?? 520;
     if (this.canvas.width !== width || this.canvas.height !== height) {
       this.canvas.width = width;
       this.canvas.height = height;
     }
-    this._context.imageSmoothingEnabled = Boolean(original);
-    if (original) this._context.imageSmoothingQuality = 'high';
+    this._context.imageSmoothingEnabled = true;
+    this._context.imageSmoothingQuality = 'high';
     this._context.clearRect(0, 0, width, height);
     if (original) {
       const frame = original.frames[column];
@@ -351,9 +366,10 @@ export class PetPlayer {
         frame.draw_x, frame.draw_y, frame.draw_width, frame.draw_height);
       this.canvas.dataset.petSource = 'original-hd';
     } else {
+      const box = PUBLISHED_RENDER_BOXES[this.pet][row];
       this._context.drawImage(
         this._image, column * CELL_WIDTH, row * CELL_HEIGHT, CELL_WIDTH, CELL_HEIGHT,
-        0, 0, CELL_WIDTH, CELL_HEIGHT,
+        box.x, box.y, box.width, box.height,
       );
       this.canvas.dataset.petSource = 'published-atlas';
     }

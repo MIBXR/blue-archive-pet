@@ -11,3 +11,43 @@
 @media(max-width:650px){.stage canvas[data-pet-source="original-hd"]{width:min(320px,85%)!important;height:auto!important}.download-preview canvas[data-pet-source="original-hd"]{width:240px!important;height:auto!important}}
 @media(prefers-color-scheme:dark){body[data-pet="hibiki"]{--page:#182737;--panel:#1d3043;--ink:#eef4fd;--muted:#b2c4d4;--line:#3c5367;--accent:#8bccf8;--stage:#233c53;--grid:#b4ddf507;--shadow:#0004}.hero-orbit{background:#ffe56b26}.hero-art:before{color:#b4ddf508}}
 @media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}*,*:before,*:after{transition:none!important}}
+
+/* The collection and each character's first section share their motif. */
+body[data-pet] .hero::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  left: calc((100% - 100vw) / 2);
+  right: calc((100% - 100vw) / 2);
+  min-width: 100%;
+  width: auto;
+  transform: none;
+  z-index: -2;
+  pointer-events: none;
+}
+[data-pet="hibiki"] .hero::before {
+  background: repeating-linear-gradient(-12deg, transparent 0 22px, #bfdce633 22px 23px);
+}
+[data-pet="toki"] .hero::before {
+  background: linear-gradient(var(--grid) 1px, transparent 1px), linear-gradient(90deg, var(--grid) 1px, transparent 1px);
+  background-size: 36px 36px;
+}
+@media (prefers-color-scheme: dark) {
+  [data-pet="hibiki"] .hero::before { background: repeating-linear-gradient(-12deg, transparent 0 22px, #99ccdf10 22px 23px); }
+}
+
+/* Loading and a real fallback keep one player box. The published atlas still
+   carries its original pixels and is identified as the lower-resolution source. */
+.stage canvas[data-pet-source] {
+  width: min(382px, 90%) !important;
+  height: auto !important;
+  max-height: none;
+}
+.download-preview canvas[data-pet-source] {
+  width: min(280px, 94%) !important;
+  height: auto !important;
+}
+@media (max-width: 650px) {
+  .stage canvas[data-pet-source] { width: min(320px, 85%) !important; }
+  .download-preview canvas[data-pet-source] { width: 240px !important; }
+}

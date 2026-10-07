@@ -881,6 +881,112 @@
           724
         ]
       }
+    },
+    {
+      "pet": "toki",
+      "state": "look-row-9",
+      "matting": {
+        "method": "spatial-chroma-alpha-with-edge-unmix",
+        "background_rgb": [
+          3.0,
+          249.0,
+          40.0
+        ],
+        "background_strength": 209.0,
+        "foreground_bbox": [
+          12,
+          120,
+          2156,
+          626
+        ],
+        "partial_pixels": 9876,
+        "observed_background_predicate": "green > red + 55 AND green > blue + 55"
+      },
+      "lost_pixels": 0,
+      "alpha_sum_preserved": true,
+      "common_source_ground": 626,
+      "reference_height": 511.5,
+      "scale": 0.6647116324535679,
+      "draw_y": 43.890518084066514,
+      "feet_bottoms": [
+        626,
+        626,
+        626,
+        626,
+        626,
+        626,
+        626,
+        626
+      ],
+      "registration": {
+        "mode": "one-shared-scale-for-sixteen-chair-directions-and-original-nominal-grid",
+        "source_ground_y": 626,
+        "reference_body_height": 511.5,
+        "source_grid_step": 271.125,
+        "component_assignment": "approved original four-connected pose and halo ownership; soft edges follow adjacent component",
+        "original_source": "pets/toki-bunny-fullbody-handdrawn/materials/selected-sources/look-row-9.png",
+        "original_source_sha256": "906afe1f9a99c1fed479081f238b9b569ac8c15a53e0a9dc3f20bae31a9c7c3f",
+        "transparent_source_file": "toki-look-row-9.png",
+        "transparent_source_sha256": "cb1c192e41f3be9a29de16f17c87ff93bd0c3d37acf9a325183da6c386ff3fba",
+        "transparent_source_dimensions": [
+          2169,
+          725
+        ],
+        "source_provenance": "pets/toki-bunny-fullbody-handdrawn/materials/selected-sources/look-source-provenance.json"
+      }
+    },
+    {
+      "pet": "toki",
+      "state": "look-row-10",
+      "matting": {
+        "method": "spatial-chroma-alpha-with-edge-unmix",
+        "background_rgb": [
+          2.0,
+          250.0,
+          48.0
+        ],
+        "background_strength": 202.0,
+        "foreground_bbox": [
+          2,
+          93,
+          2147,
+          619
+        ],
+        "partial_pixels": 9697,
+        "observed_background_predicate": "green > red + 55 AND green > blue + 55"
+      },
+      "lost_pixels": 0,
+      "alpha_sum_preserved": true,
+      "common_source_ground": 619,
+      "reference_height": 511.5,
+      "scale": 0.6647116324535679,
+      "draw_y": 48.543499511241464,
+      "feet_bottoms": [
+        619,
+        619,
+        619,
+        619,
+        619,
+        619,
+        619,
+        619
+      ],
+      "registration": {
+        "mode": "one-shared-scale-for-sixteen-chair-directions-and-original-nominal-grid",
+        "source_ground_y": 619,
+        "reference_body_height": 511.5,
+        "source_grid_step": 271.5,
+        "component_assignment": "approved original four-connected pose and halo ownership; soft edges follow adjacent component",
+        "original_source": "pets/toki-bunny-fullbody-handdrawn/materials/selected-sources/look-row-10.png",
+        "original_source_sha256": "43d2be7154756733beda8b9fef2767ec42bab2d03e33482df348e770620f1f7a",
+        "transparent_source_file": "toki-look-row-10.png",
+        "transparent_source_sha256": "625edeabbe81df1a0e11175694670b901c249c05caf70956b4f548393d970aa0",
+        "transparent_source_dimensions": [
+          2172,
+          724
+        ],
+        "source_provenance": "pets/toki-bunny-fullbody-handdrawn/materials/selected-sources/look-source-provenance.json"
+      }
     }
   ]
 }

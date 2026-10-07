@@ -12,7 +12,7 @@
 
 [打开收藏入口](https://blue-archive-desktop-companions.mibxranime.chatgpt.site/) · [响的应援手册](https://blue-archive-desktop-companions.mibxranime.chatgpt.site/hibiki.html) · [时的任务档案](https://blue-archive-desktop-companions.mibxranime.chatgpt.site/toki.html)
 
-网站使用 Sites 托管，目前仅所有者可访问。两位角色各有独立页面、背景故事、透明高清主视觉、九动作与十六方向互动，以及可查看的 Agent 安装指令和直接下载入口。[网站源码与运行说明](site/README.md)。
+网站使用 Sites 托管，当前可公开访问。两位角色各有独立页面、背景故事、透明高清主视觉、九动作与十六方向互动，以及可查看的 Agent 安装指令和直接下载入口。人物、卡片和斜按钮会随鼠标轻微浮动；时的介绍章节还可直接体验转椅。[网站源码与运行说明](site/README.md)。
 
 <p align="center"><img src="site/assets/previews/collection-desktop.png" width="900" alt="响与时的宣传网站收藏入口：浅蓝应援手册和深蓝任务档案"></p>
 

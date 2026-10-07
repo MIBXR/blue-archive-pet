@@ -13,6 +13,8 @@
 | [idle-blink-original.png](../materials/selected-sources/idle-blink-original.png) | 1024×1536 |
 | [idle.png](../materials/selected-sources/idle.png) | 2172×724 |
 | [jumping.png](../materials/selected-sources/jumping.png) | 2172×724 |
+| [look-row-9.png](../materials/selected-sources/look-row-9.png) | 2169×725 |
+| [look-row-10.png](../materials/selected-sources/look-row-10.png) | 2172×724 |
 | [review.png](../materials/selected-sources/review.png) | 2172×724 |
 | [running-before-logo.png](../materials/selected-sources/running-before-logo.png) | 2172×724 |
 | [running-left.png](../materials/selected-sources/running-left.png) | 2172×724 |
@@ -86,6 +88,6 @@
 - [waiting-03-derived-original.png](../materials/key-sources/waiting-03-derived-original.png)
 - [10-canonical-short-hands-correct-halo-missing.png](../materials/generation-originals/exec-565c1194-f5c6-4078-a693-c08360cf5e59.png)
 
-转椅的独立高清生成条带没有包含在本次提供的材料中；真实的十六方向格子保留在[正式图集](../package/spritesheet.png)，可通过[转椅预览](../package/previews/chair-follow.gif)查看。没有从低分辨率成品放大伪造高清原稿。
+转椅的独立高清条带最初未包含在本次提供的材料中。2026-10-07，从本机旧制作工作区的 `toki-final/run/decoded/` 恢复了原先选中的 `look-row-9.png` 和 `look-row-10.png`，按原始字节保存到选中源图。两张原稿的哈希与原制作选择记录一致；它们生成的十六格经 `toki-base-aligned` 继承后，与[正式图集](../package/spritesheet.png)的转椅两行完整 RGBA 逐字节相同。原尺寸、SHA-256、真实组件归属与继承链见[来源记录](../materials/selected-sources/look-source-provenance.json)。网站使用原稿透明化与空间注册后的展示素材，没有新绘角色或放大成品冒充高清。
 
 [查看创作记录](../creation/README.md) · [返回作品介绍](../README.md)

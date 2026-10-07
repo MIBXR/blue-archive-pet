@@ -1,0 +1,59 @@
+/* Individual transforms preserve the buttons' skewed pseudo-elements and artwork. */
+.pointer-effect {
+  translate: 0 0;
+  rotate: 0deg;
+}
+
+@media (hover: hover) and (pointer: fine) and (prefers-reduced-motion: no-preference) {
+  [data-page-effects="enabled"] .hero-art,
+  [data-page-effects="enabled"] .collection-grid,
+  [data-page-effects="enabled"] .mini-gallery,
+  [data-page-effects="enabled"] #download {
+    perspective: 1400px;
+  }
+
+  [data-page-effects="enabled"] .pointer-effect {
+    translate: var(--pointer-x, 0px) calc(var(--pointer-y, 0px) + var(--pointer-lift, 0px));
+    rotate: var(--pointer-axis-x, 0) var(--pointer-axis-y, 1) 0 var(--pointer-angle, 0deg);
+    transform-origin: center;
+    transition: translate .38s cubic-bezier(.2, .75, .25, 1),
+      rotate .38s cubic-bezier(.2, .75, .25, 1), box-shadow .3s ease;
+  }
+
+  [data-page-effects="enabled"] .pointer-effect-active {
+    transition-duration: .16s, .16s, .3s;
+    will-change: translate, rotate;
+  }
+
+  [data-page-effects="enabled"] .pointer-effect-card.pointer-effect-active {
+    box-shadow: 0 8px 20px var(--pointer-shadow, #1b4d7014);
+  }
+
+  [data-pet="toki"], .collection-card-toki {
+    --pointer-shadow: #00000026;
+  }
+
+  [data-page-effects="enabled"] .pointer-effect:disabled,
+  [data-page-effects="enabled"] .pointer-effect[aria-disabled="true"] {
+    translate: 0 0;
+    rotate: 0deg;
+    will-change: auto;
+  }
+}
+
+/* Pausing, changing input type, or hiding the page returns to a static surface. */
+[data-page-effects="disabled"] .pointer-effect {
+  translate: 0 0;
+  rotate: 0deg;
+  transition: none;
+  will-change: auto;
+}
+
+@media (prefers-reduced-motion: reduce), (hover: none), (pointer: coarse) {
+  .pointer-effect {
+    translate: 0 0 !important;
+    rotate: 0deg !important;
+    transition: none !important;
+    will-change: auto !important;
+  }
+}
