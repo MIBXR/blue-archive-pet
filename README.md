@@ -1,4 +1,4 @@
-<p align="center"><sub>BLUE ARCHIVE PET · PERSONAL ART COLLECTION</sub></p>
+<p align="center"><sub>BLUE ARCHIVE PETS · PERSONAL ART COLLECTION</sub></p>
 
 <h1 align="center">碧蓝档案的桌面伙伴</h1>
 
