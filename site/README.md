@@ -36,9 +36,11 @@ python -m http.server 4177
 
 响的高清动作沿用原制作批准的横向定位，修复名义分格导致的额外 X 偏移。修正只平移原有透明像素，保留动作的纵向位移、比例以及跑步与欢呼本身的姿态变化。
 
-复制安装指令只会复制可查看的文字。默认保留当前启用的宠物，勾选后才请求启用新宠物。浏览器拒绝剪贴板时展示可手动复制的文本；安装信息缺失时提示直接下载 ZIP。关闭 JavaScript 仍可阅读故事、查看主图并下载 ZIP。
+复制安装指令只会复制可查看的文字。指令先确定用户指定或当前 Agent 的安装目标：支持 sprite v2 的 Codex 使用 `$CODEX_HOME/pets/<slug>/`（未设置时为 `~/.codex/pets/<slug>/`），其他 Agent 使用从其文档或配置确认的兼容宠物目录，没有适用的 Agent 或目标客户端仅支持 v1 时使用 `~/.petdex/pets/<slug>/`。安装不依赖 `codex` 命令或 ChatGPT Pets 云端工具；包内作品元数据按目标应用规范适配为配置，正式 PNG 与校验值保持不变。默认保留当前启用的宠物，勾选后才请求启用新宠物；文件安装与应用启用分别核实。浏览器拒绝剪贴板时展示可手动复制的文本；安装信息缺失时提示直接下载 ZIP。关闭 JavaScript 仍可阅读故事、查看主图并下载 ZIP。
 
-网页下载 ZIP 是已发布 Release 的原始字节。Agent 指令使用同一固定版本的公开 Release URL，方便 Agent 下载；二者 SHA-256 一致。仓库链接、固定 Release URL 及两处 URL 校验均使用 `MIBXR/blue-archive-pets`；安装脚本与元数据使用更新的缓存标识，避免浏览器继续混用改名前的信息。仓库链接、固定 Release URL 及两处 URL 校验均使用 `MIBXR/blue-archive-pets`；安装脚本与元数据使用更新的缓存标识，避免浏览器继续混用改名前的信息。完整校验值、包内配置/说明/图集路径见 `downloads/agent-install.json`。未更改 `pets/` 下的原稿、正式图集与应用配置。
+目录与本地配置依据：[Codex pet contract](https://github.com/openai/skills/blob/main/skills/.curated/hatch-pet/references/codex-pet-contract.md)、[Petdex CLI](https://github.com/crafter-station/petdex/blob/main/packages/petdex-cli/README.md)。
+
+网页下载 ZIP 是已发布 Release 的原始字节。Agent 指令使用同一固定版本的公开 Release URL，方便 Agent 下载；二者 SHA-256 一致。仓库链接、固定 Release URL 及两处 URL 校验均使用 `MIBXR/blue-archive-pets`。完整校验值、包内配置/说明/图集路径见 `downloads/agent-install.json`。原稿、正式图集与包内元数据保持原样。
 
 ## 设计依据与来源
 

@@ -48,7 +48,11 @@
 
 ## 放到桌面上
 
-将完整文件夹交给支持 sprite v2 的桌宠应用或 Agent，读取 `pet.json` 并导入原始 `spritesheet.png`。是否设为当前桌宠由你选择；预览 GIF 用于观看动作，实际触发与播放节奏由应用决定。
+将完整文件夹交给支持 sprite v2 的桌宠应用或 Agent，读取 `pet.json` 并安装原始 `spritesheet.png`。优先使用你指定或当前 Agent 的目标：支持 v2 的 Codex 使用 `$CODEX_HOME/pets/hibiki-cheerleader-fullbody-handdrawn/`（默认 `~/.codex/pets/hibiki-cheerleader-fullbody-handdrawn/`），其他 Agent 使用从其文档或配置确认的兼容宠物目录，没有适用的 Agent 或目标客户端仅支持 v1 时使用 `~/.petdex/pets/hibiki-cheerleader-fullbody-handdrawn/`，供 Petdex Desktop 或兼容客户端打开。将 `~` 展开为当前操作系统用户主目录，保留原图，不转换为 v1。
+
+包内 `pet.json` 是作品元数据。保留原始元数据副本；直接安装到 Codex 或 Petdex 时，在目标目录生成 `pet.json`，使用 `id` 为 `hibiki-cheerleader-fullbody-handdrawn`、`displayName` 为原名称、`description` 为原描述、`spritesheetPath` 为 `spritesheet.png`、`spriteVersionNumber` 为 `2`。其他 Agent 按其已确认的配置规范适配。配置与正式 PNG 直接位于目标宠物目录内，不再嵌套同名文件夹；安装不依赖 `codex` 命令或 ChatGPT Pets 云端工具。
+
+默认保留当前桌宠；只有明确选择时才在目标应用支持的界面或配置中切换，并核实启用结果。重新读取安装文件和图集哈希确认文件安装，客户端未运行或不支持 v2 时说明尚未启用。预览 GIF 用于观看动作，实际触发与播放节奏由应用决定。
 
 图集为 **1536 × 2288** 像素，**8 列 × 11 行**，单格 **192 × 208**；包含九种日常动作和十六个注视方向。作品版本与 sprite 协议版本分别标注。
 

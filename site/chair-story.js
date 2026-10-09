@@ -1,4 +1,4 @@
-import { PetPlayer } from './pet-runtime.js?v=4';
+import { PetPlayer } from './pet-runtime.js?v=5';
 
 const card = document.querySelector('[data-chair-story]');
 if (card) initializeChairStory(card);

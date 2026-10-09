@@ -445,10 +445,10 @@ export function createInstallInstruction(metadata, pet, { activate = false, base
   const entry = metadata.pets[pet];
   const packageUrl = entry.release_url ?? new URL(`downloads/${entry.package_file}`, resolveBaseUrl(baseUrl)).href;
   const mode = activate
-    ? '导入成功后，将这只桌宠设为当前宠物，并读取实际启用结果。'
-    : '只添加到宠物列表，保持我当前使用的桌宠不变。';
+    ? '安装后，在目标应用支持的界面或配置中将这只桌宠设为当前宠物，并核实实际启用结果；若应用不可用，请说明尚未启用及如何启用。'
+    : '只安装这只桌宠，保持我当前使用的桌宠不变。';
 
-  return `请帮我安装「${entry.name}」桌宠。素材已经制作完成，请直接导入下面的正式安装包。
+  return `请帮我安装「${entry.name}」桌宠。素材已经制作完成，使用 Petdex 支持的 sprite v2 图集，请直接使用下面的正式安装包。
 
 安装要求：${mode}
 压缩包：${packageUrl}
@@ -457,14 +457,14 @@ export function createInstallInstruction(metadata, pet, { activate = false, base
 作品版本：${entry.version}；sprite v2；透明 PNG 1536×2288；单格 192×208。
 
 请按以下步骤完成：
-1. 确认你能下载、校验和安全解压 ZIP，并检查目标应用是否支持 sprite v2。若缺少能力，请明确说明需要补齐的环节和剩余步骤。
-2. 下载上述 ZIP，核对压缩包 SHA-256 后解压。读取包内 ${entry.readme_path} 与 ${entry.config_path}。Hibiki 的格式字段位于 sprite.version；Toki 的格式位于 sprite_sheet、format、dimensions 和 cell_dimensions。以各自原始配置为准。
+1. 先确定安装目标：优先采用我明确指定的应用，否则采用当前运行你的 Agent。若目标是 Codex，先确认目标客户端支持 sprite v2，读取实际 CODEX_HOME，安装到 $CODEX_HOME/pets/${entry.slug}/；未设置时使用 ~/.codex/pets/${entry.slug}/。若客户端仅支持 v1，保留原图并改用下面的 Petdex 目录。若是其他支持该桌宠格式的 Agent，先从其文档或实际配置确认它自己的宠物目录，再安装到该目录的 ${entry.slug}/。若没有适用的 Agent 或无法确认其支持的目录，安装到 Petdex 标准目录 ~/.petdex/pets/${entry.slug}/。将 ~ 展开为当前操作系统用户主目录（Windows 通常为 USERPROFILE），不要写入项目工作目录；报告最终绝对路径。文件安装不依赖 codex 命令存在。
+2. 下载上述 ZIP，核对压缩包 SHA-256 后解压。读取包内 ${entry.readme_path} 与 ${entry.config_path}。Hibiki 的格式字段位于 sprite.version；Toki 的格式位于 sprite_sheet、format、dimensions 和 cell_dimensions。包内说明用于了解素材，安装目标与流程以本指令及目标应用当前规范为准。若缺少下载、校验或写入能力，请说明尚缺的环节。
 3. 使用包内 ${entry.spritesheet_path}，核对其 SHA-256、透明 PNG、1536×2288 尺寸和 v2 帧布局。不要重绘、缩放、转换为 v1，也不要使用网页图片或预览 GIF 替代正式图集。
-4. 读取目标应用现有宠物列表。只有名称、格式和素材校验值一致时才复用同一记录，避免重复添加；不能仅凭同名推定版本一致。
-5. 若使用 ChatGPT Pets 工具，先对原始 PNG 执行 validate_pet_spritesheet，再 prepare_pet_upload；按工具要求上传并用本次返回的 upload.upload_session_id 执行 create_pet。使用实际返回的 pet.id，不要虚构上传会话或安装记录。其他应用按其明确支持的导入流程操作。
-6. ${mode}重新读取宠物列表或目标应用，确认新增记录、名称、作品版本及当前启用状态。下载成功和复制指令成功不代表安装完成。
+4. 检查目标目录或应用现有宠物列表。只有名称、格式、作品版本和素材校验值一致时才复用同一记录，避免重复添加；不能仅凭同名推定版本一致，也不要覆盖其他宠物。
+5. 将 pet.json 与原始 spritesheet.png 安装到选定的 ${entry.slug}/ 目录内，不再额外嵌套同名文件夹。包内 pet.json 是作品元数据：保留原始元数据副本；直接安装到 Codex 或 Petdex 时，生成目标应用读取的 pet.json，使用 id="${entry.slug}"、displayName="${entry.name}"、description（从包内原始 description 原样读取）、spritesheetPath="spritesheet.png" 和 spriteVersionNumber=2。其他 Agent 按其已确认的配置格式适配。安装无需 ChatGPT Pets 云端上传工具。
+6. ${mode}重新读取目标目录中的配置与图集哈希，若目标应用可用，再检查其宠物列表和启用状态。若采用 Petdex 目录，需要 Petdex Desktop 或兼容客户端打开；若客户端尚未运行或不支持 v2，应报告“文件已安装，尚未启用”。复制指令、下载成功及文件安装均不代表桌宠已经启用。
 
-完成后告诉我：是否安装成功、安装了哪一款及版本、是否设为当前宠物；若尚未完成，说明停在哪一步。`;
+完成后告诉我：安装目标与绝对路径、安装了哪一款及版本、文件是否安装成功、是否设为当前宠物；若尚未完成，说明停在哪一步。`;
 }
 
 /** Returns the text even when clipboard access is denied; this does not install. */

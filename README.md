@@ -139,7 +139,7 @@ v1.1 的工作动作按这六拍展开。侧摆时出现蓝色星星，跳起时
 | 猫冢响-拉拉队服全身手绘风格 | v1.1 | [下载 ZIP](https://github.com/MIBXR/blue-archive-pets/releases/download/v1.1-hibiki-cheerleader-fullbody-handdrawn/hibiki-cheerleader-fullbody-handdrawn-portable.zip) | [版本详情](https://github.com/MIBXR/blue-archive-pets/releases/tag/v1.1-hibiki-cheerleader-fullbody-handdrawn) |
 | 飞鸟马时-兔女郎全身手绘风格 | v1.0 | [下载 ZIP](https://github.com/MIBXR/blue-archive-pets/releases/download/v1.0-toki-bunny-fullbody-handdrawn/toki-bunny-fullbody-handdrawn-portable.zip) | [版本详情](https://github.com/MIBXR/blue-archive-pets/releases/tag/v1.0-toki-bunny-fullbody-handdrawn) |
 
-便携包包含 sprite v2 正式图集、必要的桌宠信息、使用说明和逐动作预览；将完整文件夹交给支持该格式的桌宠应用或 Agent 导入。两款作品分别保存版本，旧版可在[全部发布](https://github.com/MIBXR/blue-archive-pets/releases)中查看。
+便携包包含 Petdex 支持的 sprite v2 正式图集、必要的桌宠信息、使用说明和逐动作预览。网站的 Agent 指令会先确定用户指定或当前 Agent 的目标：支持 v2 的 Codex 安装到 `$CODEX_HOME/pets/<slug>/`（默认 `~/.codex/pets/<slug>/`），其他支持该格式的 Agent 使用已确认的自身宠物目录，没有适用的 Agent 或目标客户端仅支持 v1 时安装到 `~/.petdex/pets/<slug>/`，供 Petdex Desktop 或兼容客户端打开。包内 `pet.json` 是作品元数据，安装时按目标应用的配置格式适配，保留原图及校验值；安装文件不依赖 `codex` 命令或 ChatGPT Pets 云端工具。默认保留当前桌宠，安装与启用分别核实。两款作品分别保存版本，旧版可在[全部发布](https://github.com/MIBXR/blue-archive-pets/releases)中查看。
 
 ## 来源与署名
 
